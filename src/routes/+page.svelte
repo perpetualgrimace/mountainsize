@@ -6,9 +6,10 @@
 
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
 
-<style>
-	:global(:root) {
-		--color: black;
-		color: var(--color);
+<style lang="scss" global>
+	$thecolor: black;
+
+	:root {
+		color: $thecolor;
 	}
 </style>
