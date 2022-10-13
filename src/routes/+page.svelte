@@ -7,9 +7,9 @@
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
 
 <style lang="scss" global>
-	$thecolor: black;
+	// $thecolor: black;
 
-	:root {
-		color: $thecolor;
-	}
+	// :root {
+	// 	color: $thecolor;
+	// }
 </style>

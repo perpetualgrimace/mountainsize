@@ -1,3 +1,7 @@
+<script>
+	import '../styles/global.scss';
+</script>
+
 <nav>
 	<a href="/">Home</a>
 	<a href="/Services">Services & pricing</a>
