@@ -2,14 +2,14 @@
 // TYPOGRAPHY
 //////////////////////////////////
 
-$body-font: "Gibson", -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+$body-font: "canada-type-gibson", avenir next, avenir, -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
 $title-font:  $body-font;
 $subhead-font: $body-font;
 
 $body-weight    : 400;
-$bold-weight    : 600;
+$subhead-weight : 400;
+$bold-weight    : 700;
 $title-weight   : 700;
-$subhead-weight : 700;
 
 $font-size-xxl  : 2.4rem; // 48px
 $font-size-xl   : 1.8rem; // 36px

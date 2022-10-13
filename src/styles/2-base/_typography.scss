@@ -3,12 +3,9 @@
 //////////////////////////////////
 
 html {
-  font-size: 16px;
+  font-size: 18px;
 
   @media (min-width: 900px) {
-    font-size: 18px;
-  }
-  @media (min-width: 1400px) {
     font-size: 20px;
   }
 }
@@ -29,8 +26,9 @@ h1, h2, h3, h4, h5, h6 {
 	@include heading-text;
 }
 
-h2        { @include font-xxl; }
-h3        { @include font-xl; }
-h4        { @include font-lg; }
-h5        { @include font-md; }
-p, li, h6 { @include font-sm; }
+h1     { @include font-xxl; }
+h2     { @include font-xl; }
+h3     { @include font-lg; }
+h4     { @include font-md; }
+p, li  { @include font-md; }
+h5, h6 { @include font-sm; }
