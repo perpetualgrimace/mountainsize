@@ -1,3 +1,5 @@
-<h1>Contact</h1>
+<main class="wrapper">
+	<h1>Contact</h1>
 
-<p>Do it</p>
+	<p>Do it</p>
+</main>

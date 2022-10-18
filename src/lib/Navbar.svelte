@@ -4,7 +4,7 @@
 	import Logo from '$lib/Logo.svelte';
 </script>
 
-<nav class="navbar wrapper">
+<nav class="navbar">
 	<a class="navbar-link" href="." aria-current={!$page.routeId ? 'page' : null}>
 		<Logo />
 	</a>
