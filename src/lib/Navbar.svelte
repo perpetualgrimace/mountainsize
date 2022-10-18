@@ -36,11 +36,15 @@
 	}
 
 	.navbar-link {
-		padding: 0.75rem;
+		padding: $sp-sm;
 		text-decoration: none;
+		transition: transform 0.2s ease-out;
 
 		&:hover,
-		&:focus,
+		&:focus {
+			transform: scale(1.0333);
+		}
+
 		&[aria-current] {
 			text-decoration: underline;
 		}

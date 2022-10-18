@@ -8,7 +8,11 @@ const config = {
 	},
 	extensions: ['.svelte', '.md'],
 	preprocess: [
-		sveltePreprocess(),
+		sveltePreprocess({
+			scss: {
+				prependData: `@import './src/styles/_global-imports.scss';`
+			}
+		}),
 		mdsvex({
 			extensions: ['.md']
 		})

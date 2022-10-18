@@ -89,6 +89,6 @@
 // EFFECTS
 //////////////////////////////////
 
-@mixin box-shadow {
-	box-shadow: 0 1px 12px $shadow;
+@mixin box-shadow($shadow: rgba($black, 0.75)) {
+	box-shadow: 0 1px 12px #{$shadow};
 }
