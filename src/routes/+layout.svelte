@@ -1,11 +1,8 @@
 <script>
 	import '../styles/global.scss';
+	import Navbar from '$lib/Navbar.svelte';
 </script>
 
-<nav>
-	<a href="/">Home</a>
-	<a href="/services">Services & pricing</a>
-	<a href="/contact">Contact & booking</a>
-</nav>
+<Navbar />
 
 <slot />

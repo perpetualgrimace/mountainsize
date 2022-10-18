@@ -2,7 +2,7 @@
 	import { globals } from 'svelte/internal';
 </script>
 
-<h1>Hi</h1>
+<h1>Home</h1>
 
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
 
