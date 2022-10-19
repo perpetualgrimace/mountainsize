@@ -3,6 +3,7 @@
 	import HeroHeadline from '$lib/Hero/HeroHeadline.svelte';
 	import HeroParagraph from '$lib/Hero/HeroParagraph.svelte';
 
+	import Diptych from '$lib/Diptych.svelte';
 	import Artillery from '$lib/Artillery.svelte';
 </script>
 
@@ -21,6 +22,7 @@
 </Hero>
 
 <main class="wrapper">
+	<Diptych />
 	<Artillery heading="heading" subhead="subhead">
 		<p>hi</p>
 	</Artillery>
