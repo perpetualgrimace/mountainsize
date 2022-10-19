@@ -1,0 +1,34 @@
+<script>
+	export let href, isBlock;
+</script>
+
+<a class={`button${isBlock ? ' is-block' : ''}`} {href}>
+	<slot />
+</a>
+
+<style lang="scss" global>
+	.button {
+		@include subhead-text;
+		font-size: $font-size-md;
+		letter-spacing: 3px;
+		font-weight: $title-weight;
+		text-decoration: none;
+		margin-top: $sp-md;
+		padding: 0.875em 1.25em 0.75em 1.25em;
+		color: $black;
+		background-color: $sun-dark;
+		background-image: linear-gradient(180deg, $sun-light 0%, $sun-dark 100%);
+		text-shadow: 0 -1px 1px rgba($sun-dark, 0.5);
+		border-radius: $radius-md;
+		transition: 0.2s ease-out transform;
+
+		&.is-block {
+			display: block;
+		}
+
+		&:hover,
+		&:focus {
+			transform: scale(1.0333);
+		}
+	}
+</style>
