@@ -2,6 +2,8 @@
 	import Hero from '$lib/Hero/index.svelte';
 	import HeroHeadline from '$lib/Hero/HeroHeadline.svelte';
 	import HeroParagraph from '$lib/Hero/HeroParagraph.svelte';
+
+	import Artillery from '$lib/Artillery.svelte';
 </script>
 
 <Hero>
@@ -19,9 +21,13 @@
 </Hero>
 
 <main class="wrapper">
-	<p>
-		Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
-	</p>
+	<Artillery heading="heading" subhead="subhead">
+		<p>hi</p>
+	</Artillery>
+
+	<Artillery heading="heading" subhead="subhead first" subheadAbove showButton>
+		<p>hi</p>
+	</Artillery>
 </main>
 
 <style lang="scss" global>

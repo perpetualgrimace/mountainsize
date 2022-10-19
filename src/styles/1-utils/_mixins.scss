@@ -52,7 +52,8 @@
 	font-family: $subhead-font;
 	font-weight: $subhead-weight;
 	text-transform: uppercase;
-	letter-spacing: 0.5px;
+	letter-spacing: 4px;
+	color: $cyan-light;
 }
 
 @mixin heading-text {
