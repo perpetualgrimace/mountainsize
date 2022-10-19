@@ -2,11 +2,13 @@
 	import { page } from '$app/stores';
 
 	import Logo from '$lib/Logo.svelte';
+
+	export let isHorizontal = true;
 </script>
 
 <nav class="navbar">
 	<a class="navbar-link" href="." aria-current={!$page.routeId ? 'page' : null}>
-		<Logo />
+		<Logo {isHorizontal} />
 	</a>
 
 	<div class="navbar-list">
@@ -32,8 +34,8 @@
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
-		margin-left: -$sp-sm;
-		margin-right: -$sp-sm;
+		margin-left: -$sp-xs;
+		margin-right: -$sp-xs;
 	}
 
 	.navbar-link:first-of-type {
@@ -42,8 +44,9 @@
 
 	.navbar-link {
 		@include text-shadow-lg;
-		padding: $sp-md $sp-sm;
+		padding: $sp-md $sp-xs;
 		text-decoration: none;
+		color: $gray;
 		transition: transform 0.2s ease-out;
 
 		&:hover,

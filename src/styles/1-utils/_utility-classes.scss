@@ -26,6 +26,8 @@
 
 .u-cyan-light-color { color: $cyan-light; }
 
+.u-text-center { @media (min-width: 600px) { text-align: center; } }
+
 //////////////////////////////////
 // SPACING
 //////////////////////////////////
