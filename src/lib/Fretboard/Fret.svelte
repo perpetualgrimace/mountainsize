@@ -1,4 +1,6 @@
 <script>
+	import slugify from '$lib/helpers/slugify.js';
+
 	export let title = 'missing `title` prop in Fret component',
 		subhead = 'missing `subhead` prop in Fret component',
 		subheadColor = 'cyan',
@@ -6,7 +8,7 @@
 </script>
 
 <section class="fret">
-	<h3 class="fret-title u-font-xl">
+	<h3 class="fret-title u-font-xl" id={slugify(title)}>
 		{title}
 	</h3>
 	<p class={`fret-subhead u-subhead u-color-${subheadColor}-light`}>
