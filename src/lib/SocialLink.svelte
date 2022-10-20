@@ -8,7 +8,7 @@
 		src={`icons/${title}-icon.png`}
 		srcset={`icons/${title}-icon.png 1x, icons/${title}-icon@2x.png 2x`}
 		loading="lazy"
-		alt={`follow MountainSize Audio on ${title}`}
+		alt={`follow Mountainsize Audio on ${title}`}
 	/>
 </a>
 
