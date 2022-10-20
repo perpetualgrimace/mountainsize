@@ -8,6 +8,7 @@
 		src={`diptych/${slug1}.jpg`}
 		srcset={`diptych/${slug1}.jpg 1x, diptych/${slug1}@2x.jpg 2x`}
 		loading="lazy"
+		draggable="false"
 		alt=""
 	/>
 	<img
@@ -15,6 +16,7 @@
 		src={`diptych/${slug2}.jpg`}
 		srcset={`diptych/${slug2}.jpg 1x, diptych/${slug2}@2x.jpg 2x`}
 		loading="lazy"
+		draggable="false"
 		alt=""
 	/>
 </div>

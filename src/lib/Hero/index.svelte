@@ -13,8 +13,8 @@
 		src={`hero/${imgSlug}.jpg`}
 		srcset={`hero/${imgSlug}.jpg 1x, hero/${imgSlug}@2x.jpg 2x`}
 		loading="lazy"
-		alt=""
 		draggable="false"
+		alt=""
 	/>
 </header>
 

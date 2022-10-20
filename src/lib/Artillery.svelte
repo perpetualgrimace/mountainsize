@@ -14,6 +14,7 @@
 		src={`artillery/${imgSlug}.png`}
 		srcset={`artillery/${imgSlug}.png 1x, artillery/${imgSlug}@2x.png 2x`}
 		loading="lazy"
+		draggable="false"
 		alt=""
 	/>
 

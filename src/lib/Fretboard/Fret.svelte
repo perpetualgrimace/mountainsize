@@ -17,7 +17,13 @@
 	<div class="fret-description">
 		<slot />
 	</div>
-	<img class="fret-img" src={`fret/${imgSlug}.jpg`} alt="" loading="lazy" />
+	<img
+		class="fret-img"
+		src={`fret/${imgSlug}.jpg`}
+		loading="lazy"
+		draggable="false"
+		alt=""
+	/>
 </section>
 
 <style lang="scss" global>
