@@ -5,6 +5,7 @@
 
 	import Diptych from '$lib/Diptych.svelte';
 	import Artillery from '$lib/Artillery.svelte';
+	import BulletList from '$lib/BulletList.svelte';
 </script>
 
 <Hero>
@@ -23,6 +24,7 @@
 
 <main class="wrapper">
 	<Diptych />
+
 	<Artillery heading="heading" subhead="subhead">
 		<p>hi</p>
 	</Artillery>
@@ -30,6 +32,12 @@
 	<Artillery heading="heading" subhead="subhead first" subheadAbove showButton>
 		<p>hi</p>
 	</Artillery>
+
+	<BulletList multiCol>
+		<li><a href="">Test</a></li>
+		<li>Test</li>
+		<li>Test</li>
+	</BulletList>
 </main>
 
 <style lang="scss" global>

@@ -18,6 +18,10 @@ html {
 	@include body-text;
 }
 
+body {
+  @include font-md;
+}
+
 h1 {
 	@include title-text;
 }

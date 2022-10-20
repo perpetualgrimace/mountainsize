@@ -103,3 +103,10 @@
 		transform: scale(1.0333);
 	}
 }
+@mixin link-underline {
+	text-decoration-color: $sun-light;
+
+	&:hover, &:focus {
+		text-decoration-color: currentColor;
+	}
+}

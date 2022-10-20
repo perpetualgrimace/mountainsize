@@ -93,12 +93,7 @@
 		padding-bottom: $sp-xxs;
 
 		a {
-			text-decoration-color: $sun-light;
-
-			&:hover,
-			&:focus {
-				text-decoration-color: currentColor;
-			}
+			@include link-underline;
 		}
 	}
 	.footer-bottom-item:not(:last-of-type) {
