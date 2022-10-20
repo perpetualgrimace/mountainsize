@@ -3,6 +3,10 @@
 </div>
 
 <style lang="scss" global>
+	.fretboard + .artillery {
+		margin-top: $sp-xxxl;
+	}
+
 	.fret {
 		overflow: hidden;
 

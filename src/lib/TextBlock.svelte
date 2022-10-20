@@ -4,9 +4,14 @@
 
 <style lang="scss" global>
 	.text-block {
-		padding: $sp-xl;
 		width: 100%;
 		max-width: 47rem;
+		padding: $sp-xl;
+
+		@media (max-width: 599px) {
+			padding-left: 0;
+			padding-right: 0;
+		}
 
 		h2 + .u-subhead {
 			margin-top: -$sp-xs;
@@ -14,6 +19,18 @@
 
 		.u-subhead + p {
 			margin-top: $sp-md;
+		}
+
+		& + .text-block {
+			margin-top: -$sp-md;
+		}
+
+		p + p {
+			margin-top: $sp-md;
+		}
+
+		p:last-child {
+			margin-bottom: -$sp-xs;
 		}
 	}
 </style>

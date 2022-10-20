@@ -7,11 +7,11 @@
 		imgSlug;
 </script>
 
-<section class="fret">
-	<h3 class="fret-title u-font-xl" id={slugify(title)}>
+<section class="fret" id={slugify(title)}>
+	<h3 class="fret-title u-font-xl">
 		{title}
 	</h3>
-	<p class={`fret-subhead u-subhead u-color-${subheadColor}-light`}>
+	<p class={`fret-subhead u-subhead u-${subheadColor}-light-color`}>
 		{subhead}
 	</p>
 	<div class="fret-description">
@@ -25,6 +25,13 @@
 		padding: $sp-xl $sp-xl $sp-lg $sp-xl;
 		background-color: $dark;
 		z-index: 1;
+
+		@media (max-width: 599px) {
+			margin-left: -$sp-md;
+			padding-left: $sp-md;
+			margin-right: -$sp-md;
+			padding-right: $sp-md;
+		}
 	}
 	.fret-subhead {
 		margin-top: -$sp-sm;
@@ -41,6 +48,10 @@
 			&:not(:last-of-type) {
 				margin-bottom: $sp-xs;
 			}
+		}
+
+		h4 {
+			margin-bottom: $sp-xs;
 		}
 	}
 

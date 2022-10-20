@@ -24,7 +24,7 @@
 			background-repeat: no-repeat;
 			width: 0.5em;
 			height: 0.625em;
-			margin-right: 0.375em;
+			margin-right: 0.5em;
 		}
 	}
 
