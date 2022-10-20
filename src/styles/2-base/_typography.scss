@@ -36,3 +36,13 @@ h3     { @include font-lg; }
 h4     { @include font-md; }
 p, li  { @include font-md; }
 h5, h6 { @include font-sm; }
+
+//////////////////////////////////
+// LINE BREAKS
+//////////////////////////////////
+
+br {
+  @media (max-width: 599px){
+    display: none;
+  }
+}

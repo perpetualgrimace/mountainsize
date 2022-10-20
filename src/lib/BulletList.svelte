@@ -1,8 +1,11 @@
 <script>
-	export let multiCol;
+	export let multiCol,
+		fontSize = 'md';
 </script>
 
-<ul class={`bullet-list${multiCol ? ' is-multicolumn' : ''}`}>
+<ul
+	class={`bullet-list${multiCol ? ' is-multicolumn' : ''} u-font-${fontSize}`}
+>
 	<slot />
 </ul>
 
