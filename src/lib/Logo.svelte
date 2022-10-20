@@ -6,7 +6,12 @@
 	const height = isHorizontal ? 26 : 64;
 </script>
 
-<svg xmlns="http://www.w3.org/2000/svg" {width} {height}>
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	{width}
+	{height}
+	viewBox={`0 0 ${width} ${height}`}
+>
 	<title>{altText}</title>
 	<defs>
 		<radialGradient

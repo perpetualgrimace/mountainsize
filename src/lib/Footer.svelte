@@ -1,5 +1,6 @@
 <script>
 	import Navbar from '$lib/Navbar.svelte';
+	import SocialLink from '$lib/SocialLink.svelte';
 </script>
 
 <div class="footer">
@@ -7,13 +8,22 @@
 		<Navbar isHorizontal={false} />
 		<ul class="footer-social-list">
 			<li class="footer-social-item">
-				<a href="" class="footer-social-link"> F </a>
+				<SocialLink
+					title="facebook"
+					href="https://facebook.com/mountainsizeaudio"
+				/>
 			</li>
 			<li class="footer-social-item">
-				<a href="" class="footer-social-link"> I </a>
+				<SocialLink
+					title="instagram"
+					href="https://instagram.com/mountainsizeaudio"
+				/>
 			</li>
 			<li class="footer-social-item">
-				<a href="" class="footer-social-link"> T </a>
+				<SocialLink
+					title="twitter"
+					href="https://twitter.com/mountainsizeaudio"
+				/>
 			</li>
 		</ul>
 	</footer>
@@ -52,16 +62,21 @@
 
 		.navbar {
 			flex-direction: column;
+		}
 
-			.navbar-link {
-				padding-top: $sp-xs;
-				padding-bottom: $sp-xs;
-				margin-bottom: $sp-sm;
+		.navbar-logo svg {
+			width: 11.5rem;
+			height: auto;
+		}
 
-				&:first-of-type {
-					margin-right: 0;
-					margin-bottom: $sp-xxs;
-				}
+		.navbar-link {
+			padding-top: $sp-xs;
+			padding-bottom: $sp-xs;
+			margin-bottom: $sp-sm;
+
+			&:first-of-type {
+				margin-right: 0;
+				margin-bottom: $sp-xxs;
 			}
 		}
 	}
@@ -69,16 +84,8 @@
 	.footer-social-list {
 		display: flex;
 		justify-content: center;
-		margin-top: -$sp-xs;
-		margin-bottom: $sp-sm;
-	}
-	.footer-social-item:not(:last-of-type) {
-		margin-right: $sp-md;
-	}
-	.footer-social-link {
-		@include scale-on-hover;
-		display: inline-block;
-		background-color: $sun-dark;
+		margin-top: -$sp-sm;
+		margin-bottom: -$sp-xxs;
 	}
 
 	.footer-bottom {

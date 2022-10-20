@@ -96,11 +96,11 @@
 @mixin text-shadow-lg($shadow: $black) {
 	text-shadow: 0 3px 52px #{$shadow};
 }
-@mixin scale-on-hover {
+@mixin scale-on-hover($amount: 1.0333) {
 	transition: 0.15s ease-out transform;
 
 	&:hover, &:focus {
-		transform: scale(1.0333);
+		transform: scale(#{$amount});
 	}
 }
 @mixin link-underline {

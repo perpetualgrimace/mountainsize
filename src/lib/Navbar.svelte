@@ -7,11 +7,23 @@
 </script>
 
 <nav class="navbar">
-	<a class="navbar-link" href="." aria-current={!$page.routeId ? 'page' : null}>
+	<a
+		class="navbar-link navbar-logo"
+		href="."
+		aria-current={!$page.routeId ? 'page' : null}
+	>
 		<Logo {isHorizontal} />
 	</a>
 
 	<div class="navbar-list">
+		<a
+			class="navbar-link u-font-md"
+			href="."
+			aria-current={!$page.routeId ? 'page' : null}
+			aria-hidden
+		>
+			Home
+		</a>
 		<a
 			class="navbar-link u-font-md"
 			href="/services"
