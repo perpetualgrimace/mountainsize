@@ -13,7 +13,7 @@
 		}
 
 		.u-subhead + p {
-			margin-top: $sp-lg;
+			margin-top: $sp-md;
 		}
 	}
 </style>

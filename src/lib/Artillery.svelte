@@ -30,7 +30,7 @@
 			<slot />
 		</div>
 		{#if showButton}
-			<Button href="contact" isBlock>Book a session</Button>
+			<Button href="contact">Book a session</Button>
 		{/if}
 	</div>
 </section>
@@ -47,6 +47,14 @@
 				top: -$sp-lg;
 				margin-right: $sp-xl;
 			}
+
+			.artillery-caption {
+				width: calc(100% - 10rem - $sp-xl);
+			}
+		}
+
+		& + .artillery {
+			margin-top: $sp-xxxl;
 		}
 	}
 
@@ -82,5 +90,13 @@
 	.artillery-slot > li {
 		@include font-lg;
 		margin-top: $sp-md;
+	}
+
+	.artillery-slot .bullet-list {
+		margin-top: 1.125rem;
+
+		&.is-multicolumn {
+			column-width: 12rem;
+		}
 	}
 </style>
