@@ -31,8 +31,12 @@
 			<li><a href="services#audio-engineering">Audio engineering</a></li>
 			<li><a href="services#tracking-editing">Tracking & editing</a></li>
 			<li><a href="services#mixing-mastering">Mixing & mastering</a></li>
-			<li><a href="services#gear-maintenance">Gear maintenance</a></li>
-			<li><a href="services#drum-lessons">Drum lessons</a></li>
+			<li>
+				<a href="services#gear-maintenance-mods-repair">Gear maintenance</a>
+			</li>
+			<li>
+				<a href="services#drum-lessons">Drum lessons</a>
+			</li>
 		</BulletList>
 	</Artillery>
 
