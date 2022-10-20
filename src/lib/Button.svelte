@@ -10,12 +10,14 @@
 	.button {
 		@include subhead-text;
 		@include scale-on-hover;
+		display: inline-block;
+		width: max-content;
 		font-size: $font-size-md;
 		letter-spacing: 3px;
 		font-weight: $title-weight;
 		text-decoration: none;
 		margin-top: $sp-md;
-		padding: 0.875em 1.25em 0.75em 1.25em;
+		padding: 0.625em 1.25em 0.5em 1.25em;
 		color: $black;
 		background-color: $sun-dark;
 		background-image: linear-gradient(180deg, $sun-light 0%, $sun-dark 100%);
@@ -24,6 +26,7 @@
 
 		&.is-block {
 			display: block;
+			width: 100%;
 		}
 	}
 </style>
