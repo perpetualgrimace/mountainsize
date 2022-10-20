@@ -44,15 +44,11 @@
 
 	.navbar-link {
 		@include text-shadow-lg;
+		@include scale-on-hover;
+		display: inline-block;
 		padding: $sp-md $sp-xs;
 		text-decoration: none;
 		color: $gray;
-		transition: transform 0.2s ease-out;
-
-		&:hover,
-		&:focus {
-			transform: scale(1.0333);
-		}
 
 		&[aria-current] {
 			text-decoration: underline;

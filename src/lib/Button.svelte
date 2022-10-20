@@ -9,6 +9,7 @@
 <style lang="scss" global>
 	.button {
 		@include subhead-text;
+		@include scale-on-hover;
 		font-size: $font-size-md;
 		letter-spacing: 3px;
 		font-weight: $title-weight;
@@ -20,15 +21,9 @@
 		background-image: linear-gradient(180deg, $sun-light 0%, $sun-dark 100%);
 		text-shadow: 0 -1px 1px rgba($sun-dark, 0.5);
 		border-radius: $radius-md;
-		transition: 0.2s ease-out transform;
 
 		&.is-block {
 			display: block;
-		}
-
-		&:hover,
-		&:focus {
-			transform: scale(1.0333);
 		}
 	}
 </style>

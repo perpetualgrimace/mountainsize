@@ -47,13 +47,15 @@
 	}
 
 	.footer-top {
-		padding-top: $sp-md;
+		padding-top: $sp-lg;
 		padding-bottom: $sp-md;
 
 		.navbar {
 			flex-direction: column;
 
 			.navbar-link {
+				padding-top: $sp-xs;
+				padding-bottom: $sp-xs;
 				margin-bottom: $sp-sm;
 
 				&:first-of-type {
@@ -67,13 +69,15 @@
 	.footer-social-list {
 		display: flex;
 		justify-content: center;
-		margin-top: $sp-sm;
+		margin-top: -$sp-xs;
 		margin-bottom: $sp-sm;
 	}
 	.footer-social-item:not(:last-of-type) {
 		margin-right: $sp-md;
 	}
 	.footer-social-link {
+		@include scale-on-hover;
+		display: inline-block;
 		background-color: $sun-dark;
 	}
 
