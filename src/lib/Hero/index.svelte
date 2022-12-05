@@ -26,6 +26,7 @@
 <style lang="scss" global>
 	.hero-inner {
 		padding-top: calc(10vh + 10vw);
+		z-index: 1; // above bg
 	}
 
 	.hero-img {
