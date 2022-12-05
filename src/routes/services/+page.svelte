@@ -10,7 +10,7 @@
 	import BulletList from '$lib/BulletList.svelte';
 </script>
 
-<Hero>
+<Hero imgSlug="services-hero">
 	<HeroHeadline>
 		The <span class="u-cyan-light-color">only services</span> I charge for
 		<br />are the ones

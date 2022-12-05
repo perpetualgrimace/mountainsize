@@ -10,8 +10,13 @@
 	</div>
 	<img
 		class="hero-img"
-		src={`hero/${imgSlug}.jpg`}
-		srcset={`hero/${imgSlug}.jpg 1x, hero/${imgSlug}@2x.jpg 2x`}
+		sizes="100vw"
+		src={`images/hero/${imgSlug}@1800w.jpg`}
+		srcset={`
+			images/hero/${imgSlug}@900w.jpg 900w,
+			images/hero/${imgSlug}@1800w.jpg 1800w,
+			images/hero/${imgSlug}@2700w.jpg 2700w,
+		`}
 		loading="lazy"
 		draggable="false"
 		alt=""

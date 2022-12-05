@@ -8,7 +8,7 @@
 	import BulletList from '$lib/BulletList.svelte';
 </script>
 
-<Hero>
+<Hero imgSlug="home-hero">
 	<HeroHeadline>
 		<span class="u-cyan-light-color">Larger than life</span> sounds
 		<br />made in
