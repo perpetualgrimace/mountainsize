@@ -38,6 +38,7 @@
 		<Fret
 			title="Song production"
 			subhead="A great recording requires a great song"
+			imgSlug="rig-2"
 		>
 			<p>A well written song brings the listener on a journey.</p>
 			<p>
@@ -57,6 +58,7 @@
 		<Fret
 			title="Audio engineering"
 			subhead="The right sounds, right at the source"
+			imgSlug="studio"
 		>
 			<p>
 				If you’ve ever tried throwing a couple of mics on an out of tune drum
@@ -77,6 +79,7 @@
 		<Fret
 			title="Tracking & editing"
 			subhead="“Good enough” is never good enough"
+			imgSlug="lp"
 		>
 			<h4>Tracking</h4>
 			<p>
@@ -96,6 +99,7 @@
 		<Fret
 			title="Mixing & mastering"
 			subhead="If we didn’t cut any corners, this is the easy part"
+			imgSlug="rack"
 		>
 			<h4>Mixing</h4>
 			<p>
@@ -138,6 +142,7 @@
 			title="Gear maintenance, mods & repair"
 			subhead="Priced per project"
 			subheadColor="sun"
+			imgSlug="drum-repair"
 		>
 			<p>
 				Getting the best takes requires an instrument that is comfortable and
@@ -161,6 +166,7 @@
 			title="Drum lessons"
 			subhead="$20/hour session introductiory rate"
 			subheadColor="sun"
+			imgSlug="student-kit"
 		>
 			<p>
 				I’ve been playing drums at an increasingly high level for 20+ years.
@@ -175,7 +181,7 @@
 		</Fret>
 	</Fretboard>
 
-	<Artillery heading="Let’s get started" showButton>
+	<Artillery heading="Let’s get started" showButton imgSlug="james">
 		<p>Whatever you want to accomplish, together we’ll crush it!</p>
 	</Artillery>
 </main>

@@ -19,7 +19,8 @@
 	</div>
 	<img
 		class="fret-img"
-		src={`fret/${imgSlug}.jpg`}
+		src={`images/fret/${imgSlug}.jpg`}
+		srcset={`images/fret/${imgSlug}.jpg 1x, images/fret/${imgSlug}@2x.jpg 2x`}
 		loading="lazy"
 		draggable="false"
 		alt=""

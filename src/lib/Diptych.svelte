@@ -5,16 +5,16 @@
 <div class="diptych">
 	<img
 		class="diptych-img"
-		src={`diptych/${slug1}.jpg`}
-		srcset={`diptych/${slug1}.jpg 1x, diptych/${slug1}@2x.jpg 2x`}
+		src={`images/diptych/${slug1}.jpg`}
+		srcset={`images/diptych/${slug1}.jpg 1x, images/diptych/${slug1}@2x.jpg 2x`}
 		loading="lazy"
 		draggable="false"
 		alt=""
 	/>
 	<img
 		class="diptych-img"
-		src={`diptych/${slug2}.jpg`}
-		srcset={`diptych/${slug2}.jpg 1x, diptych/${slug2}@2x.jpg 2x`}
+		src={`images/diptych/${slug2}.jpg`}
+		srcset={`images/diptych/${slug2}.jpg 1x, images/diptych/${slug2}@2x.jpg 2x`}
 		loading="lazy"
 		draggable="false"
 		alt=""
@@ -29,12 +29,16 @@
 			margin-left: -$sp-xl;
 			margin-right: -$sp-xl;
 		}
+
+		@media (min-width: 1080px) {
+			max-width: 54rem;
+			margin-left: auto;
+			margin-right: auto;
+		}
 	}
 	.diptych-img {
 		@include box-shadow;
 		width: 53.333%;
-		padding-top: 33.333%;
-		background: $dark;
 
 		&:last-of-type {
 			position: absolute;

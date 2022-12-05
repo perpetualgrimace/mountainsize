@@ -11,8 +11,8 @@
 <section class="artillery">
 	<img
 		class="artillery-img"
-		src={`artillery/${imgSlug}.png`}
-		srcset={`artillery/${imgSlug}.png 1x, artillery/${imgSlug}@2x.png 2x`}
+		src={`images/artillery/${imgSlug}.png`}
+		srcset={`images/artillery/${imgSlug}.png 1x, images/artillery/${imgSlug}@2x.png 2x`}
 		loading="lazy"
 		draggable="false"
 		alt=""
