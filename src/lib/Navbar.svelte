@@ -48,6 +48,21 @@
 		align-items: center;
 		margin-left: -$sp-xs;
 		margin-right: -$sp-xs;
+
+		&:after {
+			@include pseudo;
+			@include absolute-horizontal-center;
+			width: 100vw;
+			height: 7.5rem;
+			top: 0;
+			background-image: linear-gradient(
+				to top,
+				rgba($black, 0) 0%,
+				rgba($black, 0.66) 80%,
+				rgba($black, 0.75) 100%
+			);
+			z-index: -1;
+		}
 	}
 
 	.navbar-link:first-of-type {
