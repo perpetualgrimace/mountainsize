@@ -6,7 +6,7 @@
 	import Fretboard from '$lib/Fretboard/index.svelte';
 	import Fret from '$lib/Fretboard/Fret.svelte';
 
-	import Artillery from '$lib/Artillery.svelte';
+	import Mic from '$lib/Mic.svelte';
 	import BulletList from '$lib/BulletList.svelte';
 </script>
 
@@ -181,9 +181,9 @@
 		</Fret>
 	</Fretboard>
 
-	<Artillery heading="Let’s get started" showButton imgSlug="james">
+	<Mic heading="Let’s get started" showButton imgSlug="james">
 		<p>Whatever you want to accomplish, together we’ll crush it!</p>
-	</Artillery>
+	</Mic>
 </main>
 
 <style lang="scss" global>

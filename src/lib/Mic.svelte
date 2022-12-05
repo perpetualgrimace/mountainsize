@@ -8,26 +8,22 @@
 		imgSlug;
 </script>
 
-<section class="artillery">
+<section class="mic">
 	<img
-		class="artillery-img"
-		src={`images/artillery/${imgSlug}.png`}
-		srcset={`images/artillery/${imgSlug}.png 1x, images/artillery/${imgSlug}@2x.png 2x`}
+		class="mic-img"
+		src={`images/mic/${imgSlug}.png`}
+		srcset={`images/mic/${imgSlug}.png 1x, images/mic/${imgSlug}@2x.png 2x`}
 		loading="lazy"
 		draggable="false"
 		alt=""
 	/>
 
-	<div
-		class={`artillery-caption${
-			subhead && subheadAbove ? ' subhead-above' : ''
-		}`}
-	>
-		<h2 class="artillery-heading">{heading}</h2>
+	<div class={`mic-caption${subhead && subheadAbove ? ' subhead-above' : ''}`}>
+		<h2 class="mic-heading">{heading}</h2>
 		{#if subhead}
-			<p class="artillery-subhead u-subhead">{subhead}</p>
+			<p class="mic-subhead u-subhead">{subhead}</p>
 		{/if}
-		<div class="artillery-slot">
+		<div class="mic-slot">
 			<slot />
 		</div>
 		{#if showButton}
@@ -37,29 +33,29 @@
 </section>
 
 <style lang="scss" global>
-	.artillery {
+	.mic {
 		margin-top: $sp-xxl;
 		margin-bottom: $sp-xxl;
 
 		@media (min-width: 666px) {
 			display: flex;
 
-			.artillery-img {
+			.mic-img {
 				top: -$sp-lg;
 				margin-right: $sp-xl;
 			}
 
-			.artillery-caption {
+			.mic-caption {
 				width: calc(100% - 10rem - $sp-xl);
 			}
 		}
 
-		& + .artillery {
+		& + .mic {
 			margin-top: $sp-xxxl;
 		}
 	}
 
-	.artillery-img {
+	.mic-img {
 		width: 10rem;
 		height: 11rem;
 
@@ -68,32 +64,32 @@
 		}
 	}
 
-	.artillery-caption.subhead-above {
+	.mic-caption.subhead-above {
 		display: flex;
 		flex-direction: column;
 
-		.artillery-subhead {
+		.mic-subhead {
 			order: -1;
 			position: absolute;
 			min-width: max-content;
 			top: -$sp-xs;
 		}
-		.artillery-slot {
+		.mic-slot {
 			margin-top: -$sp-sm;
 		}
 	}
 
-	.artillery-subhead {
+	.mic-subhead {
 		margin-top: -$sp-sm;
 	}
 
-	.artillery-slot > p,
-	.artillery-slot > li {
+	.mic-slot > p,
+	.mic-slot > li {
 		@include font-lg;
 		margin-top: $sp-md;
 	}
 
-	.artillery-slot .bullet-list {
+	.mic-slot .bullet-list {
 		margin-top: 1.125rem;
 
 		&.is-multicolumn {

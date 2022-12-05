@@ -3,7 +3,7 @@
 </div>
 
 <style lang="scss" global>
-	.fretboard + .artillery {
+	.fretboard + .mic {
 		margin-top: $sp-xxxl;
 	}
 

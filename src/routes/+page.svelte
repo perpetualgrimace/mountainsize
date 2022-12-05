@@ -4,7 +4,7 @@
 	import HeroParagraph from '$lib/Hero/HeroParagraph.svelte';
 
 	import Diptych from '$lib/Diptych.svelte';
-	import Artillery from '$lib/Artillery.svelte';
+	import Mic from '$lib/Mic.svelte';
 	import BulletList from '$lib/BulletList.svelte';
 </script>
 
@@ -25,7 +25,7 @@
 <main class="wrapper">
 	<Diptych slug1="desk" slug2="guitars" />
 
-	<Artillery heading="Services" subhead="and pricing" imgSlug="tele">
+	<Mic heading="Services" subhead="and pricing" imgSlug="tele">
 		<BulletList multiCol fontSize="lg">
 			<li><a href="services#song-production">Song production</a></li>
 			<li><a href="services#audio-engineering">Audio engineering</a></li>
@@ -38,11 +38,11 @@
 				<a href="services#drum-lessons">Drum lessons</a>
 			</li>
 		</BulletList>
-	</Artillery>
+	</Mic>
 
 	<Diptych slug1="guitar-rig" slug2="drums" />
 
-	<Artillery heading="The space" subhead="Small but versatile" imgSlug="rack">
+	<Mic heading="The space" subhead="Small but versatile" imgSlug="rack">
 		<p>
 			The space is a single open 500 sq ft room treated with sound panels and
 			bass traps. It’s optimized for writing, recording, and rehearsing.
@@ -52,26 +52,26 @@
 			the inputs for different scenarios. We’ll work together to determine the
 			best approach for your project!
 		</p>
-	</Artillery>
+	</Mic>
 
-	<Artillery heading="Instruments" subhead="Source is king" imgSlug="lp">
+	<Mic heading="Instruments" subhead="Source is king" imgSlug="lp">
 		<p>
 			I keep a modest but versatile collection of nice instruments (Gibson,
 			Orange, EVH, DW, Meinl, Yamaha, Ibanez, Schecter, etc). I’m sure you do as
 			well, so we’ll use whatever sounds best!
 		</p>
-	</Artillery>
+	</Mic>
 
-	<Artillery heading="Microphones" subhead="and audio gear" imgSlug="mics">
+	<Mic heading="Microphones" subhead="and audio gear" imgSlug="mics">
 		<p>
 			I have a variety of nice sounding mics for different applications, a
 			Kemper, 16 channels of inputs, and a selection of nice plugins. I employ
 			techniques to emulate the sound of analog in the digital realm — best of
 			both worlds.
 		</p>
-	</Artillery>
+	</Mic>
 
-	<Artillery
+	<Mic
 		heading="James Ferrell"
 		subhead="Studio owner"
 		subheadAbove
@@ -84,7 +84,7 @@
 			picture, but also sweat the details.
 		</p>
 		<p>Let’s work together to make your music memorable and massive!</p>
-	</Artillery>
+	</Mic>
 </main>
 
 <style lang="scss" global>
