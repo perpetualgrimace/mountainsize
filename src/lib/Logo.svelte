@@ -67,7 +67,7 @@
 
 		<!-- fallback -->
 		<image
-			src={`logo-${isHorizontal ? 'horizontal' : 'vertical'}.png`}
+			src={`logo/logo-${isHorizontal ? 'horizontal' : 'vertical'}.png`}
 			alt={altText}
 			xlink:href
 		/>
