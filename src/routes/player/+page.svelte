@@ -14,9 +14,17 @@
 
 	function handleNext() {
 		currSrc += 1;
+
+		if (currSrc > tracksCount - 1) {
+			currSrc = 0;
+		}
 	}
 	function handlePrev() {
 		currSrc -= 1;
+
+		if (currSrc < 0) {
+			currSrc = tracksCount - 1;
+		}
 	}
 </script>
 
