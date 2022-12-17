@@ -1,5 +1,4 @@
 <script>
-	import Hero from '$lib/Hero/index.svelte';
 	import PlayerAudio, { togglePlay } from '$lib/Player/PlayerAudio.svelte';
 	import tracks from '$lib/data/tracklist.json';
 
@@ -26,9 +25,7 @@
 	}
 </script>
 
-<Hero><h1>player test</h1></Hero>
-
-<div class="wrapper">
+<div class="player">
 	<table
 		class={`player-table u-font-sm tracklist-${
 			tracklistOpen ? 'open' : 'closed'

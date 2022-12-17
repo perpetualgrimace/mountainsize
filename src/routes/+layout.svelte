@@ -2,6 +2,7 @@
 	import '../styles/global.scss';
 	import Navbar from '$lib/Navbar.svelte';
 	import Footer from '$lib/Footer.svelte';
+	import Player from '$lib/Player/index.svelte';
 </script>
 
 <div class="main-nav-wrapper wrapper">
@@ -11,6 +12,7 @@
 <slot />
 
 <Footer />
+<Player />
 
 <style lang="scss" global>
 	body {
