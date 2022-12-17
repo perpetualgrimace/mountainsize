@@ -18,12 +18,22 @@
 	function handleTrackClick(id) {
 		currSrc = id;
 	}
+
+	$: tracklistOpen = false;
+
+	function toggleTracklist() {
+		tracklistOpen = !tracklistOpen;
+	}
 </script>
 
 <Hero><h1>player test</h1></Hero>
 
 <div class="wrapper">
-	<table class="player-table u-font-sm">
+	<table
+		class={`player-table u-font-sm tracklist-${
+			tracklistOpen ? 'open' : 'closed'
+		}`}
+	>
 		<thead class="player-thead u-visually-hidden">
 			<th class="player-th">Play status</th>
 			<th class="player-th">Genre</th>
@@ -61,10 +71,20 @@
 
 	<p>current track: <b>{currSrc}</b> ({currSrc + 1} / {tracksCount})</p>
 
+	<p>
+		<button on:click={toggleTracklist}>
+			{tracklistOpen ? 'hide' : 'show'} tracks
+		</button>
+	</p>
+
 	<Player src={tracks[currSrc].src} />
 </div>
 
 <style lang="scss" global>
+	.tracklist-closed {
+		display: none;
+	}
+
 	.player-td {
 		position: static;
 	}
