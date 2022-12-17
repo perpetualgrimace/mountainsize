@@ -1,10 +1,17 @@
 <script>
-	import PlayerAudio, {
-		togglePlay,
-		forcePlay
-	} from '$lib/Player/PlayerAudio.svelte';
 	import PlayerTracklist from '$lib/Player/PlayerTracklist.svelte';
 	import tracks from '$lib/data/tracklist.json';
+
+	let player;
+
+	function togglePlay() {
+		player.paused ? player.play() : player.pause();
+	}
+	function forcePlay() {
+		setTimeout(() => {
+			player.play();
+		}, 20);
+	}
 
 	const tracksCount = tracks.length;
 
@@ -59,8 +66,11 @@
 		</button>
 	</p>
 
-	<PlayerAudio src={tracks[currTrack].src} {isPlaying} />
+	<audio class="player-audio" bind:this={player} src={tracks[currTrack].src} />
 </div>
 
-<style lang="scss" global>
+<style global lang="scss">
+	.player-audio {
+		display: none;
+	}
 </style>
