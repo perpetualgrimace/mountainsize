@@ -1,5 +1,6 @@
 [
 	{
+		"id": 0,
 		"genre": "Metal",
 		"artist": "The Welcoming",
 		"song": "The Messiah",
@@ -9,6 +10,7 @@
 		"src": "/tracks/messiah.mp3"
 	},
 	{
+		"id": 1,
 		"genre": "Metalcore",
 		"artist": "Embrace the Animal",
 		"song": "Ashes of Irondale",
@@ -18,6 +20,7 @@
 		"src": "/tracks/ashes.mp3"
 	},
 	{
+		"id": 2,
 		"genre": "Hard rock",
 		"artist": "Here Lies Wes",
 		"song": "Nihilty",
@@ -27,6 +30,7 @@
 		"src": "/tracks/nihilty.mp3"
 	},
 	{
+		"id": 3,
 		"genre": "Progressive rock",
 		"artist": "Red Era",
 		"song": "The Trials",
@@ -36,6 +40,7 @@
 		"src": "/tracks/trials.mp3"
 	},
 	{
+		"id": 4,
 		"genre": "Post-hardcore",
 		"artist": "Waypoints",
 		"song": "The Void",
@@ -45,6 +50,7 @@
 		"src": "/tracks/void.mp3"
 	},
 	{
+		"id": 5,
 		"genre": "Math rock",
 		"artist": "Ambushed",
 		"song": "Plinksticity",

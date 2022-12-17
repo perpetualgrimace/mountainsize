@@ -16,9 +16,8 @@
 	</audio>
 </div>
 
-<style global>
+<style global lang="scss">
 	.player {
-		width: 100%;
 		display: none;
 	}
 </style>
