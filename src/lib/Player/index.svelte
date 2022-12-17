@@ -1,5 +1,6 @@
 <script>
 	import PlayerAudio, { togglePlay } from '$lib/Player/PlayerAudio.svelte';
+	import PlayerTracklist from '$lib/Player/PlayerTracklist.svelte';
 	import tracks from '$lib/data/tracklist.json';
 
 	const tracksCount = tracks.length;
@@ -26,41 +27,7 @@
 </script>
 
 <div class="player">
-	<table
-		class={`player-table u-font-sm tracklist-${
-			tracklistOpen ? 'open' : 'closed'
-		}`}
-	>
-		<thead class="player-thead u-visually-hidden">
-			<th class="player-th">Play status</th>
-			<th class="player-th">Genre</th>
-			<th class="player-th">Artist & song title</th>
-			<th class="player-th">Song length in minutes and seconds</th>
-			<th class="player-th">Year of release</th>
-			<th class="player-th">Artist link</th>
-		</thead>
-
-		{#each tracks as { id, genre, artist, song, length, year, link } (id)}
-			<tr class="player-tr">
-				<td class="player-td player-controls">
-					<button
-						class="player-track-cover-button"
-						on:click={() => handleTrackClick(id)}
-					>
-						<span class="u-visually-hidden">Track {id + 1}</span>
-					</button>
-					⏯
-				</td>
-				<td class="player-td player-genre">{genre}</td>
-				<td class="player-td player-details">{artist} — “{song}”</td>
-				<td class="player-td player-length">{length}</td>
-				<td class="player-td player-year">{year}</td>
-				<td class="player-td player-link">
-					<a class="player-link" href={`https://${link}`}>{link}</a>
-				</td>
-			</tr>
-		{/each}
-	</table>
+	<PlayerTracklist {tracklistOpen} onTrackClick={handleTrackClick} />
 
 	<button on:click={handlePrev}>⏮</button>
 	<button on:click={togglePlay}>⏯</button>
