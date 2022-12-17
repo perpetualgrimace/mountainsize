@@ -1,12 +1,7 @@
 <script>
 	import Hero from '$lib/Hero/index.svelte';
 	import Player, { togglePlay } from '$lib/Player.svelte';
-
-	let tracks = [
-		'https://sveltejs.github.io/assets/music/strauss.mp3',
-		'https://sveltejs.github.io/assets/music/holst.mp3',
-		'https://sveltejs.github.io/assets/music/satie.mp3'
-	];
+	import tracks from '$lib/data/tracklist.json';
 
 	const tracksCount = tracks.length;
 
@@ -19,6 +14,7 @@
 			currSrc = 0;
 		}
 	}
+
 	function handlePrev() {
 		currSrc -= 1;
 
@@ -37,5 +33,5 @@
 
 	<p>current track: <b>{currSrc}</b> ({currSrc + 1} / {tracksCount})</p>
 
-	<Player src={tracks[currSrc]} />
+	<Player src={tracks[currSrc].src} />
 </div>

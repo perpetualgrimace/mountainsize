@@ -1,0 +1,56 @@
+[
+	{
+		"genre": "Metal",
+		"artist": "The Welcoming",
+		"song": "The Messiah",
+		"length": "4:14",
+		"year": 2021,
+		"link": "thewelcomingmusic.com",
+		"src": "/tracks/messiah.mp3"
+	},
+	{
+		"genre": "Metalcore",
+		"artist": "Embrace the Animal",
+		"song": "Ashes of Irondale",
+		"length": "3:30",
+		"year": 2022,
+		"link": "embracetheanimal.bandcamp.com",
+		"src": "/tracks/ashes.mp3"
+	},
+	{
+		"genre": "Hard rock",
+		"artist": "Here Lies Wes",
+		"song": "Nihilty",
+		"length": "3:47",
+		"year": 2022,
+		"link": "open.spotify.com/artist/3WihAUyEe1eeRhuaEV5kyQ",
+		"src": "/tracks/nihilty.mp3"
+	},
+	{
+		"genre": "Progressive rock",
+		"artist": "Red Era",
+		"song": "The Trials",
+		"length": "5:33",
+		"year": 2020,
+		"link": "red-era.com",
+		"src": "/tracks/trials.mp3"
+	},
+	{
+		"genre": "Post-hardcore",
+		"artist": "Waypoints",
+		"song": "The Void",
+		"length": "4:19",
+		"year": 2018,
+		"link": "waypoints.bandcamp.com",
+		"src": "/tracks/void.mp3"
+	},
+	{
+		"genre": "Math rock",
+		"artist": "Ambushed",
+		"song": "Plinksticity",
+		"length": "4:32",
+		"year": 2017,
+		"link": "ambushed.bandcamp.com",
+		"src": "/tracks/plinksticity.mp3"
+	}
+]
