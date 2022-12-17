@@ -82,7 +82,12 @@
 		</button>
 	</p>
 
-	<audio class="player-audio" bind:this={player} src={tracks[currTrack].src} />
+	<audio
+		class="player-audio"
+		src={tracks[currTrack].src}
+		bind:this={player}
+		on:ended={handleNext}
+	/>
 </div>
 
 <style global lang="scss">
@@ -101,10 +106,6 @@
 		100% {
 			opacity: 0;
 		}
-	}
-
-	.player-audio {
-		display: none;
 	}
 
 	.player-current {
