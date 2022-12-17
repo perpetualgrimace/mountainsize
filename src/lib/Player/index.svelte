@@ -20,8 +20,12 @@
 	}
 
 	function forcePlay() {
-		isPlaying = true;
-		setTimeout(() => player.play(), 20);
+		isPlaying = false; // reset animation timer
+
+		setTimeout(() => {
+			player.play();
+			isPlaying = true;
+		}, 20);
 	}
 
 	function handleNext() {
@@ -57,6 +61,17 @@
 		onTrackClick={handleTrackClick}
 	/>
 
+	<h2>Audio samples</h2>
+
+	<dl class={`player-current${isPlaying ? ' is-playing' : ''}`}>
+		<dt class="player-current-genre u-font-sm">
+			{tracks[[currTrack]].genre} sample
+		</dt>
+		<dd class="player-current-song">
+			{tracks[[currTrack]].artist} — “{tracks[[currTrack]].song}”
+		</dd>
+	</dl>
+
 	<button on:click={handlePrev}>⏮</button>
 	<button on:click={togglePlay}>{isPlaying ? '⏸' : '▶️'}</button>
 	<button on:click={handleNext}>⏭</button>
@@ -71,7 +86,37 @@
 </div>
 
 <style global lang="scss">
+	@keyframes songInOut {
+		0% {
+			opacity: 0;
+			transform: translateY(10px);
+		}
+		7% {
+			opacity: 1;
+			transform: none;
+		}
+		73% {
+			opacity: 1;
+		}
+		100% {
+			opacity: 0;
+		}
+	}
+
 	.player-audio {
 		display: none;
+	}
+
+	.player-current {
+		opacity: 0;
+		background: $black;
+
+		&.is-playing {
+			animation: songInOut 3s ease-in-out;
+
+			.player-current-song {
+				animation: songInOut 5s ease-in-out;
+			}
+		}
 	}
 </style>
