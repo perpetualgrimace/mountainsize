@@ -14,14 +14,12 @@
 
 	function handleNext() {
 		currTrack === tracksCount - 1 ? (currTrack = 0) : (currTrack += 1);
-		isPlaying = true;
-		forcePlay();
+		if (isPlaying) forcePlay();
 	}
 
 	function handlePrev() {
 		currTrack === 0 ? (currTrack = tracksCount - 1) : (currTrack -= 1);
-		isPlaying = true;
-		forcePlay();
+		if (isPlaying) forcePlay();
 	}
 
 	function handlePlayToggle() {
@@ -31,8 +29,7 @@
 
 	function handleTrackClick(id) {
 		currTrack = id;
-		isPlaying = true;
-		forcePlay();
+		if (isPlaying) forcePlay();
 	}
 
 	$: tracklistOpen = false;
@@ -47,6 +44,7 @@
 
 	<PlayerTracklist
 		{currTrack}
+		{isPlaying}
 		{tracklistOpen}
 		onTrackClick={handleTrackClick}
 	/>
