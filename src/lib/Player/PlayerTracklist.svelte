@@ -1,43 +1,57 @@
 <script>
 	import tracks from '$lib/data/tracklist.json';
 
-	export let tracklistOpen = false;
-
-	export let onTrackClick;
+	export let currTrack, tracklistOpen, onTrackClick;
 </script>
 
 <table
-	class={`player-table u-font-sm tracklist-${
-		tracklistOpen ? 'open' : 'closed'
-	}`}
+	class={`tracklist-table u-font-sm is-${tracklistOpen ? 'open' : 'closed'}`}
 >
-	<thead class="player-thead u-visually-hidden">
-		<th class="player-th">Play status</th>
-		<th class="player-th">Genre</th>
-		<th class="player-th">Artist & song title</th>
-		<th class="player-th">Song length in minutes and seconds</th>
-		<th class="player-th">Year of release</th>
-		<th class="player-th">Artist link</th>
+	<thead class="tracklist-thead u-visually-hidden">
+		<th class="tracklist-th">Play status</th>
+		<th class="tracklist-th">Genre</th>
+		<th class="tracklist-th">Artist & song title</th>
+		<th class="tracklist-th">Song length in minutes and seconds</th>
+		<th class="tracklist-th">Year of release</th>
+		<th class="tracklist-th">Artist link</th>
 	</thead>
 
 	{#each tracks as { id, genre, artist, song, length, year, link } (id)}
-		<tr class="player-tr">
-			<td class="player-td player-controls">
+		<tr class={`tracklist-tr${currTrack === id ? ' is-selected' : ''}`}>
+			<td class="tracklist-td tracklist-controls">
 				<button
-					class="player-track-cover-button"
+					class="tracklist-track-cover-button"
 					on:click={() => onTrackClick(id)}
 				>
 					<span class="u-visually-hidden">Track {id + 1}</span>
 				</button>
 				⏯
 			</td>
-			<td class="player-td player-genre">{genre}</td>
-			<td class="player-td player-details">{artist} — “{song}”</td>
-			<td class="player-td player-length">{length}</td>
-			<td class="player-td player-year">{year}</td>
-			<td class="player-td player-link">
-				<a class="player-link" href={`https://${link}`}>{link}</a>
+			<td class="tracklist-td tracklist-genre">{genre}</td>
+			<td class="tracklist-td tracklist-details">{artist} — “{song}”</td>
+			<td class="tracklist-td tracklist-length">{length}</td>
+			<td class="tracklist-td tracklist-year">{year}</td>
+			<td class="tracklist-td tracklist-link">
+				<a class="tracklist-link" href={`https://${link}`}>{link}</a>
 			</td>
 		</tr>
 	{/each}
 </table>
+
+<style lang="scss" global>
+	.tracklist-table.is-closed {
+		display: none;
+	}
+
+	.tracklist-tr.is-selected {
+		background: $dark;
+	}
+
+	.tracklist-td {
+		position: static;
+	}
+
+	.tracklist-track-cover-button {
+		@include absolute-expand;
+	}
+</style>

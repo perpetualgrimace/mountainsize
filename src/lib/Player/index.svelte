@@ -5,18 +5,18 @@
 
 	const tracksCount = tracks.length;
 
-	$: currSrc = 0;
+	$: currTrack = 0;
 
 	function handleNext() {
-		currSrc === tracksCount - 1 ? (currSrc = 0) : (currSrc += 1);
+		currTrack === tracksCount - 1 ? (currTrack = 0) : (currTrack += 1);
 	}
 
 	function handlePrev() {
-		currSrc === 0 ? (currSrc = tracksCount - 1) : (currSrc -= 1);
+		currTrack === 0 ? (currTrack = tracksCount - 1) : (currTrack -= 1);
 	}
 
 	function handleTrackClick(id) {
-		currSrc = id;
+		currTrack = id;
 	}
 
 	$: tracklistOpen = false;
@@ -27,13 +27,17 @@
 </script>
 
 <div class="player">
-	<PlayerTracklist {tracklistOpen} onTrackClick={handleTrackClick} />
+	<PlayerTracklist
+		{currTrack}
+		{tracklistOpen}
+		onTrackClick={handleTrackClick}
+	/>
 
 	<button on:click={handlePrev}>⏮</button>
 	<button on:click={togglePlay}>⏯</button>
 	<button on:click={handleNext}>⏭</button>
 
-	<p>current track: <b>{currSrc}</b> ({currSrc + 1} / {tracksCount})</p>
+	<p>current track: <b>{currTrack}</b> ({currTrack + 1} / {tracksCount})</p>
 
 	<p>
 		<button on:click={toggleTracklist}>
@@ -41,19 +45,8 @@
 		</button>
 	</p>
 
-	<PlayerAudio src={tracks[currSrc].src} />
+	<PlayerAudio src={tracks[currTrack].src} />
 </div>
 
 <style lang="scss" global>
-	.tracklist-closed {
-		display: none;
-	}
-
-	.player-td {
-		position: static;
-	}
-
-	.player-track-cover-button {
-		@include absolute-expand;
-	}
 </style>
