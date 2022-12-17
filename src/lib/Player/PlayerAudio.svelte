@@ -10,14 +10,12 @@
 	export let src;
 </script>
 
-<div class="player">
-	<audio class="player-audio" bind:this={player} {src} controls>
-		<track class="player-track" kind="captions" />
-	</audio>
-</div>
+<audio class="player-audio" bind:this={player} {src} controls>
+	<track class="player-track" kind="captions" />
+</audio>
 
 <style global lang="scss">
-	.player {
+	.player-audio {
 		display: none;
 	}
 </style>

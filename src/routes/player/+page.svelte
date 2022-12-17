@@ -1,6 +1,6 @@
 <script>
 	import Hero from '$lib/Hero/index.svelte';
-	import Player, { togglePlay } from '$lib/Player.svelte';
+	import PlayerAudio, { togglePlay } from '$lib/Player/PlayerAudio.svelte';
 	import tracks from '$lib/data/tracklist.json';
 
 	const tracksCount = tracks.length;
@@ -77,7 +77,7 @@
 		</button>
 	</p>
 
-	<Player src={tracks[currSrc].src} />
+	<PlayerAudio src={tracks[currSrc].src} />
 </div>
 
 <style lang="scss" global>
