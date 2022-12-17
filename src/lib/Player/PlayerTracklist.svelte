@@ -25,7 +25,7 @@
 				>
 					<span class="u-visually-hidden">Track {id + 1}</span>
 				</button>
-				<!-- {isPlaying && currTrack === id ? '⏸' : '▶️'} -->
+				{isPlaying && currTrack === id ? '⏸' : '▶️'}
 			</td>
 			<td class="tracklist-td tracklist-genre">{genre}</td>
 			<td class="tracklist-td tracklist-details">{artist} — “{song}”</td>

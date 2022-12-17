@@ -3,43 +3,44 @@
 	import tracks from '$lib/data/tracklist.json';
 
 	let player;
-
-	function togglePlay() {
-		player.paused ? player.play() : player.pause();
-	}
-	function forcePlay() {
-		setTimeout(() => {
-			player.play();
-		}, 20);
-	}
-
 	const tracksCount = tracks.length;
 
 	$: currTrack = 0;
-
 	$: isPlaying = false;
+	$: tracklistOpen = false;
+
+	function togglePlay() {
+		if (player.paused) {
+			isPlaying = true;
+			player.play();
+		} else {
+			isPlaying = false;
+			player.pause();
+		}
+	}
+
+	function forcePlay() {
+		isPlaying = true;
+		setTimeout(() => player.play(), 20);
+	}
 
 	function handleNext() {
 		currTrack === tracksCount - 1 ? (currTrack = 0) : (currTrack += 1);
-		if (isPlaying) forcePlay();
+		forcePlay();
 	}
 
 	function handlePrev() {
 		currTrack === 0 ? (currTrack = tracksCount - 1) : (currTrack -= 1);
-		if (isPlaying) forcePlay();
-	}
-
-	function handlePlayToggle() {
-		togglePlay();
-		isPlaying = !isPlaying;
+		forcePlay();
 	}
 
 	function handleTrackClick(id) {
-		currTrack = id;
-		if (isPlaying) forcePlay();
+		if (currTrack === id) togglePlay();
+		else {
+			currTrack = id;
+			forcePlay();
+		}
 	}
-
-	$: tracklistOpen = false;
 
 	function toggleTracklist() {
 		tracklistOpen = !tracklistOpen;
@@ -57,7 +58,7 @@
 	/>
 
 	<button on:click={handlePrev}>⏮</button>
-	<button on:click={handlePlayToggle}>{isPlaying ? '⏸' : '▶️'}</button>
+	<button on:click={togglePlay}>{isPlaying ? '⏸' : '▶️'}</button>
 	<button on:click={handleNext}>⏭</button>
 
 	<p>
