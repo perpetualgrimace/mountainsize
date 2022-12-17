@@ -4,15 +4,18 @@
 	export function togglePlay() {
 		player.paused ? player.play() : player.pause();
 	}
+	export function forcePlay() {
+		setTimeout(() => {
+			player.play();
+		}, 20);
+	}
 </script>
 
 <script>
 	export let src;
 </script>
 
-<audio class="player-audio" bind:this={player} {src} controls>
-	<track class="player-track" kind="captions" />
-</audio>
+<audio class="player-audio" bind:this={player} {src} />
 
 <style global lang="scss">
 	.player-audio {

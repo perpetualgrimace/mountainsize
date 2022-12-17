@@ -1,5 +1,8 @@
 <script>
-	import PlayerAudio, { togglePlay } from '$lib/Player/PlayerAudio.svelte';
+	import PlayerAudio, {
+		togglePlay,
+		forcePlay
+	} from '$lib/Player/PlayerAudio.svelte';
 	import PlayerTracklist from '$lib/Player/PlayerTracklist.svelte';
 	import tracks from '$lib/data/tracklist.json';
 
@@ -7,16 +10,29 @@
 
 	$: currTrack = 0;
 
+	$: isPlaying = false;
+
 	function handleNext() {
 		currTrack === tracksCount - 1 ? (currTrack = 0) : (currTrack += 1);
+		isPlaying = true;
+		forcePlay();
 	}
 
 	function handlePrev() {
 		currTrack === 0 ? (currTrack = tracksCount - 1) : (currTrack -= 1);
+		isPlaying = true;
+		forcePlay();
+	}
+
+	function handlePlayToggle() {
+		togglePlay();
+		isPlaying = !isPlaying;
 	}
 
 	function handleTrackClick(id) {
 		currTrack = id;
+		isPlaying = true;
+		forcePlay();
 	}
 
 	$: tracklistOpen = false;
@@ -27,6 +43,8 @@
 </script>
 
 <div class="player">
+	<!-- <p>current track: <b>{currTrack}</b> ({currTrack + 1} / {tracksCount})</p> -->
+
 	<PlayerTracklist
 		{currTrack}
 		{tracklistOpen}
@@ -34,10 +52,8 @@
 	/>
 
 	<button on:click={handlePrev}>⏮</button>
-	<button on:click={togglePlay}>⏯</button>
+	<button on:click={handlePlayToggle}>{isPlaying ? '⏸' : '▶️'}</button>
 	<button on:click={handleNext}>⏭</button>
-
-	<p>current track: <b>{currTrack}</b> ({currTrack + 1} / {tracksCount})</p>
 
 	<p>
 		<button on:click={toggleTracklist}>
@@ -45,7 +61,7 @@
 		</button>
 	</p>
 
-	<PlayerAudio src={tracks[currTrack].src} />
+	<PlayerAudio src={tracks[currTrack].src} {isPlaying} />
 </div>
 
 <style lang="scss" global>
