@@ -47,6 +47,7 @@
 	.footer {
 		margin-top: auto;
 		background-color: $dark;
+		padding-bottom: 2.45rem;
 	}
 
 	.footer-hr {

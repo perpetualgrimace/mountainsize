@@ -19,3 +19,12 @@
 main {
 	padding-bottom: $sp-md;
 }
+
+.player {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 20;
+	min-height: 2.45rem;
+}
