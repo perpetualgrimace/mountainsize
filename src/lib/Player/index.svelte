@@ -70,7 +70,10 @@
 					{tracks[[currTrack]].genre} sample
 				</dt>
 				<dd class="player-current-song">
-					{tracks[[currTrack]].artist} — “{tracks[[currTrack]].song}”
+					<span class="u-heading">{tracks[[currTrack]].artist} </span>
+					<span class="player-current-song-title">
+						— “{tracks[[currTrack]].song}”
+					</span>
 				</dd>
 			</dl>
 
@@ -82,11 +85,15 @@
 				<button class="player-controls-button" on:click={handleNext}>⏭</button>
 			</div>
 
-			<p>
-				<button on:click={toggleTracklist}>
-					{tracklistOpen ? 'hide' : 'show'} tracks
-				</button>
-			</p>
+			<button
+				on:click={toggleTracklist}
+				class="player-toggle-button u-subhead u-font-sm"
+			>
+				<span class="player-toggle-button-text">
+					{tracklistOpen ? 'hide ' : 'show '}
+				</span>
+				tracks ▵
+			</button>
 		</div>
 
 		<audio
@@ -99,7 +106,7 @@
 </div>
 
 <style global lang="scss">
-	@keyframes songInOut {
+	@keyframes songIn {
 		0% {
 			opacity: 0;
 			transform: translateY(10px);
@@ -107,12 +114,6 @@
 		7% {
 			opacity: 1;
 			transform: none;
-		}
-		73% {
-			opacity: 1;
-		}
-		100% {
-			opacity: 0;
 		}
 	}
 
@@ -134,16 +135,6 @@
 		border-top-right-radius: $radius-lg;
 	}
 
-	.player-inner:before {
-		@include pseudo;
-		position: fixed;
-		bottom: 2.45rem;
-		right: 0;
-		left: 0;
-		height: 1px;
-		background-color: $black;
-	}
-
 	.player-outer {
 		background: $dark;
 	}
@@ -153,18 +144,53 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+
+		&:before {
+			@include pseudo;
+			position: fixed;
+			bottom: 2.45rem;
+			right: 0;
+			left: 0;
+			height: 1px;
+			background-color: $black;
+		}
 	}
 
 	.player-current {
+		position: absolute;
 		opacity: 0;
-		background: $black;
+		background: $dark;
+		z-index: 1;
 
 		&.is-playing {
-			animation: songInOut 3s ease-in-out;
+			animation: songIn 3s ease-in-out;
+			opacity: 1;
 
 			.player-current-song {
-				animation: songInOut 5s ease-in-out;
+				animation: songIn 5s ease-in-out;
+				opacity: 1;
 			}
+		}
+	}
+	.player-current-genre {
+		margin-top: 0.125rem;
+		margin-bottom: -0.25rem;
+		min-width: 10rem;
+	}
+	.player-controls {
+		@include absolute-center;
+		z-index: 1;
+	}
+
+	@media (max-width: 699px) {
+		.player-current-song-title {
+			@include visually-hidden;
+		}
+	}
+	@media (max-width: 399px) {
+		.player-toggle-button-text,
+		.player-current {
+			@include visually-hidden;
 		}
 	}
 </style>
