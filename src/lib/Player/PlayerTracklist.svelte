@@ -43,6 +43,10 @@
 <style lang="scss" global>
 	.tracklist {
 		@include box-shadow;
+		position: absolute;
+		bottom: 2.45rem;
+		left: 0;
+		right: 0;
 		background-color: $dark;
 		padding-top: $sp-md;
 		padding-bottom: $sp-md;
@@ -53,6 +57,7 @@
 		&.is-closed {
 			opacity: 0;
 			transform: translateY(100%);
+			transform: translateY(calc(100% + 2.45rem));
 		}
 	}
 
