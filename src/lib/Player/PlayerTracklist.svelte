@@ -33,12 +33,24 @@
 						{/if}
 						{genre}
 					</td>
-					<td class="tracklist-td tracklist-details">{artist} — “{song}”</td>
+					<td class="tracklist-td tracklist-details">
+						{artist} <span class="tracklist-details-song"> — “{song}”</span>
+					</td>
 					<td class="tracklist-td tracklist-length">{length}</td>
 					<td class="tracklist-td tracklist-year">{year}</td>
 					<td class="tracklist-td tracklist-link">
-						<a class="tracklist-link" href={`https://${link}`}>
-							<span class="tracklist-link-text">{link} </span>
+						<a
+							class="tracklist-link"
+							href={`https://${link}`}
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<span class="tracklist-link-text is-mobile-only" aria-hidden>
+								{artist}
+							</span>
+							<span class="tracklist-link-text">
+								{link.indexOf('spotify') !== -1 ? 'open.spotify.com' : link}
+							</span>
 							<OutboundIcon />
 						</a>
 					</td>
@@ -55,7 +67,7 @@
 		bottom: 2.45rem;
 		left: 0;
 		right: 0;
-		background-color: $dark;
+		background-color: rgba($dark, 0.95);
 		padding-top: $sp-md;
 		padding-bottom: $sp-md;
 		border-top-left-radius: $radius-lg;
@@ -76,45 +88,92 @@
 
 	.tracklist-tr.is-selected td {
 		background-color: $black;
-
-		&.tracklist-genre {
-			border-top-left-radius: 2rem;
-			border-bottom-left-radius: 2rem;
-		}
-		&.tracklist-link {
-			border-top-right-radius: 2rem;
-			border-bottom-right-radius: 2rem;
-		}
+	}
+	.tracklist-tr.is-selected:hover td {
+		background-color: rgba($black, 0.88);
+	}
+	.tracklist-tr:not(.is-selected):hover td,
+	.tracklist-tr:not(.is-selected):focus-within td {
+		background-color: rgba($cyan-dark, 0.1);
 	}
 
 	.tracklist-td {
 		position: static;
-		padding: 0.25rem;
+		padding: 0.5rem 0.25rem;
+		transition: background-color 0.3s ease-out;
 
-		&.tracklist-genre {
-			padding-left: 0.75rem;
-			padding-right: 0;
-
-			svg {
-				pointer-events: none;
-			}
+		svg {
+			transition: transform 0.15s ease-out;
 		}
 	}
 
 	.tracklist-track-cover-button {
 		@include absolute-expand;
+
+		&:hover + svg,
+		&:focus + svg {
+			transform: scale(1.125);
+		}
+		&:active + svg {
+			transform: none;
+		}
+	}
+
+	.tracklist-genre {
+		padding-left: 0.625rem;
+		padding-right: 0;
+		border-top-left-radius: 2rem;
+		border-bottom-left-radius: 2rem;
+
+		svg {
+			top: -1px;
+			pointer-events: none;
+		}
 	}
 
 	.tracklist-link {
+		border-top-right-radius: 2rem;
+		border-bottom-right-radius: 2rem;
+		padding: 0.75em 0.25em;
 		text-decoration: none;
 
-		&:hover .tracklist-link-text,
-		&:focus .tracklist-link-text {
-			text-decoration-color: $white;
+		&:hover,
+		&:focus {
+			.tracklist-link-text,
+			.tracklist-link-text {
+				text-decoration-color: $white;
+			}
+			svg {
+				transform: scale(1.125);
+			}
 		}
 	}
 	.tracklist-link-text {
 		text-decoration: underline;
 		text-decoration-color: $sun-light;
+		transition: text-decoration 0.15s ease-out;
+	}
+
+	.tracklist-length,
+	.tracklist-year {
+		@media (max-width: 799px) {
+			@include visually-hidden;
+		}
+	}
+	.tracklist-details-song {
+		@media (max-width: 699px) {
+			@include visually-hidden;
+		}
+	}
+	.tracklist-details,
+	.tracklist-link-text:not(.is-mobile-only) {
+		@media (max-width: 599px) {
+			@include visually-hidden;
+		}
+	}
+	.tracklist-link-text.is-mobile-only {
+		@media (min-width: 600px) {
+			display: none;
+		}
 	}
 </style>
