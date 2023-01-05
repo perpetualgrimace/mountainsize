@@ -67,7 +67,7 @@
 		bottom: 2.45rem;
 		left: 0;
 		right: 0;
-		background-color: rgba($dark, 0.95);
+		background-color: rgba($dark, 0.975);
 		padding-top: $sp-md;
 		padding-bottom: $sp-md;
 		border-top-left-radius: $radius-lg;

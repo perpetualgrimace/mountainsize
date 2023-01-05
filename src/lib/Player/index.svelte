@@ -85,13 +85,22 @@
 			</dl>
 
 			<div class="player-controls">
-				<button class="player-controls-button" on:click={handlePrev}>
+				<button
+					class="player-controls-button player-controls-prev-button"
+					on:click={handlePrev}
+				>
 					<PrevIcon />
 				</button>
-				<button class="player-controls-button" on:click={togglePlay}>
+				<button
+					class="player-controls-button player-controls-play-button"
+					on:click={togglePlay}
+				>
 					{#if isPlaying} <PauseIcon /> {:else} <PlayIcon /> {/if}
 				</button>
-				<button class="player-controls-button" on:click={handleNext}>
+				<button
+					class="player-controls-button player-controls-next-button"
+					on:click={handleNext}
+				>
 					<NextIcon />
 				</button>
 			</div>
@@ -128,18 +137,18 @@
 		}
 	}
 
-	.player:before {
-		@include pseudo;
-		@include absolute-expand;
-		position: fixed;
-		background-color: rgba($black, 0.75);
-		transition: opacity 0.2s ease-out;
-	}
+	// .player:before {
+	// 	@include pseudo;
+	// 	@include absolute-expand;
+	// 	position: fixed;
+	// 	background-color: rgba($black, 0.75);
+	// 	transition: opacity 0.2s ease-out;
+	// }
 
-	.player.is-closed:before {
-		opacity: 0;
-		top: 100%;
-	}
+	// .player.is-closed:before {
+	// 	opacity: 0;
+	// 	top: 100%;
+	// }
 
 	.player.is-closed .player-outer {
 		border-top-left-radius: $radius-lg;
@@ -165,6 +174,24 @@
 			height: 1px;
 			background-color: $black;
 		}
+
+		svg {
+			width: 100%;
+			height: auto;
+			transition: transform 0.1s ease-out;
+		}
+
+		button:hover svg,
+		button:focus svg {
+			transform: scale(1.1);
+		}
+	}
+	.player.is-closed .player-toggle-button svg {
+		transform: rotate(180deg);
+	}
+	.player.is-closed .player-toggle-button:hover svg,
+	.player.is-closed .player-toggle-button:focus svg {
+		transform: rotate(180deg) scale(1.175);
 	}
 
 	.player-current {
@@ -192,13 +219,45 @@
 		@include absolute-center;
 		z-index: 1;
 	}
+	.player-controls-button {
+		padding: 0.25rem;
+
+		@media (min-width: 500px) {
+			&:not(:last-child) {
+				margin-right: $sp-xs;
+			}
+		}
+	}
+	.player-controls-prev-button,
+	.player-controls-next-button {
+		width: 1.5rem;
+	}
+	.player-controls-play-button {
+		width: 1.75rem;
+		height: 1.75rem;
+		background-color: $cyan-light;
+		border-radius: 50%;
+
+		path {
+			fill: $dark;
+		}
+	}
+
+	.player-toggle-button svg {
+		width: 2em;
+		top: -1px;
+	}
+	.player-toggle-button:hover svg,
+	.player-toggle-button:focus svg {
+		transform: scale(1.25);
+	}
 
 	@media (max-width: 699px) {
 		.player-current-song-title {
 			@include visually-hidden;
 		}
 	}
-	@media (max-width: 399px) {
+	@media (max-width: 499px) {
 		.player-toggle-button-text,
 		.player-current {
 			@include visually-hidden;
