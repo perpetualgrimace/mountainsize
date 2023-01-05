@@ -8,7 +8,6 @@
 	<div class="tracklist-inner wrapper">
 		<table class="tracklist-table u-font-sm">
 			<thead class="tracklist-thead u-visually-hidden">
-				<th class="tracklist-th">Play status</th>
 				<th class="tracklist-th">Genre</th>
 				<th class="tracklist-th">Artist & song title</th>
 				<th class="tracklist-th">Song length in minutes and seconds</th>
@@ -18,7 +17,7 @@
 
 			{#each tracks as { id, genre, artist, song, length, year, link } (id)}
 				<tr class={`tracklist-tr${currTrack === id ? ' is-selected' : ''}`}>
-					<td class="tracklist-td tracklist-controls">
+					<td class="tracklist-td tracklist-genre u-heading">
 						<button
 							class="tracklist-track-cover-button"
 							on:click={() => onTrackClick(id)}
@@ -26,13 +25,16 @@
 							<span class="u-visually-hidden">Track {id + 1}</span>
 						</button>
 						{isPlaying && currTrack === id ? '⏸' : '▶️'}
+						{genre}
 					</td>
-					<td class="tracklist-td tracklist-genre">{genre}</td>
 					<td class="tracklist-td tracklist-details">{artist} — “{song}”</td>
 					<td class="tracklist-td tracklist-length">{length}</td>
 					<td class="tracklist-td tracklist-year">{year}</td>
 					<td class="tracklist-td tracklist-link">
-						<a class="tracklist-link" href={`https://${link}`}>{link}</a>
+						<a class="tracklist-link" href={`https://${link}`}>
+							<span class="tracklist-link-text">{link} </span>
+							⃕
+						</a>
 					</td>
 				</tr>
 			{/each}
@@ -91,5 +93,18 @@
 
 	.tracklist-track-cover-button {
 		@include absolute-expand;
+	}
+
+	.tracklist-link {
+		text-decoration: none;
+
+		&:hover .tracklist-link-text,
+		&:focus .tracklist-link-text {
+			text-decoration-color: $white;
+		}
+	}
+	.tracklist-link-text {
+		text-decoration: underline;
+		text-decoration-color: $sun-light;
 	}
 </style>
