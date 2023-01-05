@@ -1,4 +1,10 @@
 <script>
+	import ChevronDownIcon from '$lib/Player/icons/ChevronDownIcon.svelte';
+	import NextIcon from '$lib/Player/icons/NextIcon.svelte';
+	import PauseIcon from '$lib/Player/icons/PauseIcon.svelte';
+	import PlayIcon from '$lib/Player/icons/PlayIcon.svelte';
+	import PrevIcon from '$lib/Player/icons/PrevIcon.svelte';
+
 	import PlayerTracklist from '$lib/Player/PlayerTracklist.svelte';
 	import tracks from '$lib/data/tracklist.json';
 
@@ -55,6 +61,7 @@
 	<!-- <p>current track: <b>{currTrack}</b> ({currTrack + 1} / {tracksCount})</p> -->
 
 	<PlayerTracklist
+		{tracks}
 		{currTrack}
 		{isPlaying}
 		{tracklistOpen}
@@ -78,11 +85,15 @@
 			</dl>
 
 			<div class="player-controls">
-				<button class="player-controls-button" on:click={handlePrev}>⏮</button>
-				<button class="player-controls-button" on:click={togglePlay}
-					>{isPlaying ? '⏸' : '▶️'}</button
-				>
-				<button class="player-controls-button" on:click={handleNext}>⏭</button>
+				<button class="player-controls-button" on:click={handlePrev}>
+					<PrevIcon />
+				</button>
+				<button class="player-controls-button" on:click={togglePlay}>
+					{#if isPlaying} <PauseIcon /> {:else} <PlayIcon /> {/if}
+				</button>
+				<button class="player-controls-button" on:click={handleNext}>
+					<NextIcon />
+				</button>
 			</div>
 
 			<button
@@ -92,7 +103,7 @@
 				<span class="player-toggle-button-text">
 					{tracklistOpen ? 'hide ' : 'show '}
 				</span>
-				tracks ▵
+				tracks <ChevronDownIcon />
 			</button>
 		</div>
 

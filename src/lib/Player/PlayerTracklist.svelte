@@ -1,7 +1,9 @@
 <script>
-	import tracks from '$lib/data/tracklist.json';
+	import OutboundIcon from '$lib/Player/icons/OutboundIcon.svelte';
+	import PauseIcon from '$lib/Player/icons/PauseIcon.svelte';
+	import PlayIcon from '$lib/Player/icons/PlayIcon.svelte';
 
-	export let currTrack, isPlaying, tracklistOpen, onTrackClick;
+	export let tracks, currTrack, isPlaying, tracklistOpen, onTrackClick;
 </script>
 
 <div class={`tracklist is-${tracklistOpen ? 'open' : 'closed'}`}>
@@ -24,7 +26,11 @@
 						>
 							<span class="u-visually-hidden">Track {id + 1}</span>
 						</button>
-						{isPlaying && currTrack === id ? '⏸' : '▶️'}
+						{#if isPlaying && currTrack === id}
+							<PauseIcon />
+						{:else}
+							<PlayIcon />
+						{/if}
 						{genre}
 					</td>
 					<td class="tracklist-td tracklist-details">{artist} — “{song}”</td>
@@ -33,7 +39,7 @@
 					<td class="tracklist-td tracklist-link">
 						<a class="tracklist-link" href={`https://${link}`}>
 							<span class="tracklist-link-text">{link} </span>
-							⃕
+							<OutboundIcon />
 						</a>
 					</td>
 				</tr>
@@ -71,7 +77,7 @@
 	.tracklist-tr.is-selected td {
 		background-color: $black;
 
-		&.tracklist-controls {
+		&.tracklist-genre {
 			border-top-left-radius: 2rem;
 			border-bottom-left-radius: 2rem;
 		}
@@ -85,9 +91,13 @@
 		position: static;
 		padding: 0.25rem;
 
-		&.tracklist-controls {
+		&.tracklist-genre {
 			padding-left: 0.75rem;
 			padding-right: 0;
+
+			svg {
+				pointer-events: none;
+			}
 		}
 	}
 
