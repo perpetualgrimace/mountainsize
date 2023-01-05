@@ -36,9 +36,14 @@
 		top: -6.66rem;
 		object-fit: cover;
 		object-position: bottom;
+	}
 
-		// when menu wraps
-		@media (min-width: 588px) {
+	// when menu wraps
+	@media (min-width: 588px) {
+		.hero:not(.home-hero) .hero-img {
+			height: calc(15vh + 15vw);
+		}
+		.home-hero .hero-img {
 			top: -3.4rem;
 		}
 	}
