@@ -25,7 +25,7 @@
 
 <style lang="scss" global>
 	.hero-inner {
-		padding-top: calc(10vh + 10vw);
+		padding-top: calc(15vh + 12vw);
 		z-index: 1; // above bg
 	}
 
@@ -33,7 +33,7 @@
 		width: 100%;
 		height: calc(20vh + 20vw);
 		position: absolute;
-		top: -6.66rem;
+		top: -6.8rem;
 		object-fit: cover;
 		object-position: bottom;
 	}
@@ -41,10 +41,17 @@
 	// when menu wraps
 	@media (min-width: 588px) {
 		.hero:not(.home-hero) .hero-img {
-			height: calc(15vh + 15vw);
+			height: calc(30vh + 20vw);
+			top: -5rem;
 		}
 		.home-hero .hero-img {
 			top: -3.4rem;
+		}
+	}
+
+	@media (min-width: 1200px) {
+		.hero:not(.home-hero) .hero-img {
+			height: calc(20vh + 20vw);
 		}
 	}
 </style>
