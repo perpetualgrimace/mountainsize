@@ -1,10 +1,16 @@
 <script>
-	export let href, isBlock;
+	export let href, type, isBlock;
 </script>
 
-<a class={`button${isBlock ? ' is-block' : ''}`} {href}>
-	<slot />
-</a>
+{#if type}
+	<button class={`button${isBlock ? ' is-block' : ''}`} {type}>
+		<slot />
+	</button>
+{:else}
+	<a class={`button${isBlock ? ' is-block' : ''}`} {href}>
+		<slot />
+	</a>
+{/if}
 
 <style lang="scss" global>
 	.button {
