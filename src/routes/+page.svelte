@@ -27,14 +27,14 @@
 	<Mic heading="Services" subhead="and pricing" imgSlug="tele">
 		<BulletList multiCol fontSize="lg">
 			<li><a href="services#song-production">Song production</a></li>
-			<li><a href="services#audio-engineering">Audio engineering</a></li>
-			<li><a href="services#tracking-editing">Tracking & editing</a></li>
-			<li><a href="services#mixing-mastering">Mixing & mastering</a></li>
+			<li><a href="services#recording">Recording</a></li>
+			<li><a href="services#mixing">Mixing</a></li>
+			<li><a href="services#mastering">Mastering</a></li>
 			<li>
 				<a href="services#gear-maintenance-mods-repair">Gear maintenance</a>
 			</li>
 			<li>
-				<a href="services#drum-lessons">Drum lessons</a>
+				<a href="services#drum-instruction">Drum instruction</a>
 			</li>
 		</BulletList>
 	</Mic>
@@ -56,17 +56,17 @@
 	<Mic heading="Instruments" subhead="Source is king" imgSlug="lp">
 		<p>
 			I keep a modest but versatile collection of nice instruments (Gibson,
-			Orange, EVH, DW, Meinl, Yamaha, Ibanez, Schecter, etc). I’m sure you do as
-			well, so we’ll use whatever sounds best!
+			Fender, Orange, EVH, DW, Meinl, Yamaha, Ibanez, etc).
 		</p>
+		<p>I’m sure you do as well, so we’ll use whatever sounds best!</p>
 	</Mic>
 
 	<Mic heading="Microphones" subhead="and audio gear" imgSlug="mics">
 		<p>
 			I have a variety of nice sounding mics for different applications, a
 			Kemper, 16 channels of inputs, and a selection of nice plugins. I employ
-			techniques to emulate the sound of analog in the digital realm — best of
-			both worlds.
+			techniques to emulate the sound of analog in the digital realm — the best
+			of both worlds.
 		</p>
 	</Mic>
 

@@ -1,6 +1,7 @@
 <script>
 	import Hero from '$lib/Hero/index.svelte';
 	import HeroHeadline from '$lib/Hero/HeroHeadline.svelte';
+	import Callout from '$lib/Callout.svelte';
 	import TextBlock from '$lib/TextBlock.svelte';
 
 	import Fretboard from '$lib/Fretboard/index.svelte';
@@ -14,23 +15,24 @@
 	<HeroHeadline>
 		The <span class="u-cyan-light-color">only services</span> I charge for
 		<br />are the ones
-		<span class="u-cyan-light-color">I don’t suck at</span>
+		<span class="u-cyan-light-color">I’m good at</span>
 	</HeroHeadline>
 </Hero>
 
 <main class="wrapper">
 	<TextBlock>
-		<h2>Audio engineering & production</h2>
-		<p class="u-subhead u-sun-light-color">$100/day introductiory rate</p>
-		<p class="u-font-lg">
-			I’d rather spend my time making music than counting minutes and hours —
-			I’m sure you feel the same. So to keep things simple, I charge a day rate
-			for all audio production services.
+		<h2>In studio time</h2>
+		<p class="u-subhead u-sun-light-color">
+			$200/day • $150/half day • $50/hour
 		</p>
 		<p class="u-font-lg">
-			I typically get started around noon and work for whatever amount of time
-			makes sense. If we finish with one stage with time and energy to spare, we
-			can continue onto the next.
+			You've probably noticed that my day rate is by far the best deal. That's
+			because I’d rather spend my time making music than counting minutes
+			and hours.
+		</p>
+		<p class="u-font-lg">
+			That said, I offer half day and hourly rates for when that makes
+			more sense.
 		</p>
 	</TextBlock>
 
@@ -56,7 +58,7 @@
 		</Fret>
 
 		<Fret
-			title="Audio engineering"
+			title="Recording"
 			subhead="The right sounds, right at the source"
 			imgSlug="studio"
 		>
@@ -74,63 +76,78 @@
 				Before we record a single note, we’ll make sure we’re using the right
 				gear, microphones, and mic positions for the job.
 			</p>
-		</Fret>
-
-		<Fret
-			title="Tracking & editing"
-			subhead="“Good enough” is never good enough"
-			imgSlug="lp"
-		>
-			<h4>Tracking</h4>
 			<p>
-				I’ll push you to get your best performance possible, so we can do as
-				little editing as possible. We’ll choose and comp takes together
-				as we go.
+				Once we get started, I’ll push you to get your best performance
+				possible, so we can do as little editing as possible. We’ll choose and
+				comp takes together as we go.
 			</p>
-
-			<h4>Editing</h4>
-			<p>
-				Overly edited takes feel robotic, but unedited takes can feel sloppy. I
-				typically edit by hand in a way that feels tight but natural, depending
-				on the project.
-			</p>
-		</Fret>
-
-		<Fret
-			title="Mixing & mastering"
-			subhead="If we didn’t cut any corners, this is the easy part"
-			imgSlug="rack"
-		>
-			<h4>Mixing</h4>
-			<p>
-				It’s exciting to hear the results of all the hard work come together in
-				the mix stage.
-			</p>
-			<p>
-				I’ll make sure every instrument is audible and has its own space in the
-				mix, with the most important elements up front.
-			</p>
-
-			<h4>Mastering</h4>
-			<p>
-				When budget allows, I like to take advantage of a separate mastering
-				professional’s fresh ears.
-			</p>
-			<p>But if not, I can bring out that extra volume and fidelity myself.</p>
 		</Fret>
 	</Fretboard>
 
-	<TextBlock>
+	<Callout>
 		<h3>Recording session payment policy</h3>
 		<BulletList>
 			<li>
 				25% deposit required at time of booking; non-refundable if cancelled
 				within 7 days of scheduled session.
 			</li>
-			<li>Additional 25% of project estimate due on the first session.</li>
-			<li>Remaining 50% due upon project completion.</li>
+			<li>Remainder due at the end of the session</li>
 		</BulletList>
+	</Callout>
+
+	<TextBlock>
+		<h2>Mix & master flat rates</h2>
+		<p class="u-subhead u-sun-light-color">
+			<strong>Introductory special: Free mix & master</strong>
+			<br /><span class="u-cyan-light-color">if the song was tracked here</span>
+		</p>
+		<p class="u-font-lg">
+			Once we’ve finished tracking, there is still a lot of work to be done in
+			order to get your song sounding professional.
+		</p>
+		<p class="u-font-lg">
+			This part of the job is best done on my own without distractions. I 
+			charge a flat rate per song. Three revisions included.
+		</p>
 	</TextBlock>
+
+	<Fretboard>
+		<Fret title="Mixing" subhead="$100/song" subheadColor="sun" imgSlug="rack">
+			<p>
+				It’s exciting to hear the results of all the hard work come together in
+				the mix stage. I’ll make sure every instrument is audible and has its
+				own space in the mix, with the most important elements up front.
+			</p>
+			<p>
+				This is also where I will do any necessary editing. We’ll talk
+				beforehand to determine how much editing will be needed.
+			</p>
+		</Fret>
+
+		<Fret
+			title="Mastering"
+			subhead="$50/song"
+			subheadColor="sun"
+			imgSlug="headphones"
+		>
+			<p>
+				When budget allows, I like to take advantage of a separate mastering
+				professional’s fresh ears.
+			</p>
+			<p>
+				But in the event that this isn’t feasible, I can bring out that extra
+				5-10% of volume and fidelity myself.
+			</p>
+		</Fret>
+	</Fretboard>
+
+	<Callout>
+		<h3>Mix & master payment policy</h3>
+		<BulletList>
+			<li>50% deposit required up front.</li>
+			<li>Remainder due upon project completion.</li>
+		</BulletList>
+	</Callout>
 
 	<TextBlock>
 		<h2>Additional services</h2>
@@ -150,11 +167,11 @@
 			</p>
 			<p>
 				I can clean, setup, restore, and tune your neglected guitar or drum kit.
-				It’ll punch well above its weight when I’m through with it!
+				There’s something I find very satisfying about this sort of work.
 			</p>
 			<p>
 				I can do some mods as well. And if something is wrong, I can help you
-				diagnose and fix the issue — amps included.
+				diagnose and fix the issue.
 			</p>
 			<p>
 				If I can’t do the job then I won’t charge you, and I’ll do my best to
@@ -163,7 +180,7 @@
 		</Fret>
 
 		<Fret
-			title="Drum lessons"
+			title="Drum instruction"
 			subhead="$20/hour session introductiory rate"
 			subheadColor="sun"
 			imgSlug="student-kit"

@@ -5,9 +5,9 @@
 
 	const services = [
 		{ label: 'Song production', value: 'song-production' },
-		{ label: 'Audio engineering', value: 'audio-engineering' },
-		{ label: 'Tracking & editing', value: 'tracking-editing' },
-		{ label: 'Mixing & mastering', value: 'mixing-mastering' },
+		{ label: 'Recording', value: 'recording' },
+		{ label: 'Mixing', value: 'mixing' },
+		{ label: 'Mastering', value: 'mastering' },
 		{ label: 'Gear maintenance', value: 'gear-maintenance' },
 		{ label: 'Drum instruction', value: 'drum-instructionn' }
 	];
