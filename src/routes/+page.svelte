@@ -3,6 +3,7 @@
 	import HeroHeadline from '$lib/Hero/HeroHeadline.svelte';
 	import HeroParagraph from '$lib/Hero/HeroParagraph.svelte';
 
+	import Button from '$lib/Button.svelte';
 	import Diptych from '$lib/Diptych.svelte';
 	import Mic from '$lib/Mic.svelte';
 	import BulletList from '$lib/BulletList.svelte';
@@ -15,11 +16,9 @@
 		<span class="u-cyan-light-color">Asheville NC</span>
 	</HeroHeadline>
 	<HeroParagraph>
-		Asheville is more than pretty views and good food.
+		Together, we'll make music so big it can't be ignored
 	</HeroParagraph>
-	<HeroParagraph>
-		Together, we'll make music so big it can't be ignored.
-	</HeroParagraph>
+	<Button href="contact">Get started</Button>
 </Hero>
 
 <main class="wrapper">
