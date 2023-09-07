@@ -28,3 +28,37 @@ main {
 	z-index: 20;
 	min-height: 2.45rem;
 }
+
+@media (max-width: 799px) {
+	.contact-field-services-checkboxes {
+		column-width: 10rem;
+		margin-bottom: -$sp-sm;
+
+		.control {
+			margin-bottom: $sp-sm;
+		}
+	}
+}
+@media (min-width: 800px) {
+	.contact-form {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-column-gap: $sp-xl;
+
+		.contact-field-name {
+			grid-column: 1 / span 2;
+		}
+		.contact-field-email {
+			grid-column: 3 / span 2;
+		}
+		.contact-field-services {
+			grid-column: 1 / 2;
+		}
+		.contact-field-message {
+			grid-column: 2 / span 3;
+		}
+		.button {
+			grid-column: 1 / span 4;
+		}
+	}
+}

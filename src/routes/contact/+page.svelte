@@ -40,7 +40,7 @@
 			value="mountainsize-form"
 		/>
 
-		<label class="u-mb-lg">
+		<label class="u-mb-lg contact-field-name">
 			<div class="u-heading u-mb-xxs">Your name</div>
 			<input
 				name="name"
@@ -51,7 +51,7 @@
 			/>
 		</label>
 
-		<label class="u-mb-lg">
+		<label class="u-mb-lg contact-field-email">
 			<div class="u-heading u-mb-xxs">Your email address</div>
 			<input
 				name="email"
@@ -62,22 +62,24 @@
 			/>
 		</label>
 
-		<div class="u-mb-lg">
+		<div class="u-mb-lg contact-field-services">
 			<p class="u-heading u-mb-0">Services requested</p>
 			<p class="help u-cyan-light-color u-font-sm u-mb-sm">
 				Check any that might apply
 			</p>
 
-			{#each services as input}
-				<label class="control">
-					<input type="checkbox" value={input.value} />
-					<div class="control-indicator" />
-					{input.label}
-				</label>
-			{/each}
+			<div class="contact-field-services-checkboxes">
+				{#each services as input}
+					<label class="control">
+						<input type="checkbox" value={input.value} />
+						<div class="control-indicator" />
+						{input.label}
+					</label>
+				{/each}
+			</div>
 		</div>
 
-		<label class="u-mb-lg">
+		<label class="u-mb-lg contact-field-message">
 			<div class="u-heading u-mb-0">Brief project description</div>
 			<div class="help u-cyan-light-color u-font-sm u-mb-sm">
 				Or your favorite band, I’m down to talk about whatever
