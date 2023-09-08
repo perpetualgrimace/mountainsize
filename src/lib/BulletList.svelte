@@ -1,5 +1,5 @@
 <script>
-	export let multiCol,
+	export let multiCol = undefined,
 		fontSize = 'md';
 </script>
 

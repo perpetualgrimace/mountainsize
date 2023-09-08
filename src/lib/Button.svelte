@@ -1,5 +1,7 @@
 <script>
-	export let href, type, isBlock;
+	export let href = undefined,
+		type = undefined,
+		isBlock = undefined;
 </script>
 
 {#if type}

@@ -2,10 +2,10 @@
 	import Button from '$lib/Button.svelte';
 
 	export let heading,
-		subhead,
+		subhead = undefined,
 		subheadAbove = false,
 		showButton = false,
-		imgSlug;
+		imgSlug = undefined;
 </script>
 
 <section class="mic">
