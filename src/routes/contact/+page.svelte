@@ -69,7 +69,11 @@
 			<fieldset class="contact-field-services-checkboxes">
 				{#each services as input}
 					<label class="control">
-						<input type="checkbox" name={input.label} value={input.value} />
+						<input
+							type="checkbox"
+							name={input.label}
+							value={input.value ? '✅ yes' : 'no thanks'}
+						/>
 						<div class="control-indicator" />
 						{input.label}
 					</label>
