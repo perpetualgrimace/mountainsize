@@ -66,15 +66,15 @@
 				Check any that might apply
 			</p>
 
-			<div class="contact-field-services-checkboxes">
+			<fieldset class="contact-field-services-checkboxes">
 				{#each services as input}
 					<label class="control">
-						<input type="checkbox" value={input.value} />
+						<input type="checkbox" label={input.label} value={input.value} />
 						<div class="control-indicator" />
 						{input.label}
 					</label>
 				{/each}
-			</div>
+			</fieldset>
 		</div>
 
 		<label class="u-mb-lg contact-field-message">
