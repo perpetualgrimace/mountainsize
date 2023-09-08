@@ -26,7 +26,7 @@
 <main class="wrapper">
 	<form
 		class="contact-form u-mb-md"
-		name="mountainsize-form"
+		name="mountainsize"
 		method="POST"
 		netlify-honeypot="bot-field"
 		data-netlify="true"
@@ -35,7 +35,7 @@
 			class="contact-input"
 			type="hidden"
 			name="form-name"
-			value="mountainsize-form"
+			value="mountainsize"
 		/>
 
 		<label class="u-mb-lg contact-field-name">
