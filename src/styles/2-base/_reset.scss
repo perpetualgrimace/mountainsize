@@ -27,9 +27,10 @@ html {
 }
 
 // Hide horizontal scroll bars. Just in case.
-html, body {
+html, body, [style="display: contents"] {
 	width: 100%;
 	max-width: 100%;
+	overflow-x: hidden;
 }
 
 // Forms are stupid
