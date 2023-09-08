@@ -20,7 +20,7 @@
 			display: inline-block;
 			vertical-align: middle;
 			background-size: contain;
-			background-image: url('bullet.svg');
+			background-image: url('/bullet.svg');
 			background-repeat: no-repeat;
 			width: 0.5em;
 			height: 0.625em;
