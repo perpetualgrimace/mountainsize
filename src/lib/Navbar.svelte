@@ -10,7 +10,7 @@
 	<a
 		class="navbar-link navbar-logo"
 		href="."
-		aria-current={!$page.routeId ? 'page' : null}
+		aria-current={$page.route.id === '/' ? 'page' : null}
 	>
 		<Logo {isHorizontal} />
 	</a>
@@ -19,7 +19,7 @@
 		<a
 			class="navbar-link u-font-md"
 			href="."
-			aria-current={!$page.routeId ? 'page' : null}
+			aria-current={$page.route.id === '/' ? 'page' : null}
 			aria-hidden
 		>
 			Home
@@ -27,14 +27,14 @@
 		<a
 			class="navbar-link u-font-md"
 			href="/services"
-			aria-current={$page.routeId === 'services' ? 'page' : null}
+			aria-current={$page.route.id === '/services' ? 'page' : null}
 		>
 			Services & pricing
 		</a>
 		<a
 			class="navbar-link u-font-md"
 			href="/contact"
-			aria-current={$page.routeId === 'contact' ? 'page' : null}
+			aria-current={$page.route.id === '/contact' ? 'page' : null}
 		>
 			Contact & booking
 		</a>
