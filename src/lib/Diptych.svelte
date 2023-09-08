@@ -25,6 +25,10 @@
 	.diptych {
 		margin: $sp-xxl (-$sp-md) $sp-xxl * 2.5 (-$sp-md);
 
+		@media (max-width: 499px) {
+			transform: scale(1.125);
+		}
+
 		@media (min-width: 600px) {
 			margin-left: -$sp-xl;
 			margin-right: -$sp-xl;

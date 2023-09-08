@@ -62,10 +62,21 @@
 		align-items: center;
 		margin-left: -$sp-xs;
 		margin-right: -$sp-xs;
+
+		@media (max-width: 599px) {
+			display: block;
+			text-align: center;
+		}
 	}
 
 	.navbar-link:first-of-type {
 		margin-right: auto;
+
+		@media (max-width: 599px) {
+			&:not(.navbar-logo) {
+				display: none;
+			}
+		}
 	}
 
 	.navbar-link {

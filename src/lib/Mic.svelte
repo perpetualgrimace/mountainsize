@@ -60,7 +60,10 @@
 		height: 11rem;
 
 		@media (max-width: 665px) {
-			margin-bottom: $sp-lg;
+			position: absolute;
+			top: 0;
+			right: 0;
+			opacity: 0.25;
 		}
 	}
 
