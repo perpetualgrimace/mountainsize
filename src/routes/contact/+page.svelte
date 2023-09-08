@@ -11,8 +11,6 @@
 		{ label: 'Gear maintenance', value: 'gear-maintenance' },
 		{ label: 'Drum instruction', value: 'drum-instructionn' }
 	];
-
-	// https://www.netlify.com/blog/easy-html-forms-in-sveltekit-with-netlify-forms/
 </script>
 
 <Hero imgSlug="contact-hero">
@@ -27,7 +25,7 @@
 
 <main class="wrapper">
 	<form
-		class="contact-form"
+		class="contact-form u-mb-md"
 		name="mountainsize-form"
 		method="POST"
 		netlify-honeypot="bot-field"
