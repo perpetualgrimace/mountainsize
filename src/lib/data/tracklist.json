@@ -1,13 +1,13 @@
 [
 	{
 		"id": 0,
-		"genre": "Metal",
+		"genre": "Rock/metal",
 		"artist": "The Welcoming",
-		"song": "The Messiah",
-		"length": "4:14",
-		"year": 2021,
+		"song": "The Unknown",
+		"length": "4:28",
+		"year": 2023,
 		"link": "thewelcomingmusic.com",
-		"src": "/tracks/messiah.mp3"
+		"src": "/tracks/unknown.mp3"
 	},
 	{
 		"id": 1,
@@ -31,6 +31,16 @@
 	},
 	{
 		"id": 3,
+		"genre": "Metal",
+		"artist": "The Welcoming",
+		"song": "The Messiah",
+		"length": "4:14",
+		"year": 2021,
+		"link": "thewelcomingmusic.com",
+		"src": "/tracks/messiah.mp3"
+	},
+	{
+		"id": 4,
 		"genre": "Progressive rock",
 		"artist": "Red Era",
 		"song": "The Trials",
@@ -40,7 +50,7 @@
 		"src": "/tracks/trials.mp3"
 	},
 	{
-		"id": 4,
+		"id": 5,
 		"genre": "Post-hardcore",
 		"artist": "Waypoints",
 		"song": "The Void",
@@ -50,7 +60,7 @@
 		"src": "/tracks/void.mp3"
 	},
 	{
-		"id": 5,
+		"id": 6,
 		"genre": "Math rock",
 		"artist": "Ambushed",
 		"song": "Plinksticity",
