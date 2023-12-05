@@ -91,7 +91,7 @@
 				25% deposit required at time of booking; non-refundable if cancelled
 				within 7 days of scheduled session.
 			</li>
-			<li>Remainder due at the end of the session</li>
+			<li>Remainder due at the end of the session.</li>
 		</BulletList>
 	</Callout>
 

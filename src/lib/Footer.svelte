@@ -5,7 +5,7 @@
 
 <div class="footer">
 	<footer class="footer-top wrapper">
-		<Navbar isHorizontal={false} />
+		<Navbar isHorizontal={false} showSecondaryPages={true} />
 		<ul class="footer-social-list">
 			<li class="footer-social-item">
 				<SocialLink

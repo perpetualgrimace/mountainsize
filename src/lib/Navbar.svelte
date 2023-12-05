@@ -4,6 +4,7 @@
 	import Logo from '$lib/Logo.svelte';
 
 	export let isHorizontal = true;
+	export let showSecondaryPages = false;
 </script>
 
 <nav class="navbar">
@@ -31,6 +32,17 @@
 		>
 			Services & pricing
 		</a>
+		{#if showSecondaryPages}
+			<a
+				class="navbar-link u-font-md"
+				href="/rules-and-recommendations"
+				aria-current={$page.route.id === '/rules-and-recommendations'
+					? 'page'
+					: null}
+			>
+				Studio rules
+			</a>
+		{/if}
 		<a
 			class="navbar-link u-font-md"
 			href="/contact"
