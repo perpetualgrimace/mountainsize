@@ -21,44 +21,89 @@
 
 <main class="wrapper">
 	<TextBlock>
+		<h2>Project flat rates</h2>
+		<p class="u-subhead u-sun-light-color">
+			<strong>Introductory special: </strong>
+			<br /><span class="u-sun-light-color"
+				>Free mix & master if the song was tracked here</span
+			>
+		</p>
+		<p class="u-font-lg">
+			I charge a flat rate for the work I do on my own time. I want to make sure
+			you’re happy with my work, so I won’t rush it!
+		</p>
+	</TextBlock>
+
+	<Fretboard>
+		<Fret title="Mixing" subhead="$100/song" subheadColor="sun" imgSlug="rack">
+			<p>
+				It’s exciting to hear the results of all the hard work come together in
+				the mix stage. I’ll make sure every instrument is audible and has its
+				own space in the mix, with the most important elements up front.
+			</p>
+			<p>
+				This is also where I will do any necessary editing. We’ll talk
+				beforehand to determine how much editing will be needed.
+			</p>
+			<p>I’ll do a free test mix if you’re on the fence!</p>
+		</Fret>
+		<Fret
+			title="Mastering"
+			subhead="$30/song"
+			subheadColor="sun"
+			imgSlug="headphones"
+		>
+			<p>
+				When budget allows, I like to take advantage of a separate mastering
+				professional’s fresh ears.
+			</p>
+			<p>
+				But in the event that this isn’t feasible, I can bring out that extra
+				5-10% of volume and fidelity myself.
+			</p>
+		</Fret>
+		<Fret
+			title="Session musician"
+			subhead="$100/song"
+			subheadColor="sun"
+			imgSlug="student-kit"
+		>
+			<p>Bring your music to life with a killer drum sound and performance!</p>
+
+			<p>
+				Whether you’ve programmed drum parts and want them performed faithfully
+				or trust me to do my own thing, you won’t be disappointed.
+			</p>
+			<p>
+				I’m happy to lay down bass, auxilliary percussion, or backing
+				vocals too. Consider me an extra band member for your project!
+			</p>
+		</Fret>
+	</Fretboard>
+
+	<Callout>
+		<h3>Project payment policy</h3>
+		<BulletList>
+			<li>50% deposit required up front.</li>
+			<li>Remainder due upon project completion.</li>
+		</BulletList>
+	</Callout>
+
+	<TextBlock>
 		<h2>In studio time</h2>
 		<p class="u-subhead u-sun-light-color">
 			$200/day • $150/half day • $50/hour
 		</p>
 		<p class="u-font-lg">
-			You've probably noticed that my day rate is by far the best deal. That's
-			because I’d rather spend my time making music than counting minutes
-			and hours.
-		</p>
-		<p class="u-font-lg">
-			That said, I offer half day and hourly rates for when that makes
-			more sense.
+			My day rate is by far the best deal — I’d rather spend my time counting
+			measures than minutes. But I offer half day and hourly rates for when that
+			makes more sense. I’m flexible!
 		</p>
 	</TextBlock>
 
 	<Fretboard>
 		<Fret
-			title="Song production"
-			subhead="A great recording requires a great song"
-			imgSlug="rig-2"
-		>
-			<p>A well written song brings the listener on a journey.</p>
-			<p>
-				There are peaks and valleys to explore, with glimpses of the destination
-				along the way. The journey feels familiar, yet new and exciting.
-			</p>
-			<p>
-				There are lots of ways it can go wrong. We walk the line between keeping
-				the listener engaged and leaving them behind.
-			</p>
-			<p>
-				I’ll offer my perspective as both a listener and songwriter to stay on
-				the right track.
-			</p>
-		</Fret>
-
-		<Fret
-			title="Recording"
+			title="In-studio recording sessions"
 			subhead="The right sounds, right at the source"
 			imgSlug="studio"
 		>
@@ -95,111 +140,14 @@
 		</BulletList>
 	</Callout>
 
-	<TextBlock>
-		<h2>Mix & master flat rates</h2>
-		<p class="u-subhead u-sun-light-color">
-			<strong>Introductory special: Free mix & master</strong>
-			<br /><span class="u-cyan-light-color">if the song was tracked here</span>
-		</p>
-		<p class="u-font-lg">
-			Once we’ve finished tracking, there is still a lot of work to be done in
-			order to get your song sounding professional.
-		</p>
-		<p class="u-font-lg">
-			This part of the job is best done on my own without distractions. I 
-			charge a flat rate per song. Three revisions included.
-		</p>
-	</TextBlock>
-
-	<Fretboard>
-		<Fret title="Mixing" subhead="$100/song" subheadColor="sun" imgSlug="rack">
-			<p>
-				It’s exciting to hear the results of all the hard work come together in
-				the mix stage. I’ll make sure every instrument is audible and has its
-				own space in the mix, with the most important elements up front.
-			</p>
-			<p>
-				This is also where I will do any necessary editing. We’ll talk
-				beforehand to determine how much editing will be needed.
-			</p>
-		</Fret>
-
-		<Fret
-			title="Mastering"
-			subhead="$50/song"
-			subheadColor="sun"
-			imgSlug="headphones"
-		>
-			<p>
-				When budget allows, I like to take advantage of a separate mastering
-				professional’s fresh ears.
-			</p>
-			<p>
-				But in the event that this isn’t feasible, I can bring out that extra
-				5-10% of volume and fidelity myself.
-			</p>
-		</Fret>
-	</Fretboard>
-
-	<Callout>
-		<h3>Mix & master payment policy</h3>
-		<BulletList>
-			<li>50% deposit required up front.</li>
-			<li>Remainder due upon project completion.</li>
-		</BulletList>
-	</Callout>
-
-	<TextBlock>
-		<h2>Additional services</h2>
-		<p class="u-subhead">Level up your skills or gear</p>
-	</TextBlock>
-
-	<Fretboard>
-		<Fret
-			title="Gear maintenance, mods & repair"
-			subhead="Priced per project"
-			subheadColor="sun"
-			imgSlug="drum-repair"
-		>
-			<p>
-				Getting the best takes requires an instrument that is comfortable and
-				in tune.
-			</p>
-			<p>
-				I can clean, setup, restore, and tune your neglected guitar or drum kit.
-				There’s something I find very satisfying about this sort of work.
-			</p>
-			<p>
-				I can do some mods as well. And if something is wrong, I can help you
-				diagnose and fix the issue.
-			</p>
-			<p>
-				If I can’t do the job then I won’t charge you, and I’ll do my best to
-				recommend someone who can.
-			</p>
-		</Fret>
-
-		<Fret
-			title="Drum instruction"
-			subhead="$20/hour session introductiory rate"
-			subheadColor="sun"
-			imgSlug="student-kit"
-		>
-			<p>
-				I’ve been playing drums at an increasingly high level for 20+ years.
-				Whether you’re just starting out or you’ve been at it for a while, we
-				can take your playing to the next level.
-			</p>
-			<p>
-				And even if you have impressive chops, we can work on stuff like how to
-				approach learning songs and compose parts, how to mix yourself, and
-				tricky concepts like odd time signatures and polymeter.
-			</p>
-		</Fret>
-	</Fretboard>
+	<br />
 
 	<Mic heading="Let’s get started" showButton imgSlug="james">
-		<p>Whatever you want to accomplish, together we’ll crush it!</p>
+		<p>
+			I offer competative pricing because I know how hard it is out there. But
+			if I’m still outside of your budget, contact me and we’ll work
+			something out!
+		</p>
 	</Mic>
 </main>
 

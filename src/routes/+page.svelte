@@ -26,15 +26,11 @@
 
 	<Mic heading="Services" subhead="and pricing" imgSlug="tele">
 		<BulletList multiCol fontSize="lg">
-			<li><a href="services#song-production">Song production</a></li>
-			<li><a href="services#recording">Recording</a></li>
 			<li><a href="services#mixing">Mixing</a></li>
 			<li><a href="services#mastering">Mastering</a></li>
+			<li><a href="services#session-musician">Session musician</a></li>
 			<li>
-				<a href="services#gear-maintenance-mods-repair">Gear maintenance</a>
-			</li>
-			<li>
-				<a href="services#drum-instruction">Drum instruction</a>
+				<a href="services#in-studio-recording-sessions">In-studio sessions</a>
 			</li>
 		</BulletList>
 	</Mic>
@@ -82,7 +78,7 @@
 			heavy music, and the past 10+ years recording and mixing it. I get the big
 			picture, but also sweat the details.
 		</p>
-		<p>Let’s work together to make your music memorable and massive!</p>
+		<p>I will put the same amount of care into your music as I do my own!</p>
 	</Mic>
 </main>
 

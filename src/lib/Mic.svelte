@@ -27,7 +27,7 @@
 			<slot />
 		</div>
 		{#if showButton}
-			<Button href="contact">Book a session</Button>
+			<Button href="contact">Let’s get started</Button>
 		{/if}
 	</div>
 </section>

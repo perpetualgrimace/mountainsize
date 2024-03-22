@@ -4,12 +4,10 @@
 	import Button from '$lib/Button.svelte';
 
 	const services = [
-		{ label: 'Song production', value: 'song-production' },
-		{ label: 'Recording', value: 'recording' },
 		{ label: 'Mixing', value: 'mixing' },
 		{ label: 'Mastering', value: 'mastering' },
-		{ label: 'Gear maintenance', value: 'gear-maintenance' },
-		{ label: 'Drum instruction', value: 'drum-instructionn' }
+		{ label: 'Session musician', value: 'session-musician' },
+		{ label: 'In-studio recording session', value: 'in-studio-session' }
 	];
 </script>
 
@@ -17,10 +15,11 @@
 	<HeroHeadline>
 		Let’s <span class="u-cyan-light-color"> get started</span>
 	</HeroHeadline>
-	<p class="u-font-lg u-mb-sm">Please fill out this quick contact form.</p>
-	<p class="u-font-lg u-mb-xl">
-		I’ll do my best to get back to you within 24 hours!
+	<p class="u-font-lg u-mb-sm">
+		Please fill out this quick contact form and I’ll do my best to get back to
+		you within 24 hours.
 	</p>
+	<p class="u-font-lg u-mb-xl">I’m excited to hear about your project!</p>
 </Hero>
 
 <main class="wrapper">
@@ -68,7 +67,7 @@
 
 			<fieldset class="contact-field-services-checkboxes">
 				{#each services as input}
-					<label class="control">
+					<label class="control u-mb-sm">
 						<input
 							type="checkbox"
 							name={input.label}
