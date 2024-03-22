@@ -35,10 +35,8 @@
 		{#if showSecondaryPages}
 			<a
 				class="navbar-link u-font-md"
-				href="/rules-and-recommendations"
-				aria-current={$page.route.id === '/rules-and-recommendations'
-					? 'page'
-					: null}
+				href="/studio-rules"
+				aria-current={$page.route.id === '/studio-rules' ? 'page' : null}
 			>
 				Studio rules
 			</a>
