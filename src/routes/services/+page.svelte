@@ -23,10 +23,10 @@
 	<TextBlock>
 		<h2>Project flat rates</h2>
 		<p class="u-subhead u-sun-light-color">
-			<strong>Introductory special: </strong>
-			<br /><span class="u-sun-light-color"
-				>Free mix & master if the song was tracked here</span
-			>
+			<strong>Limited special (through the end of January 2025): </strong>
+			<br /><span class="u-sun-light-color">
+				Free mix & master if the song was tracked here
+			</span>
 		</p>
 		<p class="u-font-lg">
 			I charge a flat rate for the work I do on my own time. I want to make sure
@@ -45,7 +45,14 @@
 				This is also where I will do any necessary editing. We’ll talk
 				beforehand to determine how much editing will be needed.
 			</p>
-			<p>I’ll do a free test mix if you’re on the fence!</p>
+			<p>
+				An additional $50 charge applies for songs longer than 4:44 — longer
+				songs are more work!
+			</p>
+			<p>
+				On the other hand, I’ll cut you a deal if we’re mixing multiple songs.
+				And I’m happy to do a free test mix if you’re on the fence!
+			</p>
 		</Fret>
 		<Fret
 			title="Mastering"
@@ -64,20 +71,21 @@
 		</Fret>
 		<Fret
 			title="Session musician"
-			subhead="$100/song"
+			subhead="$150/song"
 			subheadColor="sun"
 			imgSlug="student-kit"
 		>
-			<p>Bring your music to life with a killer drum sound and performance!</p>
+			<p>Bring your music to life with a killer drum sound and performance!</p>
 
 			<p>
 				Whether you’ve programmed drum parts and want them performed faithfully
-				or trust me to do my own thing, you won’t be disappointed.
+				or trust me to do my own thing, you won’t be disappointed.
 			</p>
 			<p>
 				I’m happy to lay down bass, auxilliary percussion, or backing
 				vocals too. Consider me an extra band member for your project!
 			</p>
+			<p>I’ll also mix the song for half price if I’m playing on it!</p>
 		</Fret>
 	</Fretboard>
 
@@ -85,19 +93,20 @@
 		<h3>Project payment policy</h3>
 		<BulletList>
 			<li>50% deposit required up front.</li>
-			<li>Remainder due upon project completion.</li>
+			<li>
+				Remainder due upon project completion, or one month after project start
+				— whichever comes first. You won’t be waiting long on me!
+			</li>
 		</BulletList>
 	</Callout>
 
 	<TextBlock>
 		<h2>In studio time</h2>
-		<p class="u-subhead u-sun-light-color">
-			$200/day • $150/half day • $50/hour
-		</p>
+		<p class="u-subhead u-sun-light-color">$200/day • $40/hour</p>
 		<p class="u-font-lg">
-			My day rate is by far the best deal — I’d rather spend my time counting
-			measures than minutes. But I offer half day and hourly rates for when that
-			makes more sense. I’m flexible!
+			My day rate is the best deal — I’d rather spend my time counting measures
+			than minutes. But I also offer an hourly rate for when that makes
+			more sense. I’m flexible!
 		</p>
 	</TextBlock>
 
@@ -136,7 +145,7 @@
 				25% deposit required at time of booking; non-refundable if cancelled
 				within 7 days of scheduled session.
 			</li>
-			<li>Remainder due at the end of the session.</li>
+			<li>Remainder due at the end of the session.</li>
 		</BulletList>
 	</Callout>
 
