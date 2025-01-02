@@ -67,9 +67,12 @@
 		bottom: 2.45rem;
 		left: 0;
 		right: 0;
-		background-color: rgba($dark, 0.975);
+		max-height: calc(100vh - 2.45rem);
+		overflow-y: auto;
+		display: flex;
 		padding-top: $sp-md;
 		padding-bottom: $sp-md;
+		background-color: rgba($dark, 0.975);
 		border-top-left-radius: $radius-lg;
 		border-top-right-radius: $radius-lg;
 		transition: opacity 0.2s ease-out, transform 0.2s ease-out;
@@ -80,6 +83,10 @@
 			transform: translateY(calc(100% + 2.45rem));
 		}
 	}
+
+	// .tracklist-inner {
+	// 	margin-top: auto;
+	// }
 
 	.tracklist-table {
 		width: calc(100% + 2rem);

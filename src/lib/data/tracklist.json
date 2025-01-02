@@ -11,6 +11,46 @@
 	},
 	{
 		"id": 1,
+		"genre": "Math rock",
+		"artist": "Say NO! To YES!",
+		"song": "Natalie Portmanteau",
+		"length": "6:11",
+		"year": 2024,
+		"link": "linktr.ee/saynotoyes",
+		"src": "/tracks/natalie-portmanteau.mp3"
+	},
+	{
+		"id": 2,
+		"genre": "Hard blues",
+		"artist": "Mayhem City Blues Band",
+		"song": "20th Century Blues",
+		"length": "3:16",
+		"year": 2024,
+		"link": "facebook.com/profile.php?id=61569285011639",
+		"src": "/tracks/20th-century-blues.mp3"
+	},
+	{
+		"id": 3,
+		"genre": "Folk",
+		"artist": "Acklen Walker",
+		"song": "Appalachia Still Remains",
+		"length": "2:59",
+		"year": 2024,
+		"link": "acklenwalker.bandcamp.com/track/appalachia-still-remains",
+		"src": "/tracks/appalachia-still-remains.mp3"
+	},
+	{
+		"id": 4,
+		"genre": "Garage rock",
+		"artist": "Call The Next Witness",
+		"song": "Pendulum",
+		"length": "3:53",
+		"year": 2024,
+		"link": "cavernsofgold.bandcamp.com/track/pendulum",
+		"src": "/tracks/pendulum.mp3"
+	},
+	{
+		"id": 5,
 		"genre": "Metalcore",
 		"artist": "Embrace the Animal",
 		"song": "Ashes of Irondale",
@@ -20,7 +60,7 @@
 		"src": "/tracks/ashes.mp3"
 	},
 	{
-		"id": 2,
+		"id": 6,
 		"genre": "Hard rock",
 		"artist": "Here Lies Wes",
 		"song": "Nihilty",
@@ -30,17 +70,7 @@
 		"src": "/tracks/nihilty.mp3"
 	},
 	{
-		"id": 3,
-		"genre": "Metal",
-		"artist": "The Welcoming",
-		"song": "The Messiah",
-		"length": "4:14",
-		"year": 2021,
-		"link": "thewelcomingmusic.com",
-		"src": "/tracks/messiah.mp3"
-	},
-	{
-		"id": 4,
+		"id": 7,
 		"genre": "Progressive rock",
 		"artist": "Red Era",
 		"song": "The Trials",
@@ -50,7 +80,7 @@
 		"src": "/tracks/trials.mp3"
 	},
 	{
-		"id": 5,
+		"id": 8,
 		"genre": "Post-hardcore",
 		"artist": "Waypoints",
 		"song": "The Void",
@@ -60,8 +90,8 @@
 		"src": "/tracks/void.mp3"
 	},
 	{
-		"id": 6,
-		"genre": "Math rock",
+		"id": 9,
+		"genre": "Alt rock",
 		"artist": "Ambushed",
 		"song": "Plinksticity",
 		"length": "4:32",
