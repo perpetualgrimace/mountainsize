@@ -20,10 +20,7 @@
 				/>
 			</li>
 			<li class="footer-social-item">
-				<SocialLink
-					title="twitter"
-					href="https://twitter.com/mountainsizeaudio"
-				/>
+				<SocialLink title="bluesky" href="https://mountainsize.bsky.social" />
 			</li>
 		</ul>
 	</footer>
