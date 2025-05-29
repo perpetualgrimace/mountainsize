@@ -10,7 +10,9 @@ const config = {
 	preprocess: [
 		sveltePreprocess({
 			scss: {
-				prependData: `@import './src/styles/_global-imports.scss';`
+				prependData: `@import './src/styles/_global-imports.scss';`,
+				api: 'modern',
+				silenceDeprecations: ['import', 'legacy-js-api']
 			}
 		}),
 		mdsvex({
