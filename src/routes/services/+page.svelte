@@ -1,4 +1,6 @@
 <script>
+	import Meta from '$lib/Meta.svelte';
+
 	import Hero from '$lib/Hero/index.svelte';
 	import HeroHeadline from '$lib/Hero/HeroHeadline.svelte';
 	import Callout from '$lib/Callout.svelte';
@@ -10,6 +12,11 @@
 	import Mic from '$lib/Mic.svelte';
 	import BulletList from '$lib/BulletList.svelte';
 </script>
+
+<Meta
+	title="Mountainsize Services"
+	description="Recording, mixing, mastering, editing, production, session musician, design & web development. Affordable, no bullshit pricing."
+/>
 
 <Hero imgSlug="services-hero">
 	<HeroHeadline>

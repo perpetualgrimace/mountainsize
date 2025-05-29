@@ -1,4 +1,6 @@
 <script>
+	import Meta from '$lib/Meta.svelte';
+
 	import Hero from '$lib/Hero/index.svelte';
 	import HeroHeadline from '$lib/Hero/HeroHeadline.svelte';
 	import HeroParagraph from '$lib/Hero/HeroParagraph.svelte';
@@ -8,6 +10,8 @@
 	import Mic from '$lib/Mic.svelte';
 	import BulletList from '$lib/BulletList.svelte';
 </script>
+
+<Meta />
 
 <Hero imgSlug="home-hero">
 	<HeroHeadline>

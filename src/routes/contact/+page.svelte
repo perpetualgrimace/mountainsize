@@ -1,4 +1,6 @@
 <script>
+	import Meta from '$lib/Meta.svelte';
+
 	import Hero from '$lib/Hero/index.svelte';
 	import HeroHeadline from '$lib/Hero/HeroHeadline.svelte';
 	import Button from '$lib/Button.svelte';
@@ -10,6 +12,8 @@
 		{ label: 'In-studio recording session', value: 'in-studio-session' }
 	];
 </script>
+
+<Meta title="Mountainsize Booking" />
 
 <Hero imgSlug="contact-hero">
 	<HeroHeadline>
