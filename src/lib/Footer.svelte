@@ -32,7 +32,11 @@
 			<li class="footer-bottom-item u-font-sm">©2022 Mountainsize Audio LLC</li>
 			<li class="footer-bottom-item u-font-sm">Asheville, NC 28803</li>
 			<li class="footer-bottom-item u-font-sm">
-				Website designed & built by <a href="https://jamesferrell.me">
+				Website designed & built by <a
+					href="https://jamesferrell.me"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					James Ferrell
 				</a> (I do a lot of stuff)
 			</li>
@@ -99,6 +103,9 @@
 
 		a {
 			@include link-underline;
+			&:after {
+				display: none;
+			}
 		}
 	}
 	.footer-bottom-item:not(:last-of-type) {

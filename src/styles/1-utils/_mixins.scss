@@ -109,16 +109,21 @@
 	text-shadow: 0 3px 52px #{$shadow};
 }
 @mixin scale-on-hover($amount: 1.0333) {
-	transition: 0.15s ease-out transform;
+	transition: 0.15s ease-out transform, 0.2s ease-out color;
+	will-change: transform;
 
 	&:hover, &:focus {
 		transform: scale(#{$amount});
 	}
 }
 @mixin link-underline {
+	color: $cyan-white;
 	text-decoration-color: $sun-light;
+	text-underline-offset: 0.25em;
+	transition: 0.2s ease-out;
 
-	&:hover, &:focus {
-		text-decoration-color: currentColor;
+	&:hover,
+	&:focus {
+		color: $white;
 	}
 }

@@ -95,7 +95,13 @@
 		display: inline-block;
 		padding: $sp-md $sp-xs;
 		text-decoration: none;
-		color: $gray;
+		text-underline-offset: 0.25em;
+		color: $cyan-white;
+
+		&:hover,
+		&:focus {
+			color: $white;
+		}
 
 		&[aria-current] {
 			text-decoration: underline;
