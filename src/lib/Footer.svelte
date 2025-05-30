@@ -10,7 +10,7 @@
 			<li class="footer-social-item">
 				<SocialLink
 					title="facebook"
-					href="https://facebook.com/mountainsizeaudio"
+					href="https://facebook.com/perpetualgrimace"
 				/>
 			</li>
 			<li class="footer-social-item">

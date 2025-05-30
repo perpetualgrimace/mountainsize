@@ -15,20 +15,22 @@
 
 <Hero imgSlug="home-hero">
 	<HeroHeadline>
-		<span class="u-cyan-light-color">Larger than life</span> sounds
-		<br />made in
-		<span class="u-cyan-light-color">Asheville NC</span>
+		Pro recordings, <br />
+		<span class="u-cyan-light-color">Affordable pricing</span>
 	</HeroHeadline>
 	<HeroParagraph>
-		Together, we'll make music so big it can't be ignored
+		Mountainsize Audio is a professsional recording studio run by Asheville<span
+			class="u-visually-hidden">, North Carolina</span
+		>
+		audio engineer and multi-instrumentalist James Ferrell.
 	</HeroParagraph>
 	<Button href="contact">Get started</Button>
 </Hero>
 
 <main class="wrapper">
-	<Diptych slug1="desk" slug2="guitars" />
+	<Diptych slug1="james-desk" slug2="space-drums" />
 
-	<Mic heading="Services" subhead="and pricing" imgSlug="tele">
+	<Mic heading="Services" subhead="and pricing" imgSlug="kemper">
 		<BulletList multiCol fontSize="lg">
 			<li><a href="services#mixing">Mixing</a></li>
 			<li><a href="services#mastering">Mastering</a></li>
@@ -39,50 +41,69 @@
 		</BulletList>
 	</Mic>
 
-	<Diptych slug1="guitar-rig" slug2="drums" />
+	<!-- <Mic heading="Services" subhead="and pricing" imgSlug="kemper">
+		<BulletList multiCol fontSize="lg">
+			<li><a href="services#recording">Recording</a></li>
+			<li><a href="services#mixing">Mixing</a></li>
+			<li><a href="services#mastering">Mastering</a></li>
+			<li><a href="services#editing">Editing</a></li>
+			<li><a href="services#production">Production</a></li>
+			<li><a href="services#session-musician">Session musician</a></li>
+			<li><a href="services#design-and-development">Design</a></li>
+			<li><a href="services#design-and-development">Web development</a></li>
+		</BulletList>
+	</Mic> -->
 
-	<Mic heading="The space" subhead="Small but versatile" imgSlug="rack">
+	<Diptych slug1="hanging-out" slug2="james-drums" />
+
+	<Mic heading="The engineer" subhead="James Ferrell" imgSlug="james-guitar">
 		<p>
-			The space is a single open 500 sq ft room treated with sound panels and
-			bass traps. It’s optimized for writing, recording, and rehearsing.
-		</p>
-		<p>
-			It has its limitations, but I have workarounds and can quickly reconfigure
-			the inputs for different scenarios. We’ll work together to determine the
-			best approach for your project!
+			I’ve spent most of my life learning, performing, and writing everything
+			from pop punk to rock to progressive metal, and the past 10+ years
+			recording and mixing it. I get the big picture, but also sweat
+			the details.
 		</p>
 	</Mic>
 
-	<Mic heading="Instruments" subhead="Source is king" imgSlug="lp">
+	<Mic heading="The space" subhead="Vibe but versatility" imgSlug="space-1">
 		<p>
-			I keep a modest but versatile collection of nice instruments (Gibson,
-			Fender, Orange, EVH, DW, Meinl, Yamaha, Ibanez, etc).
+			The space is a single open 500 sq ft room with over 10 ft ceilings,
+			treated with sound panels and bass traps. It’s a comfortable and great
+			sounding room that’s tailored for drums, live band tracking, and overdubs.
 		</p>
-		<p>I’m sure you do as well, so we’ll use whatever sounds best!</p>
 	</Mic>
 
-	<Mic heading="Microphones" subhead="and audio gear" imgSlug="mics">
+	<Mic heading="The instruments" subhead="Source is king" imgSlug="drums">
 		<p>
-			I have a variety of nice sounding mics for different applications, a
-			Kemper, 16 channels of inputs, and a selection of nice plugins. I employ
-			techniques to emulate the sound of analog in the digital realm — the best
-			of both worlds.
+			I keep a modest collection of nice instruments (Gibson, Fender, Orange,
+			EVH, DW, Meinl, Zildjian, Ludwig, Ibanez, etc). I’m sure you do as well,
+			so let’s use whatever sounds right!
 		</p>
 	</Mic>
+
+	<Mic heading="The microphones" subhead="and audio gear" imgSlug="mics">
+		<p>
+			The studio is equiped with a variety of nice sounding mics to handle
+			everything from live drums to guitar cabs to vocals, 16 mic pres & inputs,
+			a Kemper profiler, a selection of nice plugins, and an in-ear monitoring
+			rig for independent monitor mixes.
+		</p>
+	</Mic>
+
+	<!-- TODO: Gallery -->
+
+	<!-- TODO: Testimonials -->
 
 	<Mic
-		heading="James Ferrell"
-		subhead="Studio owner"
-		subheadAbove
+		heading="Let’s get started"
 		showButton
-		imgSlug="james"
+		buttonText="Book a session"
+		imgSlug="james-outside"
 	>
 		<p>
-			I’ve spent most of my life learning, performing, and writing interesting
-			heavy music, and the past 10+ years recording and mixing it. I get the big
-			picture, but also sweat the details.
+			A good recording opens doors — those I’ve worked with have experienced
+			this firsthand!
 		</p>
-		<p>I will put the same amount of care into your music as I do my own!</p>
 	</Mic>
 </main>
 

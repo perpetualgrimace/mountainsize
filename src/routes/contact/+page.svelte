@@ -109,4 +109,8 @@
 		background-color: $dark;
 		border-radius: $radius-lg;
 	}
+
+	.hero-img[src*='contact'] {
+		object-position: 0% 0%;
+	}
 </style>

@@ -5,6 +5,7 @@
 		subhead = undefined,
 		subheadAbove = false,
 		showButton = false,
+		buttonText = 'Let’s get started',
 		imgSlug = undefined;
 </script>
 
@@ -27,7 +28,7 @@
 			<slot />
 		</div>
 		{#if showButton}
-			<Button href="contact">Let’s get started</Button>
+			<Button href="contact">{buttonText}</Button>
 		{/if}
 	</div>
 </section>
@@ -96,7 +97,7 @@
 		margin-top: 1.125rem;
 
 		&.is-multicolumn {
-			column-width: 12rem;
+			column-width: 10rem;
 		}
 	}
 </style>

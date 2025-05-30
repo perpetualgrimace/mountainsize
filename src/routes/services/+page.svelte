@@ -3,6 +3,7 @@
 
 	import Hero from '$lib/Hero/index.svelte';
 	import HeroHeadline from '$lib/Hero/HeroHeadline.svelte';
+	import HeroParagraph from '$lib/Hero/HeroParagraph.svelte';
 	import Callout from '$lib/Callout.svelte';
 	import TextBlock from '$lib/TextBlock.svelte';
 
@@ -20,10 +21,10 @@
 
 <Hero imgSlug="services-hero">
 	<HeroHeadline>
-		The <span class="u-cyan-light-color">only services</span> I charge for
-		<br />are the ones
-		<span class="u-cyan-light-color">I’m good at</span>
+		Jack of all trades <br />
+		<span class="u-cyan-light-color">at your service</span>
 	</HeroHeadline>
+	<HeroParagraph>Affordable, no bullshit pricing.</HeroParagraph>
 </Hero>
 
 <main class="wrapper">
@@ -158,7 +159,7 @@
 
 	<br />
 
-	<Mic heading="Let’s get started" showButton imgSlug="james">
+	<Mic heading="Let’s get started" showButton imgSlug="james-outside">
 		<p>
 			I offer competative pricing because I know how hard it is out there. But
 			if I’m still outside of your budget, contact me and we’ll work
@@ -168,4 +169,7 @@
 </main>
 
 <style lang="scss" global>
+	.hero-img[src*='services'] {
+		object-position: 75% 0%;
+	}
 </style>

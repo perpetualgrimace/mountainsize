@@ -9,7 +9,7 @@
 	import BulletList from '$lib/BulletList.svelte';
 </script>
 
-<Hero imgSlug="home-hero">
+<Hero imgSlug="rules-hero">
 	<HeroHeadline>
 		Studio
 		<span class="u-sun-light-color">rules </span> and
@@ -157,7 +157,11 @@
 		</p>
 	</TextBlock>
 
-	<Mic heading="Hopefully I haven’t scared you off!" showButton imgSlug="james">
+	<Mic
+		heading="Hopefully I haven’t scared you off!"
+		showButton
+		imgSlug="james-outside"
+	>
 		<p>
 			I’m generally pretty reasonable and easy to work with — these guidelines
 			are to ensure your session runs smoothly.

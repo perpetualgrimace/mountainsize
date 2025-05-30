@@ -24,22 +24,30 @@
 </header>
 
 <style lang="scss" global>
+	.hero {
+		margin-top: -7.5rem;
+
+		&:after {
+			@include pseudo;
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			height: 50%;
+			background: linear-gradient(rgba($black, 0), $black);
+		}
+	}
+
 	.hero-inner {
-		padding-top: calc(15vh + 12vw);
+		padding-top: calc(20vh + 20vw + 5rem);
+		top: -2rem;
 		z-index: 1; // above bg
 	}
 
 	.hero-img {
-		width: 100%;
-		height: calc(20vh + 20vw);
-		position: absolute;
-		top: -6.8rem;
+		@include absolute-expand;
 		object-fit: cover;
-		object-position: bottom;
-
-		@media (max-aspect-ratio: 2/1) {
-			height: calc(30vh + 20vw);
-		}
+		object-position: 50% 60%;
 	}
 
 	// when menu wraps
@@ -47,9 +55,6 @@
 		.hero:not(.home-hero) .hero-img {
 			height: calc(30vh + 20vw);
 			top: -5rem;
-		}
-		.home-hero .hero-img {
-			top: -3.4rem;
 		}
 	}
 
