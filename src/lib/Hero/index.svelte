@@ -26,6 +26,7 @@
 <style lang="scss" global>
 	.hero {
 		margin-top: -7.5rem;
+		text-shadow: 0 0.125em 1em $black;
 
 		&:after {
 			@include pseudo;

@@ -3,6 +3,7 @@
 
 	import Hero from '$lib/Hero/index.svelte';
 	import HeroHeadline from '$lib/Hero/HeroHeadline.svelte';
+	import HeroParagraph from '$lib/Hero/HeroParagraph.svelte';
 	import Button from '$lib/Button.svelte';
 
 	const services = [
@@ -19,11 +20,11 @@
 	<HeroHeadline>
 		Let’s <span class="u-cyan-light-color"> get started</span>
 	</HeroHeadline>
-	<p class="u-font-lg u-mb-sm">
-		Please fill out this quick contact form and I’ll do my best to get back to
-		you within 24 hours.
-	</p>
-	<p class="u-font-lg u-mb-xl">I’m excited to hear about your project!</p>
+	<HeroParagraph>
+		Please fill out this quick contact form and I’ll do <br /> my best to get back
+		to you within 24 hours.
+	</HeroParagraph>
+	<HeroParagraph>I’m excited to hear about your project!</HeroParagraph>
 </Hero>
 
 <main class="wrapper">

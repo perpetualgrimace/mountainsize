@@ -16,13 +16,17 @@
 <Hero imgSlug="home-hero">
 	<HeroHeadline>
 		Pro recordings, <br />
-		<span class="u-cyan-light-color">Affordable pricing</span>
+		<span class="u-cyan-light-color">affordable pricing</span>
 	</HeroHeadline>
 	<HeroParagraph>
 		Mountainsize Audio is a professsional recording studio run by Asheville<span
 			class="u-visually-hidden">, North Carolina</span
 		>
 		audio engineer and multi-instrumentalist James Ferrell.
+		<span class="u-visually-hidden">
+			Commonly misspelled as "Mountain Size," "Mountainside", "Mountainsized",
+			or "Mountain sized."
+		</span>
 	</HeroParagraph>
 	<Button href="contact">Get started</Button>
 </Hero>
