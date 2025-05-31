@@ -64,13 +64,14 @@
 	font-family: $subhead-font;
 	font-weight: $subhead-weight;
 	text-transform: uppercase;
-	letter-spacing: 4px;
+	letter-spacing: 3px;
 	color: $cyan-light;
 }
 
 @mixin heading-text {
   font-weight: $title-weight;
 	margin-bottom: $sp-md;
+	letter-spacing: 0.03em;
 }
 
 @mixin font-xxl {

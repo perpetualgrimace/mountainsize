@@ -59,6 +59,7 @@ button {
 	appearance: button;
 	display: inline-block;
 	box-shadow: none;
+	cursor: pointer;
 
 	&::-moz-focus-inner {
 		border: 0

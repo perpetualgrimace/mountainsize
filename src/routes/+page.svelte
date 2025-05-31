@@ -5,6 +5,8 @@
 	import HeroHeadline from '$lib/Hero/HeroHeadline.svelte';
 	import HeroParagraph from '$lib/Hero/HeroParagraph.svelte';
 
+	import Gallery from '$lib/Gallery.svelte';
+
 	import Button from '$lib/Button.svelte';
 	import Diptych from '$lib/Diptych.svelte';
 	import Mic from '$lib/Mic.svelte';
@@ -85,7 +87,7 @@
 		</p>
 	</Mic>
 
-	<Mic heading="The microphones" subhead="and audio gear" imgSlug="mics">
+	<Mic heading="The microphones" subhead="and studio gear" imgSlug="mics">
 		<p>
 			The studio is equiped with a variety of nice sounding mics to handle
 			everything from live drums to guitar cabs to vocals, 16 mic pres & inputs,
@@ -94,7 +96,7 @@
 		</p>
 	</Mic>
 
-	<!-- TODO: Gallery -->
+	<Gallery />
 
 	<!-- TODO: Testimonials -->
 
