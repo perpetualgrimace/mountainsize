@@ -41,6 +41,10 @@
 		@media (min-width: 666px) {
 			display: flex;
 
+			&:last-child {
+				margin-bottom: $sp-lg;
+			}
+
 			.mic-img {
 				top: -$sp-lg;
 				margin-right: $sp-xl;
@@ -62,7 +66,7 @@
 
 		@media (max-width: 665px) {
 			position: absolute;
-			top: 0;
+			top: -1.5rem;
 			right: 0;
 			opacity: 0.25;
 		}

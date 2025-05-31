@@ -4,7 +4,7 @@
 </script>
 
 <section class="gallery u-text-center">
-	<h2 class="gallery-heading u-mb-xs">Studio gallery</h2>
+	<h2 class="gallery-heading u-mb-xxs">Studio gallery</h2>
 	<p class="gallery-subhead u-subhead u-mb-md">
 		Photos by <a
 			href="https://www.vitorsa.com"
@@ -72,7 +72,11 @@
 		padding: $sp-lg;
 		background-color: $dark;
 		border-radius: $radius-lg;
-		margin-bottom: $sp-xxl * 2;
+		margin-bottom: $sp-xxl * 1.25;
+
+		@media (min-width: 600px) {
+			margin-bottom: $sp-xxl * 1.5;
+		}
 	}
 
 	.gallery-list {

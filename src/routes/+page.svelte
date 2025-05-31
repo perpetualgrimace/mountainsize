@@ -6,6 +6,7 @@
 	import HeroParagraph from '$lib/Hero/HeroParagraph.svelte';
 
 	import Gallery from '$lib/Gallery.svelte';
+	import Testimonials from '$lib/Testimonials.svelte';
 
 	import Button from '$lib/Button.svelte';
 	import Diptych from '$lib/Diptych.svelte';
@@ -98,7 +99,7 @@
 
 	<Gallery />
 
-	<!-- TODO: Testimonials -->
+	<Testimonials />
 
 	<Mic
 		heading="Let’s get started"

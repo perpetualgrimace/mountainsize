@@ -12,22 +12,3 @@ h1, h2, h3, h4, h5, h6,
 .u-subhead > a {
 	@include link-underline;
 }
-
-a[target] {
-	&:after {
-		content: "→";
-		font-size: 1em;
-		color: $sun-light;
-		position: absolute;
-		opacity: 0;
-		pointer-events: none;
-		transform: scale(0.75) translateX(-6px);
-		transition: opacity 0.1s ease-out, transform 0.2s ease-out;
-	}
-
-	&:hover:after,
-	&:focus:after {
-		opacity: 1;
-		transform: none;
-	}
-}
