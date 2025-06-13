@@ -1,6 +1,7 @@
 <script>
 	let isFullscreen;
 	let fullscreenIndex;
+	let itemLength = 9;
 </script>
 
 <section class="gallery u-text-center">
@@ -16,7 +17,7 @@
 	</p>
 
 	<ul class="gallery-list">
-		{#each { length: 9 } as items, index}
+		{#each { length: itemLength } as items, index}
 			<li class="gallery-item">
 				<button
 					class="gallery-button"
@@ -43,12 +44,35 @@
 {#if isFullscreen && fullscreenIndex}
 	<div class="gallery-fullscreen">
 		<button
-			class="gallery-close-button"
+			class="gallery-ui-button gallery-prev-button"
+			on:click={() =>
+				fullscreenIndex > 1
+					? (fullscreenIndex -= 1)
+					: (fullscreenIndex = itemLength)}
+		>
+			<span class="gallery-ui-button-inner">&#10094;</span>
+			<span class="u-visually-hidden">view previous image</span>
+		</button>
+
+		<button
+			class="gallery-ui-button gallery-next-button"
+			on:click={() =>
+				fullscreenIndex < itemLength
+					? (fullscreenIndex += 1)
+					: (fullscreenIndex = 1)}
+		>
+			<span class="gallery-ui-button-inner">&#10095;</span>
+			<span class="u-visually-hidden">view next image</span>
+		</button>
+
+		<button
+			class="gallery-ui-button gallery-close-button"
 			on:click={() => (isFullscreen = false)}
 		>
-			<span class="gallery-close-button-inner">×</span>
+			<span class="gallery-ui-button-inner">×</span>
 			<span class="u-visually-hidden">close</span>
 		</button>
+
 		<img
 			class="gallery-fullscreen-img"
 			src={`/images/gallery/gallery-${fullscreenIndex}.jpg`}
@@ -122,19 +146,42 @@
 		max-height: 100%;
 		@include box-shadow;
 	}
-	.gallery-close-button {
+	.gallery-ui-button {
 		@include link-underline;
 		@include text-shadow-lg;
-		@include scale-on-hover(1.25);
 		display: flex;
 		z-index: 2;
 		position: absolute;
-		top: 0.25em;
-		right: 0.25em;
-		padding: 0.5rem;
 		background: $dark;
 		font-size: 2rem;
+		line-height: 2.5rem;
 		border-radius: 50%;
+		width: 2.5rem;
+		height: 2.5rem;
+
+		&:hover .gallery-ui-button-inner,
+		&:focus .gallery-ui-button-inner {
+			transform: scale(1.125);
+		}
+	}
+	.gallery-ui-button-inner {
+		margin: auto;
+		transition: transform 0.2s ease-out;
+	}
+	.gallery-close-button {
+		top: 0.25em;
+		right: 0.25em;
+	}
+	.gallery-prev-button,
+	.gallery-next-button {
+		@include absolute-vertical-center;
+		font-size: 1.5rem;
+	}
+	.gallery-prev-button {
+		left: 0.25em;
+	}
+	.gallery-next-button {
+		right: 0.25em;
 	}
 	.gallery-fullscreen-bg {
 		@include absolute-expand;
