@@ -5,6 +5,7 @@
 	import HeroHeadline from '$lib/Hero/HeroHeadline.svelte';
 	import HeroParagraph from '$lib/Hero/HeroParagraph.svelte';
 	import Callout from '$lib/Callout.svelte';
+	import MulticolBlock from '$lib/MulticolBlock.svelte';
 	import TextBlock from '$lib/TextBlock.svelte';
 
 	import Fretboard from '$lib/Fretboard/index.svelte';
@@ -16,7 +17,7 @@
 
 <Meta
 	title="Mountainsize Services"
-	description="Recording, mixing, mastering, editing, production, session musician, design & web development. Affordable, no bullshit pricing."
+	description="Recording, mixing, mastering, editing, song production, session musician, editing, stem mastering, design & web development. Affordable, no bullshit pricing."
 />
 
 <Hero imgSlug="services-hero">
@@ -29,120 +30,34 @@
 
 <main class="wrapper">
 	<TextBlock>
-		<h2>Project flat rates</h2>
+		<h2 id="recording">Flexible in studio recording time</h2>
 		<p class="u-subhead u-sun-light-color">
-			<strong>$50 OFF MIXES </strong>
-			for any songs tracked here
+			<strong>$40/hour</strong>
+			<span class="u-cyan-light-color">or <strong>$200/day</strong></span>
 		</p>
-		<p class="u-font-lg">
-			I charge a flat rate for the work I do on my own time. I want to make sure
-			you’re happy with my work, so I won’t rush it!
-		</p>
-	</TextBlock>
-
-	<Fretboard>
-		<Fret title="Mixing" subhead="$100/song" subheadColor="sun" imgSlug="rack">
-			<p>
-				It’s exciting to hear the results of all the hard work come together in
-				the mix stage. I’ll make sure every instrument is audible and has its
-				own space in the mix, with the most important elements up front.
-			</p>
-			<p>
-				This is also where I will do any necessary editing. We’ll talk
-				beforehand to determine how much editing will be needed.
-			</p>
-			<p>
-				An additional $50 charge applies for songs longer than 4:44 — longer
-				songs are more work!
-			</p>
-			<p>
-				On the other hand, I’ll cut you a deal if we’re mixing multiple songs.
-				And I’m happy to do a free test mix if you’re on the fence!
-			</p>
-		</Fret>
-		<Fret
-			title="Mastering"
-			subhead="$30/song"
-			subheadColor="sun"
-			imgSlug="headphones"
-		>
-			<p>
-				When budget allows, I like to take advantage of a separate mastering
-				professional’s fresh ears.
-			</p>
-			<p>
-				But in the event that this isn’t feasible, I can bring out that extra
-				5-10% of volume and fidelity myself.
-			</p>
-		</Fret>
-		<Fret
-			title="Session musician"
-			subhead="$150/song"
-			subheadColor="sun"
-			imgSlug="student-kit"
-		>
-			<p>Bring your music to life with a killer drum sound and performance!</p>
-
-			<p>
-				Whether you’ve programmed drum parts and want them performed faithfully
-				or trust me to do my own thing, you won’t be disappointed.
-			</p>
-			<p>
-				I’m happy to lay down bass, auxilliary percussion, or backing
-				vocals too. Consider me an extra band member for your project!
-			</p>
-			<p>I’ll also mix the song for half price if I’m playing on it!</p>
-		</Fret>
-	</Fretboard>
-
-	<Callout>
-		<h3>Project payment policy</h3>
-		<BulletList>
-			<li>50% deposit required up front.</li>
-			<li>
-				Remainder due upon project completion, or one month after project start
-				— whichever comes first. You won’t be waiting long on me!
-			</li>
-		</BulletList>
-	</Callout>
-
-	<TextBlock>
-		<h2>In studio time</h2>
-		<p class="u-subhead u-sun-light-color">$200/day • $40/hour</p>
-		<p class="u-font-lg">
-			My day rate is the best deal — I’d rather spend my time counting measures
-			than minutes. But I also offer an hourly rate for when that makes
-			more sense. I’m flexible!
+		<p class="u-font-md u-mb-md">
+			For sessions that run shorter than five hours, it’s a $40 hourly charge
+			for the time. For sessions five hours or longer, you’ve unlocked the $200
+			day rate. We can go as long as energy and schedules permit!
 		</p>
 	</TextBlock>
 
-	<Fretboard>
-		<Fret
-			title="In-studio recording sessions"
-			subhead="The right sounds, right at the source"
-			imgSlug="studio"
-		>
-			<p>
-				If you’ve ever tried throwing a couple of mics on an out of tune drum
-				kit in a room with low ceilings, you know that no amount of EQ and
-				compression will make it sound like a professionally recorded big rock
-				drum kit.
-			</p>
-			<p>
-				Same with a poorly mic’d guitar cab. We’re inches away from a sound
-				that’s fizzy or muffled.
-			</p>
-			<p>
-				Before we record a single note, we’ll make sure we’re using the right
-				gear, microphones, and mic positions for the job.
-			</p>
-			<p>
-				Once we get started, I’ll push you to get your best performance
-				possible, so we can do as little editing as possible. We’ll choose and
-				comp takes together as we go.
-			</p>
-		</Fret>
-	</Fretboard>
+	<Mic
+		heading="Take advantage of my space, my gear, and my ear"
+		headingFontSize="lg"
+		imgSlug="james-computer"
+	>
+		<p class="u-font-md u-mb-md">
+			Whether you’re in a band and looking to track live with overdubs,
+			a singer-songwriter that wants to build out a song from the ground up, or
+			anything in between, I’ve got you covered.
+		</p>
+		<p class="u-font-md">
+			You can’t beat the sound of professional gear in a professional space,
+			with nice sounding mics in the right spots. Work with me in person and
+			I’ll help you perform your best!
+		</p>
+	</Mic>
 
 	<Callout>
 		<h3>Recording session payment policy</h3>
@@ -154,6 +69,95 @@
 			<li>Remainder due at the end of the session.</li>
 		</BulletList>
 	</Callout>
+
+	<MulticolBlock>
+		<TextBlock>
+			<h2 id="mixing">Mixing</h2>
+			<p class="u-subhead u-sun-light-color">
+				<strong>$120 per song</strong>
+				<span class="u-cyan-light-color"
+					>Or <strong>$80 if recorded here</strong></span
+				>
+			</p>
+			<p class="u-font-md u-mb-md">
+				I’ll make sure every instrument is audible and has its own space in the
+				mix, with the most important elements up front. No limit on revisions —
+				we’ll keep going until you’re happy!
+			</p>
+		</TextBlock>
+		<TextBlock>
+			<h2 id="mastering">Mastering</h2>
+			<p class="u-subhead u-sun-light-color">
+				<strong>$40 per song</strong>
+				<span class="u-cyan-light-color">
+					Or <strong>$30 if recorded here</strong>
+				</span>
+			</p>
+			<p class="u-font-md u-mb-md">
+				In this final stage I’ll pull extra volume and life out of the recording
+				and ensure it translates well to different listening environments.
+			</p>
+		</TextBlock>
+	</MulticolBlock>
+
+	<MulticolBlock>
+		<TextBlock>
+			<h2 id="session-musician">Session musician</h2>
+			<p class="u-subhead u-sun-light-color">
+				<strong>$100 per song</strong>
+				<span class="u-cyan-light-color">
+					Or <strong>free with studio time</strong>
+				</span>
+			</p>
+			<p class="u-font-md u-mb-md">
+				It’s not uncommon for me to perform drums, bass, guitar, or backing
+				vocals on top of running a session. If you book studio time, I don’t
+				charge extra! And if you don’t like my ideas, I don’t take it personally
+				— it’s your art after all!
+			</p>
+		</TextBlock>
+		<TextBlock>
+			<h2 id="stem-mastering">Stem mastering</h2>
+			<p class="u-subhead u-sun-light-color">
+				<strong>$60 per song</strong>
+			</p>
+			<p class="u-font-md u-mb-md">
+				Send up to 6 submixed stereo stems to provide me with more control in
+				the mastering stage. If you have a mix that’s pretty close but not quite
+				there, this can be a good option.
+			</p>
+		</TextBlock>
+	</MulticolBlock>
+
+	<MulticolBlock>
+		<TextBlock>
+			<h2 id="song-production">Song production</h2>
+			<p class="u-subhead u-sun-light-color">
+				<strong>$80 per song</strong>
+				<span class="u-cyan-light-color">
+					Or <strong>free with studio time</strong>
+				</span>
+			</p>
+			<p class="u-font-md u-mb-md">
+				The best way to a great is recording is by starting out with a great
+				song. I’ll help you workshop structure, melodies, lyrics, grooves, chord
+				progressions, riffs — whatever the song needs!
+			</p>
+		</TextBlock>
+		<TextBlock>
+			<h2 id="editing">Editing</h2>
+			<p class="u-subhead u-sun-light-color">
+				<strong>$40 per song</strong>
+				<span class="u-cyan-light-color">
+					Or <strong>free with mix</strong>
+				</span>
+			</p>
+			<p class="u-font-md u-mb-md">
+				From composite takes, to quantization, to tuning — I know not just how
+				to use the tools available, but when and how much to use them.
+			</p>
+		</TextBlock>
+	</MulticolBlock>
 
 	<br />
 
@@ -169,5 +173,9 @@
 <style lang="scss" global>
 	.hero-img[src*='services'] {
 		object-position: 75% 0%;
+	}
+
+	.mic + .callout {
+		margin-top: -$sp-lg;
 	}
 </style>

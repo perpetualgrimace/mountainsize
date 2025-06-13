@@ -4,6 +4,7 @@
 	export let heading,
 		subhead = undefined,
 		subheadAbove = false,
+		headingFontSize = 'xl',
 		showButton = false,
 		buttonText = 'Let’s get started',
 		imgSlug = undefined;
@@ -20,7 +21,7 @@
 	/>
 
 	<div class={`mic-caption${subhead && subheadAbove ? ' subhead-above' : ''}`}>
-		<h2 class="mic-heading">{heading}</h2>
+		<h2 class={`mic-heading u-font-${headingFontSize}`}>{heading}</h2>
 		{#if subhead}
 			<p class="mic-subhead u-subhead">{subhead}</p>
 		{/if}
@@ -91,8 +92,8 @@
 		margin-top: -$sp-sm;
 	}
 
-	.mic-slot > p,
-	.mic-slot > li {
+	.mic-slot > p:not([class*='u-font-']),
+	.mic-slot > li:not([class*='u-font-']) {
 		@include font-lg;
 		margin-top: $sp-md;
 	}
