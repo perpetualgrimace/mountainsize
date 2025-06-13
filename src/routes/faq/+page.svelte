@@ -1,4 +1,6 @@
 <script>
+	import Meta from '$lib/Meta.svelte';
+
 	import Hero from '$lib/Hero/index.svelte';
 	import HeroHeadline from '$lib/Hero/HeroHeadline.svelte';
 	import Callout from '$lib/Callout.svelte';
@@ -8,6 +10,11 @@
 	import Mic from '$lib/Mic.svelte';
 	import BulletList from '$lib/BulletList.svelte';
 </script>
+
+<Meta
+	title="Mountainsize Answers"
+	description="Frequently asked questions, along with questions I wish people asked more frequently."
+/>
 
 <Hero imgSlug="faq-hero">
 	<HeroHeadline>
