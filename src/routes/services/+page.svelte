@@ -31,10 +31,8 @@
 	<TextBlock>
 		<h2>Project flat rates</h2>
 		<p class="u-subhead u-sun-light-color">
-			<strong>Limited special (through the end of January 2025): </strong>
-			<br /><span class="u-sun-light-color">
-				Free mix & master if the song was tracked here
-			</span>
+			<strong>$50 OFF MIXES </strong>
+			for any songs tracked here
 		</p>
 		<p class="u-font-lg">
 			I charge a flat rate for the work I do on my own time. I want to make sure

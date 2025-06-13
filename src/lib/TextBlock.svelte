@@ -13,6 +13,10 @@
 			padding-right: 0;
 		}
 
+		h2 {
+			line-height: 1;
+		}
+
 		h2 + .u-subhead {
 			margin-top: -$sp-xs;
 		}
@@ -31,6 +35,10 @@
 
 		p:last-child {
 			margin-bottom: -$sp-xs;
+		}
+
+		a {
+			@include link-underline;
 		}
 	}
 </style>

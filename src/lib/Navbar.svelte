@@ -19,18 +19,17 @@
 	<div class="navbar-list">
 		<a
 			class="navbar-link u-font-md"
-			href="."
-			aria-current={$page.route.id === '/' ? 'page' : null}
-			aria-hidden
-		>
-			Home
-		</a>
-		<a
-			class="navbar-link u-font-md"
 			href="/services"
 			aria-current={$page.route.id === '/services' ? 'page' : null}
 		>
 			Services & pricing
+		</a>
+		<a
+			class="navbar-link u-font-md"
+			href="/faq"
+			aria-current={$page.route.id === '/faq' ? 'page' : null}
+		>
+			FAQ
 		</a>
 		{#if showSecondaryPages}
 			<a
@@ -81,12 +80,6 @@
 
 	.navbar-link:first-of-type {
 		margin-right: auto;
-
-		@media (max-width: 599px) {
-			&:not(.navbar-logo) {
-				display: none;
-			}
-		}
 	}
 
 	.navbar-link {

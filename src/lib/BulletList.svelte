@@ -14,11 +14,13 @@
 		font-size: inherit;
 		margin-bottom: 0.666em;
 		line-height: 1.25;
+		padding-left: 1em;
 
 		&:before {
 			content: '';
-			display: inline-block;
-			vertical-align: middle;
+			position: absolute;
+			left: 0;
+			top: 0.275em;
 			background-size: contain;
 			background-image: url('/bullet.svg');
 			background-repeat: no-repeat;

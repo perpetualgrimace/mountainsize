@@ -29,7 +29,7 @@
 // SPACING
 //////////////////////////////////
 
-.u-mb-0     { margin-bottom: 0;        }
+.u-mb-0     { margin-bottom: 0 !important; }
 .u-mb-xs    { margin-bottom: $sp-xs;   }
 .u-mb-xxs   { margin-bottom: $sp-xxs;  }
 .u-mb-sm    { margin-bottom: $sp-sm;   }
