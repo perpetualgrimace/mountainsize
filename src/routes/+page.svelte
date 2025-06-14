@@ -39,27 +39,17 @@
 
 	<Mic heading="Services" subhead="and pricing" imgSlug="kemper">
 		<BulletList multiCol fontSize="lg">
+			<li><a href="services#recording">Studio recording</a></li>
 			<li><a href="services#mixing">Mixing</a></li>
 			<li><a href="services#mastering">Mastering</a></li>
 			<li><a href="services#session-musician">Session musician</a></li>
-			<li>
-				<a href="services#in-studio-recording-sessions">In-studio sessions</a>
-			</li>
+			<li><a href="services#stem-mastering">Stem mastering</a></li>
+			<li><a href="services#song-production">Song production</a></li>
+			<li><a href="services#editing">Editing</a></li>
+			<li><a href="services#design">Graphic design</a></li>
+			<li><a href="services#website">Custom website</a></li>
 		</BulletList>
 	</Mic>
-
-	<!-- <Mic heading="Services" subhead="and pricing" imgSlug="kemper">
-		<BulletList multiCol fontSize="lg">
-			<li><a href="services#recording">Recording</a></li>
-			<li><a href="services#mixing">Mixing</a></li>
-			<li><a href="services#mastering">Mastering</a></li>
-			<li><a href="services#editing">Editing</a></li>
-			<li><a href="services#production">Production</a></li>
-			<li><a href="services#session-musician">Session musician</a></li>
-			<li><a href="services#design-and-development">Design</a></li>
-			<li><a href="services#design-and-development">Web development</a></li>
-		</BulletList>
-	</Mic> -->
 
 	<Diptych slug1="hanging-out" slug2="james-drums" />
 

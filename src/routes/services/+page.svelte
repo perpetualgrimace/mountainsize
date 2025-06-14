@@ -8,8 +8,7 @@
 	import MulticolBlock from '$lib/MulticolBlock.svelte';
 	import TextBlock from '$lib/TextBlock.svelte';
 
-	import Fretboard from '$lib/Fretboard/index.svelte';
-	import Fret from '$lib/Fretboard/Fret.svelte';
+	import DesignGallery from '$lib/DesignGallery.svelte';
 
 	import Mic from '$lib/Mic.svelte';
 	import BulletList from '$lib/BulletList.svelte';
@@ -30,7 +29,7 @@
 
 <main class="wrapper">
 	<TextBlock>
-		<h2 id="recording">Flexible in studio recording time</h2>
+		<h2 id="recording">Studio recording</h2>
 		<p class="u-subhead u-sun-light-color">
 			<strong>$40/hour</strong>
 			<span class="u-cyan-light-color">or <strong>$200/day</strong></span>
@@ -158,6 +157,43 @@
 			</p>
 		</TextBlock>
 	</MulticolBlock>
+
+	<MulticolBlock>
+		<TextBlock>
+			<h2 id="design">Graphic design</h2>
+			<p class="u-subhead u-sun-light-color">
+				<strong>$40 flyer design</strong>
+				<span class="u-cyan-light-color">
+					• <strong>$60 album art</strong>
+				</span>
+			</p>
+			<p class="u-font-md u-mb-md">
+				If you’ve noticed that The Welcoming has nice album art and flyer
+				design, or that this website looks good and is easy to use, that's
+				because spent over a decade as a designer. Though I’m currently
+				(finally) all in on music and audio production, I’m happy to help
+				elevate other artists visually too.
+			</p>
+		</TextBlock>
+		<TextBlock>
+			<h2 id="website">Custom website</h2>
+			<p class="u-subhead u-sun-light-color">
+				<strong>$400 full site</strong>
+				<span class="u-cyan-light-color">
+					• <strong>$200 EPK one pager</strong>
+				</span>
+			</p>
+			<p class="u-font-md u-mb-md">
+				For a number of years, making websites was my primary focus and source
+				of income. It’s time-consuming work, not nearly as fulfilling as audio
+				production, and on track to be largely taken over by AI, but I’ll still
+				design and build a legitimate website for local artists because I’m
+				invested in growing the local music scene however I can.
+			</p>
+		</TextBlock>
+	</MulticolBlock>
+
+	<DesignGallery />
 
 	<br />
 
