@@ -1,4 +1,6 @@
 <script>
+	import studioPhotos from '$lib/data/studioPhotos.json';
+
 	import Meta from '$lib/Meta.svelte';
 
 	import Hero from '$lib/Hero/index.svelte';
@@ -87,7 +89,15 @@
 		</p>
 	</Mic>
 
-	<Gallery />
+	<Gallery items={studioPhotos} slug="gallery" heading="Studio gallery">
+		Photos by <a
+			href="https://www.vitorsa.com"
+			target="_blank"
+			rel="noopener noreferrer"
+		>
+			Vitor Sá
+		</a>
+	</Gallery>
 
 	<Testimonials />
 

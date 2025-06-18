@@ -1,4 +1,6 @@
 <script>
+	import designs from '$lib/data/designs.json';
+
 	import Meta from '$lib/Meta.svelte';
 
 	import Hero from '$lib/Hero/index.svelte';
@@ -8,7 +10,7 @@
 	import MulticolBlock from '$lib/MulticolBlock.svelte';
 	import TextBlock from '$lib/TextBlock.svelte';
 
-	import DesignGallery from '$lib/DesignGallery.svelte';
+	import Gallery from '$lib/Gallery.svelte';
 
 	import Mic from '$lib/Mic.svelte';
 	import BulletList from '$lib/BulletList.svelte';
@@ -193,9 +195,15 @@
 		</TextBlock>
 	</MulticolBlock>
 
-	<DesignGallery />
-
-	<br />
+	<Gallery items={designs} slug="design" heading="Design samples">
+		More non-audio examples at <a
+			href="https://jamesferrell.me"
+			target="_blank"
+			rel="noopener noreferrer"
+		>
+			jamesferrell.me
+		</a>
+	</Gallery>
 
 	<Mic heading="Let’s get started" showButton imgSlug="james-outside">
 		<p>
@@ -213,5 +221,9 @@
 
 	.mic + .callout {
 		margin-top: -$sp-lg;
+	}
+
+	.gallery + .mic {
+		margin-top: $sp-xxl * 2;
 	}
 </style>

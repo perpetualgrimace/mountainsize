@@ -1,27 +1,25 @@
 <script>
 	let isFullscreen;
 	let fullscreenIndex;
-	let itemLength = 9;
+
+	export let heading;
+	export let slug;
+	export let items = [];
+	let itemLength = items?.length;
 </script>
 
 <section class="gallery u-text-center">
-	<h2 class="gallery-heading u-mb-xxs">Studio gallery</h2>
+	<h2 class="gallery-heading u-mb-xxs">{heading}</h2>
 	<p class="gallery-subhead u-subhead u-mb-md">
-		Photos by <a
-			href="https://www.vitorsa.com"
-			target="_blank"
-			rel="noopener noreferrer"
-		>
-			Vitor Sá
-		</a>
+		<slot />
 	</p>
 
 	<ul class="gallery-list">
-		{#each { length: itemLength } as items, index}
+		{#each items as item, index}
 			<li class="gallery-item">
 				<button
 					class="gallery-button"
-					href={`/images/gallery/gallery-${index + 1}.jpg`}
+					href={`/images/${slug}/${item.slug}@2x.jpg`}
 					on:click={() => (
 						(isFullscreen = true), (fullscreenIndex = index + 1)
 					)}
@@ -29,9 +27,9 @@
 				>
 					<img
 						class="gallery-img"
-						src={`/images/gallery/gallery-${index + 1}-thumb.jpg`}
-						srcset={(`/images/gallery/gallery-${index + 1}-thumb.jpg 1x`,
-						`/images/gallery/gallery-${index + 1}-thumb@2x.jpg 2x`)}
+						src={`/images/${slug}/${item.slug}-thumb.jpg`}
+						srcset={(`/images/${slug}/${item.slug}-thumb.jpg 1x`,
+						`/images/${slug}/${item.slug}-thumb@2x.jpg 2x`)}
 						alt=""
 						loading="lazy"
 					/>
@@ -75,7 +73,7 @@
 
 		<img
 			class="gallery-fullscreen-img"
-			src={`/images/gallery/gallery-${fullscreenIndex}.jpg`}
+			src={`/images/${slug}/${items[fullscreenIndex - 1].slug}@2x.jpg`}
 			alt=""
 			loading="lazy"
 		/>
@@ -99,6 +97,7 @@
 		margin-bottom: $sp-xxl * 1.25;
 
 		@media (min-width: 600px) {
+			margin-top: $sp-md;
 			margin-bottom: $sp-xxl * 1.5;
 		}
 	}
