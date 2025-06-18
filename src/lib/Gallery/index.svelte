@@ -1,22 +1,22 @@
 <script>
-	let isFullscreen;
-	let fullscreenIndex;
+	import GalleryImg from '$lib/Gallery/GalleryImg.svelte';
 
-	export let heading;
+	let isFullscreen;
+	export let fullscreenIndex = null;
+
 	export let slug;
 	export let items = [];
 	let itemLength = items?.length;
 </script>
 
-<section class="gallery u-text-center">
-	<h2 class="gallery-heading u-mb-xxs">{heading}</h2>
-	<p class="gallery-subhead u-subhead u-mb-md">
-		<slot />
-	</p>
-
-	<ul class="gallery-list">
-		{#each items as item, index}
-			<li class="gallery-item">
+<ul class="gallery">
+	{#each items as item, index}
+		<li class="gallery-item">
+			{#if item.href}
+				<a class="gallery-button" href={item.href}>
+					<GalleryImg path={slug} slug={item.slug} />
+				</a>
+			{:else}
 				<button
 					class="gallery-button"
 					href={`/images/${slug}/${item.slug}@2x.jpg`}
@@ -25,19 +25,12 @@
 					)}
 					aria-pressed={fullscreenIndex === index + 1 && isFullscreen}
 				>
-					<img
-						class="gallery-img"
-						src={`/images/${slug}/${item.slug}-thumb.jpg`}
-						srcset={(`/images/${slug}/${item.slug}-thumb.jpg 1x`,
-						`/images/${slug}/${item.slug}-thumb@2x.jpg 2x`)}
-						alt=""
-						loading="lazy"
-					/>
+					<GalleryImg path={slug} slug={item.slug} />
 				</button>
-			</li>
-		{/each}
-	</ul>
-</section>
+			{/if}
+		</li>
+	{/each}
+</ul>
 
 {#if isFullscreen && fullscreenIndex}
 	<div class="gallery-fullscreen">
@@ -91,18 +84,6 @@
 
 <style lang="scss" global>
 	.gallery {
-		padding: $sp-lg;
-		background-color: $dark;
-		border-radius: $radius-lg;
-		margin-bottom: $sp-xxl * 1.25;
-
-		@media (min-width: 600px) {
-			margin-top: $sp-md;
-			margin-bottom: $sp-xxl * 1.5;
-		}
-	}
-
-	.gallery-list {
 		display: flex;
 		flex-wrap: wrap;
 

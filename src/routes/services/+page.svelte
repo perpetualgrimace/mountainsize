@@ -10,7 +10,8 @@
 	import MulticolBlock from '$lib/MulticolBlock.svelte';
 	import TextBlock from '$lib/TextBlock.svelte';
 
-	import Gallery from '$lib/Gallery.svelte';
+	import Gallery from '$lib/Gallery/index.svelte';
+	import GalleryWrapper from '$lib/Gallery/GalleryWrapper.svelte';
 
 	import Mic from '$lib/Mic.svelte';
 	import BulletList from '$lib/BulletList.svelte';
@@ -195,15 +196,19 @@
 		</TextBlock>
 	</MulticolBlock>
 
-	<Gallery items={designs} slug="design" heading="Design samples">
-		More non-audio examples at <a
-			href="https://jamesferrell.me"
-			target="_blank"
-			rel="noopener noreferrer"
-		>
-			jamesferrell.me
-		</a>
-	</Gallery>
+	<GalleryWrapper heading="Design samples">
+		<svelte:fragment slot="subhead">
+			More non-audio examples at <a
+				href="https://jamesferrell.me"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				jamesferrell.me
+			</a>
+		</svelte:fragment>
+
+		<Gallery items={designs} slug="design" />
+	</GalleryWrapper>
 
 	<Mic heading="Let’s get started" showButton imgSlug="james-outside">
 		<p>

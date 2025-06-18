@@ -7,7 +7,9 @@
 	import HeroHeadline from '$lib/Hero/HeroHeadline.svelte';
 	import HeroParagraph from '$lib/Hero/HeroParagraph.svelte';
 
-	import Gallery from '$lib/Gallery.svelte';
+	import Gallery from '$lib/Gallery/index.svelte';
+	import GalleryWrapper from '$lib/Gallery/GalleryWrapper.svelte';
+
 	import Testimonials from '$lib/Testimonials.svelte';
 
 	import Button from '$lib/Button.svelte';
@@ -89,15 +91,19 @@
 		</p>
 	</Mic>
 
-	<Gallery items={studioPhotos} slug="gallery" heading="Studio gallery">
-		Photos by <a
-			href="https://www.vitorsa.com"
-			target="_blank"
-			rel="noopener noreferrer"
-		>
-			Vitor Sá
-		</a>
-	</Gallery>
+	<GalleryWrapper heading="Studio gallery">
+		<svelte:fragment slot="subhead">
+			Photos by <a
+				href="https://www.vitorsa.com"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				Vitor Sá
+			</a>
+		</svelte:fragment>
+
+		<Gallery items={studioPhotos} slug="gallery" />
+	</GalleryWrapper>
 
 	<Testimonials />
 
