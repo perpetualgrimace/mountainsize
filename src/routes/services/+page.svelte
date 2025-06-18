@@ -170,7 +170,7 @@
 			<p class="u-font-md u-mb-md">
 				If you’ve noticed that The Welcoming has nice album art and flyer
 				design, or that this website looks good and is easy to use, that's
-				because spent over a decade as a designer. Though I’m currently
+				because I spent over a decade as a designer. Though I’m currently
 				(finally) all in on music and audio production, I’m happy to help
 				elevate other artists visually too.
 			</p>

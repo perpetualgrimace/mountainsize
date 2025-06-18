@@ -128,13 +128,13 @@
 			I need to send tracks for you to mix — how should they be formatted?
 		</h2>
 		<BulletList fontSize="lg">
-			<li>Clearly named .wav files, ideally 44.1/48K and 24 bit</li>
-			<li>Send each track without effects</li>
+			<li>Clearly named .wav files, ideally 44.1/48K and 24 bit.</li>
+			<li>Send each track without effects.</li>
 			<li>
 				For tracks where you used effects and achieved a vibe that you like,
-				send those with effects too
+				send those with effects too.
 			</li>
-			<li>Send guitar / bass DIs as well as amp tones if you can</li>
+			<li>Send guitar / bass DIs as well as amp tones if you can.</li>
 		</BulletList>
 	</TextBlock>
 
@@ -143,12 +143,12 @@
 		<BulletList fontSize="lg">
 			<li>
 				<span class="u-cyan-light-color">For vocals:</span> sing loudly from
-				your diagraph, over-enunciate, sing with emotion.
+				your diaphragm, over-enunciate, sing with emotion.
 			</li>
 			<li>
 				<span class="u-cyan-light-color">For guitars & bass:</span> tune to the
 				attack, not the sustain; tune before each part so that the notes you’re
-				hitting are in tune; pick like your mean it; always capture a DI.
+				hitting are in tune; pick like your mean it; always capture a DI.
 			</li>
 			<li>
 				<span class="u-cyan-light-color">For drums:</span> this is a deep topic,
@@ -211,16 +211,16 @@
 	<TextBlock>
 		<h2>Why do you have two drum kits in the studio?</h2>
 		<BulletList fontSize="lg">
-			<li>It makes drum instruction easier</li>
-			<li>I suffer from Gear Aquisition Syndrome</li>
+			<li>It makes drum instruction easier.</li>
+			<li>I suffer from Gear Aquisition Syndrome.</li>
 		</BulletList>
 	</TextBlock>
 
 	<TextBlock>
 		<h2>Why did you name your recording studio Mountainsize Audio?</h2>
 		<BulletList fontSize="lg">
-			<li>The studio is nestled in the mountains of Asheville NC</li>
-			<li>I like big sounding audio, and mountains are very big</li>
+			<li>The studio is nestled in the mountains of Asheville NC.</li>
+			<li>I like big sounding audio, and mountains are very big.</li>
 			<li>
 				There was a band named <a
 					href="https://open.spotify.com/artist/0Opj9xi9HHrH0L9uHAKnKm/discography/all"
@@ -228,12 +228,12 @@
 					rel="noopener noreferrer"
 				>
 					Oceansize
-				</a> that I like, their name “inspired” Mountainsize
+				</a> that I like, their name “inspired” Mountainsize.
 			</li>
 			<li>
 				I thought the name would be easy to google — although I hadn’t
 				considered that search engines would correct it to “mountainside” or
-				that people would misread it as “mountainsized” or “mountain size”
+				that people would misread it as “mountainsized” or “mountain size.”
 			</li>
 		</BulletList>
 	</TextBlock>
