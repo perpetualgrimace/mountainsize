@@ -37,29 +37,27 @@
 			<strong>$40/hour</strong>
 			<span class="u-cyan-light-color">or <strong>$200/day</strong></span>
 		</p>
-		<p class="u-font-md u-mb-md">
+		<p class="u-font-lg u-mb-md">
 			For sessions that run shorter than five hours, it’s a $40 hourly charge
-			for the time. For sessions five hours or longer, you’ve unlocked the $200
-			day rate. We can go as long as energy and schedules permit!
+			for the time. For sessions five hours or longer, you’ve unlocked the $200
+			day rate. We typically start around noon and go as long as energy and
+			schedules permit.
 		</p>
-	</TextBlock>
 
-	<Mic
-		heading="Take advantage of my space, my gear, and my ear"
-		headingFontSize="lg"
-		imgSlug="james-computer"
-	>
-		<p class="u-font-md u-mb-md">
-			Whether you’re in a band and looking to track live with overdubs,
-			a singer-songwriter that wants to build out a song from the ground up, or
-			anything in between, I’ve got you covered.
-		</p>
-		<p class="u-font-md">
+		<h3>Take advantage of my space, my gear, and my ear</h3>
+
+		<p class="u-font-lg">
 			You can’t beat the sound of professional gear in a professional space,
 			with nice sounding mics in the right spots. Work with me in person and
 			I’ll help you perform your best!
 		</p>
-	</Mic>
+
+		<p class="u-font-lg">
+			Whether you’re in a band and looking to track live with overdubs,
+			a singer-songwriter that wants to build out a song from the ground up, or
+			anything in between, I’ve got you covered.
+		</p>
+	</TextBlock>
 
 	<Callout>
 		<h3>Recording session payment policy</h3>
@@ -108,7 +106,7 @@
 			<p class="u-subhead u-sun-light-color">
 				<strong>$100 per song</strong>
 				<span class="u-cyan-light-color">
-					Or <strong>free with studio time</strong>
+					Or <strong>free with studio time</strong>
 				</span>
 			</p>
 			<p class="u-font-md u-mb-md">
@@ -137,7 +135,7 @@
 			<p class="u-subhead u-sun-light-color">
 				<strong>$80 per song</strong>
 				<span class="u-cyan-light-color">
-					Or <strong>free with studio time</strong>
+					Or <strong>free with studio time</strong>
 				</span>
 			</p>
 			<p class="u-font-md u-mb-md">
@@ -167,7 +165,7 @@
 			<p class="u-subhead u-sun-light-color">
 				<strong>$40 flyer design</strong>
 				<span class="u-cyan-light-color">
-					• <strong>$60 album art</strong>
+					• <strong>$60 album art</strong>
 				</span>
 			</p>
 			<p class="u-font-md u-mb-md">
@@ -183,7 +181,7 @@
 			<p class="u-subhead u-sun-light-color">
 				<strong>$400 full site</strong>
 				<span class="u-cyan-light-color">
-					• <strong>$200 EPK one pager</strong>
+					• <strong>$200 EPK one pager</strong>
 				</span>
 			</p>
 			<p class="u-font-md u-mb-md">

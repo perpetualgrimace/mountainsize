@@ -84,7 +84,7 @@
 
 	<Mic heading="The microphones" subhead="and studio gear" imgSlug="mics">
 		<p>
-			The studio is equiped with a variety of nice sounding mics to handle
+			The studio is equipped with a variety of nice sounding mics to handle
 			everything from live drums to guitar cabs to vocals, 16 mic pres & inputs,
 			a Kemper profiler, a selection of nice plugins, and an in-ear monitoring
 			rig for independent monitor mixes.
