@@ -221,6 +221,11 @@
 	}
 	.player-controls-button {
 		padding: 0.25rem;
+		display: inline-flex;
+
+		svg {
+			margin: auto;
+		}
 
 		@media (min-width: 500px) {
 			&:not(:last-child) {
