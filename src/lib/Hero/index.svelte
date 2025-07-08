@@ -1,10 +1,9 @@
 <script>
-	import { page } from '$app/stores';
-
 	export let imgSlug;
+	export let pageSlug = 'default';
 </script>
 
-<header class={`hero ${$page.routeId || 'home'}-hero u-text-center`}>
+<header class={`hero ${pageSlug}-hero u-text-center`}>
 	<div class="hero-inner wrapper">
 		<slot />
 	</div>
@@ -51,17 +50,10 @@
 		object-position: 50% 60%;
 	}
 
-	// when menu wraps
-	@media (min-width: 600px) {
-		.hero:not(.home-hero) .hero-img {
-			height: calc(30vh + 20vw);
-			top: -5rem;
-		}
+	.hero:not(.home-hero) .hero-inner {
+		padding-top: calc(20vh + 20vw + 2rem);
 	}
-
-	@media (min-width: 1200px) {
-		.hero:not(.home-hero) .hero-img {
-			height: calc(20vh + 20vw);
-		}
+	.hero.release-hero .hero-inner {
+		padding-top: calc(15vh + 15vw + 2rem);
 	}
 </style>
