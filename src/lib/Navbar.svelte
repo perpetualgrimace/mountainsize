@@ -10,7 +10,7 @@
 <nav class="navbar">
 	<a
 		class="navbar-link navbar-logo"
-		href="."
+		href="/"
 		aria-current={$page.route.id === '/' ? 'page' : null}
 	>
 		<Logo {isHorizontal} />

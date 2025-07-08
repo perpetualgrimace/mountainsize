@@ -5,8 +5,8 @@
 <a class="social-link" {href}>
 	<img
 		class="social-img"
-		src={`icons/${title}-icon.png`}
-		srcset={`icons/${title}-icon.png 1x, icons/${title}-icon@2x.png 2x`}
+		src={`/icons/${title}-icon.png`}
+		srcset={`/icons/${title}-icon.png 1x, /icons/${title}-icon@2x.png 2x`}
 		loading="lazy"
 		draggable="false"
 		alt={`follow Mountainsize Audio on ${title}`}
