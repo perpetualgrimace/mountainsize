@@ -8,7 +8,7 @@
 			display: flex;
 
 			.callout {
-				width: calc(50% - $sp-sm);
+				width: calc(50% - #{$sp-sm});
 
 				&:first-of-type {
 					margin-right: auto;

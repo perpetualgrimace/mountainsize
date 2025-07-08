@@ -52,7 +52,7 @@
 			}
 
 			.mic-caption {
-				width: calc(100% - 10rem - $sp-xl);
+				width: calc(100% - 10rem - #{$sp-xl});
 			}
 		}
 
