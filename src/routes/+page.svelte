@@ -20,7 +20,7 @@
 
 <Meta />
 
-<Hero imgSlug="home-hero">
+<Hero imgSlug="home-hero" pageSlug="home">
 	<HeroHeadline>
 		Pro recordings, <br />
 		<span class="u-cyan-light-color">affordable pricing</span>

@@ -16,7 +16,10 @@ const config = {
 			}
 		}),
 		mdsvex({
-			extensions: ['.md']
+			extensions: ['.md'],
+			layout: {
+				release: 'src/routes/releases/[slug]/+page.svelte'
+			}
 		})
 	]
 };

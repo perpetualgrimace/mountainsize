@@ -13,8 +13,8 @@
 <section class="mic">
 	<img
 		class="mic-img"
-		src={`images/mic/${imgSlug}.png`}
-		srcset={`images/mic/${imgSlug}.png 1x, images/mic/${imgSlug}@2x.png 2x`}
+		src={`/images/mic/${imgSlug}.png`}
+		srcset={`/images/mic/${imgSlug}.png 1x, /images/mic/${imgSlug}@2x.png 2x`}
 		loading="lazy"
 		draggable="false"
 		alt=""

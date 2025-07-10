@@ -4,6 +4,7 @@
 	let isFullscreen;
 	export let fullscreenIndex = null;
 
+	export let appendThumb = true;
 	export let slug;
 	export let items = [];
 	let itemLength = items?.length;
@@ -13,8 +14,8 @@
 	{#each items as item, index}
 		<li class="gallery-item">
 			{#if item.href}
-				<a class="gallery-button" href={item.href}>
-					<GalleryImg path={slug} slug={item.slug} />
+				<a class="gallery-link" href={item.href}>
+					<GalleryImg path={slug} slug={item.slug} {appendThumb} />
 				</a>
 			{:else}
 				<button
@@ -25,7 +26,7 @@
 					)}
 					aria-pressed={fullscreenIndex === index + 1 && isFullscreen}
 				>
-					<GalleryImg path={slug} slug={item.slug} />
+					<GalleryImg path={slug} slug={item.slug} {appendThumb} />
 				</button>
 			{/if}
 		</li>

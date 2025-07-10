@@ -26,6 +26,13 @@
 		</a>
 		<a
 			class="navbar-link u-font-md"
+			href="/releases"
+			aria-current={$page.route.id.indexOf('releases') !== -1 ? 'page' : null}
+		>
+			Releases
+		</a>
+		<a
+			class="navbar-link u-font-md"
 			href="/faq"
 			aria-current={$page.route.id === '/faq' ? 'page' : null}
 		>

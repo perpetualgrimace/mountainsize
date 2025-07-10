@@ -1,0 +1,48 @@
+.release-hero .hero-paragraph {
+  width: 36rem;
+}
+
+.release-hero .hero-paragraph:nth-of-type(2) {
+  @include font-md;
+}
+
+.release-hero .button {
+  margin-top: $sp-xs;
+  min-width: 9rem;
+
+  &:first-child:not(:last-child) {
+    margin-right: $sp-md;
+  }
+}
+
+@media (max-width: 665px) {
+  .release-img {
+    width: 100%;
+    margin-top: -$sp-lg;
+  }
+}
+
+@media (min-width: 666px) {
+  .release-wrapper > .text-block:first-of-type {
+    display: flex;
+    align-items: flex-start;
+  }
+  .release-img {
+    @include box-shadow;
+    flex: 1 0 30%;
+    margin-right: $sp-xl;
+    border-radius: $radius-sm;
+
+    & + div {
+      margin-top: -0.375rem;
+    }
+  }
+}
+
+.release-wrapper p {
+  @include font-lg;
+}
+.release-wrapper ul {
+  @include bullet-list;
+  @include font-md;
+}
