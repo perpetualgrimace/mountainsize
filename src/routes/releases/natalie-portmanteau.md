@@ -1,10 +1,10 @@
 ---
 id: 6
 slug: natalie-portmanteau
-title: Natalie Portmanteau
-artist: Say NO! To YES!
+title: natalie portmanteau
+artist: Say NO! To YES!
 genre: Instrumental math rock
-type: track
+type: song
 released: March 2024
 bandcamp: 'https://saynotoyes.bandcamp.com/track/natalie-portmanteau'
 spotify: 'https://open.spotify.com/track/0AEGLVM5kMbAHfjztOlJzs'
