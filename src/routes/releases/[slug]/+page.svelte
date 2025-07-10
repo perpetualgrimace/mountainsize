@@ -31,7 +31,7 @@
 	/>
 
 	<Mic heading="Sound good?" showButton imgSlug="james-outside">
-		<p>Why not join the roster of those who trust me with their art?</p>
+		<p>Join the roster of those who trust me with their art!</p>
 	</Mic>
 </main>
 

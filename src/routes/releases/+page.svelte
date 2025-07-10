@@ -7,8 +7,9 @@
 
 	import Gallery from '$lib/Gallery/index.svelte';
 
-	import Mic from '$lib/Mic.svelte';
 	import BulletList from '$lib/BulletList.svelte';
+	import Mic from '$lib/Mic.svelte';
+	import Testimonials from '$lib/Testimonials.svelte';
 
 	export let data;
 	const releases = data.releases.map((a) => a.meta);
@@ -25,12 +26,17 @@
 <main class="wrapper releases-wrapper">
 	<Gallery slug="releases" items={releases} appendThumb={false} />
 
+	<Testimonials />
+
 	<Mic heading="Sound good?" showButton imgSlug="james-outside">
-		<p>Why not join the roster of those who trust me with their art?</p>
+		<p>Join the roster of those who trust me with their art!</p>
 	</Mic>
 </main>
 
 <style lang="scss" global>
+	.releases-wrapper .gallery {
+		margin-bottom: $sp-xxxl;
+	}
 	.releases-wrapper .gallery-item {
 		@media (min-width: 666px) {
 			flex: 0 1 calc(25% - 4px);

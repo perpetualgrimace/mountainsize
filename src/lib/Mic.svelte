@@ -29,7 +29,7 @@
 			<slot />
 		</div>
 		{#if showButton}
-			<Button href="contact">{buttonText}</Button>
+			<Button href="/contact">{buttonText}</Button>
 		{/if}
 	</div>
 </section>

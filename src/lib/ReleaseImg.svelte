@@ -3,7 +3,7 @@
 </script>
 
 <img
-	class="release-img u-mb-lg"
+	class="release-img"
 	src={`/images/releases/${slug}.jpg`}
 	srcset={`/images/releases/${slug}.jpg 1x, /images/releases/${slug}@2x.jpg 2x`}
 	alt=""

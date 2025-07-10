@@ -31,6 +31,7 @@
 		background-image: linear-gradient(180deg, $sun-light 0%, $sun-dark 100%);
 		text-shadow: 0 -1px 1px rgba($sun-dark, 0.5);
 		border-radius: $radius-md;
+		text-align: center;
 
 		&.is-block {
 			display: block;

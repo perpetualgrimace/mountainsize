@@ -11,6 +11,7 @@
 		@media (max-width: 599px) {
 			padding-left: 0;
 			padding-right: 0;
+			padding-top: 0;
 		}
 
 		h2 {
