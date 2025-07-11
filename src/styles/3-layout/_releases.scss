@@ -42,7 +42,11 @@
 .release-wrapper p {
   @include font-lg;
 }
-.release-wrapper ul {
+.release-wrapper ul:not(.releases-nav-list) {
   @include bullet-list;
   @include font-md;
+}
+
+.release-wrapper .multicol-block h2 {
+  @include font-lg;
 }

@@ -19,7 +19,7 @@
 <Meta title="Mountainsize releases" />
 
 <Hero imgSlug="discography-hero">
-	<HeroHeadline>Releases</HeroHeadline>
+	<HeroHeadline><span class="u-cyan-light-color">Releases</span></HeroHeadline>
 	<HeroParagraph>Highlights from the discography</HeroParagraph>
 </Hero>
 
