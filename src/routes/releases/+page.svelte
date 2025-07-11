@@ -34,7 +34,7 @@
 </main>
 
 <style lang="scss" global>
-	.releases-wrapper .gallery {
+	main.releases-wrapper .gallery {
 		margin-bottom: $sp-xxxl;
 	}
 	.releases-wrapper .gallery-item {

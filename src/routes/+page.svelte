@@ -16,6 +16,10 @@
 	import Diptych from '$lib/Diptych.svelte';
 	import Mic from '$lib/Mic.svelte';
 	import BulletList from '$lib/BulletList.svelte';
+
+	export let data;
+	const releases = data.releases.slice(0, 8).map((a) => a.meta);
+	releases.map((release) => (release.href = `/releases/${release.slug}`));
 </script>
 
 <Meta />
@@ -107,6 +111,15 @@
 
 	<Testimonials />
 
+	<div class="releases-wrapper">
+		<GalleryWrapper heading="Recent releases">
+			<Gallery slug="releases" items={releases} appendThumb={false} />
+			<Button href="/releases">
+				view more<span class="u-visually-hidden"> releases</span>
+			</Button>
+		</GalleryWrapper>
+	</div>
+
 	<Mic
 		heading="Let’s get started"
 		showButton
@@ -121,4 +134,18 @@
 </main>
 
 <style lang="scss" global>
+	.releases-wrapper:not(main) .gallery {
+		margin-bottom: $sp-xs;
+	}
+	.releases-wrapper:not(main) {
+		top: -$sp-lg;
+	}
+	.releases-wrapper .gallery-item {
+		@media (min-width: 666px) {
+			flex: 0 1 calc(25% - 4px);
+		}
+	}
+	.releases-wrapper .gallery-img {
+		@include scale-on-hover(1.0375);
+	}
 </style>
