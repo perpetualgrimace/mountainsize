@@ -6,12 +6,12 @@
 	import HeroParagraph from '$lib/Hero/HeroParagraph.svelte';
 	import Button from '$lib/Button.svelte';
 
-	const services = [
-		{ label: 'Mixing', value: 'mixing' },
-		{ label: 'Mastering', value: 'mastering' },
-		{ label: 'Session musician', value: 'session-musician' },
-		{ label: 'In-studio recording session', value: 'in-studio-session' }
-	];
+	// const services = [
+	// 	{ label: 'Mixing', value: 'mixing' },
+	// 	{ label: 'Mastering', value: 'mastering' },
+	// 	{ label: 'Session musician', value: 'session-musician' },
+	// 	{ label: 'In-studio recording session', value: 'in-studio-session' }
+	// ];
 </script>
 
 <Meta title="Mountainsize Booking" />
@@ -21,10 +21,9 @@
 		Let’s <span class="u-cyan-light-color"> get started</span>
 	</HeroHeadline>
 	<HeroParagraph>
-		Please fill out this quick contact form and I’ll do <br /> my best to get back
-		to you within 24 hours.
+		I’m excited to hear about your project! Please fill out this contact form
+		and I’ll get back to you within 24 hours.
 	</HeroParagraph>
-	<HeroParagraph>I’m excited to hear about your project!</HeroParagraph>
 </Hero>
 
 <main class="wrapper">
@@ -64,7 +63,7 @@
 			/>
 		</label>
 
-		<div class="u-mb-lg contact-field-services">
+		<!-- <div class="u-mb-lg contact-field-services">
 			<p class="u-heading u-mb-0">Services requested</p>
 			<p class="help u-cyan-light-color u-font-sm u-mb-sm">
 				Check any that might apply
@@ -83,7 +82,7 @@
 					</label>
 				{/each}
 			</fieldset>
-		</div>
+		</div> -->
 
 		<label class="u-mb-lg contact-field-message">
 			<div class="u-heading u-mb-0">Brief project description</div>

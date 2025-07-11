@@ -55,11 +55,11 @@ main {
 		.contact-field-email {
 			grid-column: 3 / span 2;
 		}
-		.contact-field-services {
-			grid-column: 1 / 2;
-		}
+		// .contact-field-services {
+		// 	grid-column: 1 / 2;
+		// }
 		.contact-field-message {
-			grid-column: 2 / span 3;
+			grid-column: 1 / span 4;
 		}
 		.button {
 			grid-column: 1 / span 4;
