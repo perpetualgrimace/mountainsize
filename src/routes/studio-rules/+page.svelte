@@ -24,7 +24,7 @@
 	</HeroHeadline>
 </Hero>
 
-<main class="wrapper">
+<main class="wrapper rules-wrapper">
 	<TextBlock>
 		<h2>
 			<div class="u-sun-light-color u-subhead u-font-lg">Rule #1:</div>
@@ -177,4 +177,9 @@
 </main>
 
 <style lang="scss" global>
+	@media (max-width: 599px) {
+		.rules-wrapper .text-block {
+			margin-bottom: $sp-lg;
+		}
+	}
 </style>

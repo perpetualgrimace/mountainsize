@@ -146,8 +146,18 @@
 		transition: color 0.2s ease-out;
 	}
 
+	.release-wrapper .multicol-block .text-block {
+		padding-bottom: $sp-lg;
+	}
+
 	.release-wrapper .text-block {
 		max-width: 100%;
+
+		@media (max-width: 665px) {
+			&:nth-child(3) {
+				padding-bottom: 0;
+			}
+		}
 
 		@media (min-width: 600px) {
 			padding-top: $sp-sm;

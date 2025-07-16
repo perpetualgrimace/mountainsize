@@ -24,7 +24,7 @@
 	</HeroHeadline>
 </Hero>
 
-<main class="wrapper">
+<main class="wrapper faq-wrapper">
 	<TextBlock>
 		<h2>What should I bring to a session?</h2>
 		<p class="u-font-lg">
@@ -275,4 +275,12 @@
 </main>
 
 <style lang="scss" global>
+	@media (max-width: 599px) {
+		.faq-wrapper .text-block {
+			margin-bottom: $sp-lg;
+		}
+	}
+	.faq-wrapper .bullet-list li:last-child {
+		margin-bottom: -$sp-xs;
+	}
 </style>
