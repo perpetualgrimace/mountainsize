@@ -11,6 +11,16 @@
 	},
 	{
 		"id": 1,
+		"genre": "Post-hardcore",
+		"artist": "Asylum 213",
+		"song": "Sundrest",
+		"length": "4:30",
+		"year": 2025,
+		"link": "beacons.ai/asylum213",
+		"src": "/tracks/sundrest.mp3"
+	},
+	{
+		"id": 2,
 		"genre": "Math rock",
 		"artist": "Say NO! To YES!",
 		"song": "Natalie Portmanteau",
@@ -20,7 +30,17 @@
 		"src": "/tracks/natalie-portmanteau.mp3"
 	},
 	{
-		"id": 2,
+		"id": 3,
+		"genre": "Metal",
+		"artist": "Among the Forgotten",
+		"song": "Iron Gaze",
+		"length": "4:01",
+		"year": 2025,
+		"link": "open.spotify.com/track/5lNzeX0bck6XSjPdTOWLdP",
+		"src": "/tracks/iron-gaze.mp3"
+	},
+	{
+		"id": 4,
 		"genre": "Hard blues",
 		"artist": "Mayhem City Blues Band",
 		"song": "20th Century Blues",
@@ -30,7 +50,17 @@
 		"src": "/tracks/20th-century-blues.mp3"
 	},
 	{
-		"id": 3,
+		"id": 5,
+		"genre": "Nu metal",
+		"artist": "Various Artists",
+		"song": "Rendered Useless Remade",
+		"length": "4:37",
+		"year": 2025,
+		"link": "thewelcoming.bandcamp.com/track/rendered-useless-remade",
+		"src": "/tracks/rendered-useless-remade.mp3"
+	},
+	{
+		"id": 6,
 		"genre": "Folk",
 		"artist": "Acklen Walker",
 		"song": "Appalachia Still Remains",
@@ -39,38 +69,19 @@
 		"link": "acklenwalker.bandcamp.com/track/appalachia-still-remains",
 		"src": "/tracks/appalachia-still-remains.mp3"
 	},
-	{
-		"id": 4,
-		"genre": "Garage rock",
-		"artist": "Call The Next Witness",
-		"song": "Pendulum",
-		"length": "3:53",
-		"year": 2024,
-		"link": "cavernsofgold.bandcamp.com/track/pendulum",
-		"src": "/tracks/pendulum.mp3"
-	},
-	{
-		"id": 5,
-		"genre": "Metalcore",
-		"artist": "Embrace the Animal",
-		"song": "Ashes of Irondale",
-		"length": "3:30",
-		"year": 2022,
-		"link": "embracetheanimal.bandcamp.com",
-		"src": "/tracks/ashes.mp3"
-	},
-	{
-		"id": 6,
-		"genre": "Hard rock",
-		"artist": "Here Lies Wes",
-		"song": "Nihilty",
-		"length": "3:47",
-		"year": 2022,
-		"link": "open.spotify.com/artist/3WihAUyEe1eeRhuaEV5kyQ",
-		"src": "/tracks/nihilty.mp3"
-	},
+
 	{
 		"id": 7,
+		"genre": "Blackened prog",
+		"artist": "Gnarlmyth",
+		"song": "The Crimson Entity",
+		"length": "4:13",
+		"year": 2025,
+		"link": "gnarlmyth.bandcamp.com",
+		"src": "/tracks/the-crimson-entity.mp3"
+	},
+	{
+		"id": 8,
 		"genre": "Progressive rock",
 		"artist": "Red Era",
 		"song": "The Trials",
@@ -78,16 +89,6 @@
 		"year": 2020,
 		"link": "red-era.com",
 		"src": "/tracks/trials.mp3"
-	},
-	{
-		"id": 8,
-		"genre": "Post-hardcore",
-		"artist": "Waypoints",
-		"song": "The Void",
-		"length": "4:19",
-		"year": 2018,
-		"link": "waypoints.bandcamp.com",
-		"src": "/tracks/void.mp3"
 	},
 	{
 		"id": 9,
