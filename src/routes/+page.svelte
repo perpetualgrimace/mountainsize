@@ -141,6 +141,8 @@
 		top: -$sp-lg;
 	}
 	.releases-wrapper .gallery-item {
+		flex: 0 1 calc(50% - 4px);
+
 		@media (min-width: 666px) {
 			flex: 0 1 calc(25% - 4px);
 		}

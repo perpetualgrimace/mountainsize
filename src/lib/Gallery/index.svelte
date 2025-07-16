@@ -87,21 +87,16 @@
 	.gallery {
 		display: flex;
 		flex-wrap: wrap;
-
-		&:hover {
-			.gallery-item {
-				opacity: 0.5;
-			}
-		}
 	}
 	.gallery-item {
 		flex: 1 1 calc(33.333% - 4px);
 		margin: 2px;
 		overflow: hidden;
+		opacity: 0.75;
 		transition: opacity 0.2s ease-out;
 
 		&:hover {
-			opacity: 1 !important;
+			opacity: 1;
 		}
 	}
 	.gallery-button {
