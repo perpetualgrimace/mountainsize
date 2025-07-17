@@ -37,11 +37,8 @@ This release mixed and mastered by Adam Whittaker at [Deluxe Mixing](https://ww
 
 ## My roles:
 
-- Guitars
-- Drums
-- Bass
-- Backing vocals
-- Arragement
+- Guitars, drums, backing vocals, bass performance
+- Arrangement
 
 </TextBlock>
 
@@ -52,7 +49,7 @@ This release mixed and mastered by Adam Whittaker at [Deluxe Mixing](https://ww
 - **Olive Dares the Darkness**: <br />
   Original song, lyrics, lead vocals, synths
 - **Spencer Cranfill**: <br />
-  Guitar solo
+  Guitar solo performance
 - **Adam Whittaker**: <br />
   Mixing & mastering engineer
 

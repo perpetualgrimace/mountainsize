@@ -46,7 +46,7 @@ Their sound is a cross between Paramour and Coheed & Cambria. Striking female vo
 ## Additional credits:
 
 - **Escape From Salem**: <br />
-  Song writing, performance, & tracking
+  Songwriting, performance, tracking, artwork
 
 </TextBlock>
 </MulticolBlock>

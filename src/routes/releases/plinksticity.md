@@ -4,7 +4,7 @@ slug: plinksticity
 title: Plinksticity
 artist: Ambushed
 genre: Alt rock
-type: Album
+type: album
 released: November 2018
 bandcamp: 'https://ambushed.bandcamp.com/album/plinksticity-reloaded-plinksticial-edition'
 spotify: 'https://open.spotify.com/album/0y4xEkETBBIpCh2q1RloBH'
@@ -25,7 +25,7 @@ artistUrl: 'https://ambushed.bandcamp.com'
 
 This is the oldest recording that I engineered which I’m still proud of.
 
-Ambushed was a group of talented dudes I was lucky enough to be a part of in the mid 2010s in Boston, MA. We demoed out two EPs, but the band imploded before we fished the latter.
+Ambushed was a group of talented dudes I was lucky enough to be a part of in the mid 2010s in Boston MA. We demoed out two EPs, but the band imploded before we fished the latter.
 
 In 2018, I revisited those recordings and this was the result. I tracked live drums, reamped guitars, and remixed all of released and unreleased material, then released it as one album.
 
@@ -40,12 +40,13 @@ Everything was recorded in practice spaces with thin walls, in between other ban
 
 ## My roles:
 
-- Mixing
-- Mastering
 - Songwriting
-- Drum performance
+- Pre-production
+- Mixing engineer
+- Mastering engineer
+- Drums, backing vocal performance
 - Reamping
-- Editing
+- Editor
 - Logo design
 
 </TextBlock>
@@ -55,7 +56,7 @@ Everything was recorded in practice spaces with thin walls, in between other ban
 ## Additional credits:
 
 - **Hunter Schulz**: <br />
-  Lead vocals, bass, songwriting
+  Lead vocals, bass, songwriting, artwork
 - **John Apicella**: <br />
   Lead vocals, rhythm guitar, songwriting
 - **Matt Tieuli**: <br />

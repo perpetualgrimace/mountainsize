@@ -38,10 +38,9 @@ Most [instagram videos of me](https://www.instagram.com/p/C95ZU_Vh72M/) practici
 
 ## My roles:
 
-- Drum performance
-- Bass performance
-- Guest vocal performances
-- Mixing
+- Drums, bass, guest vocal performance
+- Mixing engineer
+- Editor (drums, some vocals)
 
 </TextBlock>
 
@@ -55,6 +54,10 @@ Most [instagram videos of me](https://www.instagram.com/p/C95ZU_Vh72M/) practici
   Additional vocals
 - **Marvin Menz**: <br />
   Mastering engineer
+- **Ifan Farid**: <br />
+  Logo design
+- **Innerprojection**: <br />
+  Artwork
 
 </TextBlock>
 </MulticolBlock>

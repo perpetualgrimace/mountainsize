@@ -37,9 +37,9 @@ This recording is a reimagining of the closing track from Asylum 213’s 2021 a
 ## My roles:
 
 - Tracking engineer
-- Mixing
-- Mastering
-- Editing
+- Mixing engineer
+- Mastering engineer
+- Editor
 - Gang vocal participant
 
 </TextBlock>
@@ -49,7 +49,7 @@ This recording is a reimagining of the closing track from Asylum 213’s 2021 a
 ## Additional credits:
 
 - **Aslyum 213**: <br />
-  Song writing and performance
+  Songwriting, performance, artwork
 
 </TextBlock>
 </MulticolBlock>

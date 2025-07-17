@@ -23,13 +23,11 @@ artistUrl: 'https://thewelcomingmusic.com'
 
 <div>
 
-Neptune was an organic evolution from my solo project into a band. I like to think it’s more focused than [Decayed | Remade](./decayed-remade) despite the additional voices, since we had a better idea of where we wanted to take our sound.
+Neptune was an organic evolution from my solo project into a band. I like to think it’s more focused than [Decayed | Remade](./decayed-remade) despite the additional voices, since we had a better idea of where we wanted to take our sound.
 
-We took our time crafting the songs and road tested a few of them. The mix is nice and balanced, with a bit less focus on rhythm guitars and more focus on vocals and bass.
+We took our time crafting the songs and road tested a few of them. The mix is nice and balanced, with a bit less focus on rhythm guitars and more focus on vocals and bass.
 
-I really appreciated [Hugo GT’s](https://hugogt.ca/) approach and insights as a mastering engineer.
-
-There’s also a [making of series](https://www.youtube.com/playlist?list=PL2OXkh0m_R5ykVrouKOwIC-gTso42KaLB) on YouTube.
+I typically master my own music, but I put in so much time crafting this EP that I decided to bring in [Hugo GT](https://hugogt.ca/) as a mastering engineer, and I learned a lot from his approach and feedback.
 
 </div>
 
@@ -40,14 +38,11 @@ There’s also a [making of series](https://www.youtube.com/playlist?list=PL2OXk
 
 ## My roles:
 
-- Mixing
-- Mastering
-- Pre-production
-- Vocal performance
-- Guitar performance
-- Bass performance
-- Drum performance
-- Editing
+- Songwriting
+- Mixing engineer
+- Mastering engineer
+- Drums, vocals, guitar, bass performance
+- Editor
 - Artwork
 
 </TextBlock>
@@ -62,6 +57,8 @@ There’s also a [making of series](https://www.youtube.com/playlist?list=PL2OXk
   Drum performance, songwriting
 - **Vitor Sá**: <br />
   Bass performance, vocals, songwriting
+- **Nestor Idler**: <br />
+  Guest vocals on Bitter Air
 - **Hugo Gagné-Thivierge**: <br />
   Mastering
 

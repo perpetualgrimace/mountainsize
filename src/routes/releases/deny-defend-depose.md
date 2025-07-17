@@ -1,7 +1,7 @@
 ---
 id: 18
 slug: deny-defend-depose
-title: Deny Defend Depose (Free Luigi)
+title: Deny Defend Depose
 artist: Cloud Blood
 genre: Prog metal
 type: song
@@ -41,7 +41,7 @@ Anyway, I would describe this one as darkwave meets progressive metal. It’s go
 - Mixing engineer
 - Mastering engineer
 - Bass performance
-- Editing
+- Editor
 
 </TextBlock>
 
@@ -50,7 +50,9 @@ Anyway, I would describe this one as darkwave meets progressive metal. It’s go
 ## Additional credits:
 
 - **Josh Brill**: <br />
-  Songwriting, guitar & vocal performance, drum & fx programming
+  Songwriting, guitar & vocal performance, drum & effects programming
+- **Derek Reece**: <br />
+  Artwork
 
 </TextBlock>
 </MulticolBlock>

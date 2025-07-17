@@ -39,12 +39,12 @@ I'm happy with the mix, which favors the musicianship, but still I wish Jack let
 
 ## My roles:
 
-- Mixing
-- Mastering
 - Pre-production
 - Drum performance
+- Mixing engineer
+- Mastering engineer
 - Reamping
-- Editing
+- Editor
 
 </TextBlock>
 

@@ -4,7 +4,7 @@ slug: beings-of-apocalypse
 title: Beings of Apocalypse
 artist: Embrace the Animal
 genre: Metalcore
-type: Album
+type: album
 released: May 2022
 bandcamp: 'https://embracetheanimal.bandcamp.com/album/beings-of-apocalypse'
 spotify: 'https://open.spotify.com/album/405KbvxFwYwHWA7dvgnSc8'
@@ -36,13 +36,11 @@ I joined the band after the material for this release had largely been written b
 
 ## My roles:
 
-- Mixing
-- Mastering
 - Pre-production
-- Drum performance
-- Bass performance
-- Reamping
-- Editing
+- Mixing engineer
+- Mastering engineer
+- Drums, bass, backing vocal performance
+- Editor
 - Artwork
 
 </TextBlock>
@@ -51,7 +49,7 @@ I joined the band after the material for this release had largely been written b
 
 ## Additional credits:
 
-- **Ken Mcafee:** <br /> Guitars, backing vocals, songwriting
+- **Ken Mcafee:** <br /> Songwriting, guitars, backing vocals
 - **Nico Burnette:** <br /> Lead vocals
 - **James Holland:** <br /> Songwriting (Break the Madness, My Last Goodbye)
 

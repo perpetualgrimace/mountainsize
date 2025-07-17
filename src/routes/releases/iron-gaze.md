@@ -41,7 +41,7 @@ After taking our time to get the right takes, this was a relatively easy mix!
 - Mixing engineer
 - Mastering engineer
 - Effects programming
-- Editing
+- Editor
 
 </TextBlock>
 
@@ -50,7 +50,7 @@ After taking our time to get the right takes, this was a relatively easy mix!
 ## Additional credits:
 
 - **Among the Forgotten**: <br />
-  Songwriting, performance
+  Songwriting, performance, artwork
 
 </TextBlock>
 </MulticolBlock>

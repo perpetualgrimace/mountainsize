@@ -39,9 +39,9 @@ As an aside, my grandma’s thoughts on this song are as follows: _“This star
 ## My roles:
 
 - Tracking engineer
-- Mixing
-- Mastering
-- Editing
+- Mixing engineer
+- Mastering engineer
+- Editor
 
 </TextBlock>
 
@@ -50,7 +50,7 @@ As an aside, my grandma’s thoughts on this song are as follows: _“This star
 ## Additional credits:
 
 - **Aslyum 213**: <br />
-  Song writing and performance
+  Songwriting, performance, artwork
 
 </TextBlock>
 </MulticolBlock>

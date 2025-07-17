@@ -25,7 +25,7 @@ artistUrl: 'https://saynotoyes.bandcamp.com'
 
 I had a blast working on another instrumental math rock banger for Say NO! To YES!
 
-Tim once again gave me full reign to write drum parts with groove and intention. Rim clicks and extra FX cymbals felt right for this track.
+Tim once again gave me full reign to write drum parts with groove and intention. Rim clicks and extra effects cymbals felt right for this track.
 
 Tim wanted to try his hand at mixing this time around, so I laid down and edited the drums, and then send him pre-processed stems. I’m always happy to work with artists in a way that works for them!
 
@@ -39,6 +39,8 @@ Tim wanted to try his hand at mixing this time around, so I laid down and edited
 ## My roles:
 
 - Drum performance
+- Mixing engineer (drums)
+- Editor (drums)
 
 </TextBlock>
 
@@ -47,7 +49,7 @@ Tim wanted to try his hand at mixing this time around, so I laid down and edited
 ## Additional credits:
 
 - **Tim Duncan**: <br />
-  Song writing, guitars, bass, mixing, mastering
+  Songwriting, guitars, bass, mixing, mastering, artwork
 
 </TextBlock>
 </MulticolBlock>

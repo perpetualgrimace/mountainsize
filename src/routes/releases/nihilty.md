@@ -4,7 +4,7 @@ slug: nihilty
 title: Nihilty
 artist: Here Lies Wes
 genre: Metalcore
-type: track
+type: song
 released: 2022
 # bandcamp:
 spotify: 'https://open.spotify.com/track/70YKQbBkUmAc3EJeVYxzsA'
@@ -36,12 +36,11 @@ I recorded and mixed a few songs by Wes in 2022 and 2023. Nihility was my favori
 
 ## My roles:
 
-- Mixing
-- Mastering
 - Arrangement
-- Drum performance
-- Bass performance
-- Backing vocals
+- Mixing engineer
+- Mastering engineer
+- Drums, bass, backing vocal performance
+- Editor
 
 </TextBlock>
 

@@ -4,7 +4,7 @@ slug: decayed-remade
 title: Decayed | Remade
 artist: The Welcoming
 genre: Prog rock/metal
-type: Album
+type: album
 released: November 2021
 bandcamp: 'https://thewelcoming.bandcamp.com/album/decayed-remade'
 spotify: 'https://open.spotify.com/album/3gJgrfKZd0SlY1FpOQrP0K'
@@ -25,9 +25,9 @@ artistUrl: 'https://thewelcomingmusic.com'
 
 Decayed | Remade was my 2021 solo album in which I wrote, performed, mixed, and mastered everything. It was the first project recorded after completing the studio.
 
-It was also the first time I released music that wasn't met with the typical resistance or indifference. People seemed to actually like it. In fact, some people liked it enough to join my band, learn the songs, and play them live with me. Thanks Vitor, Spencer, and Ken!
+It was also the first time I released music that wasn't met with the typical resistance or indifference. People seemed to actually like it. In fact, some people liked it enough to join my band, learn the songs, and play them live with me. Thanks Vitor Sá, Spencer Cranfill, and Ken Mcafee!
 
-It's not a perfect album. It drew on a decade or more of song ideas so it has some stylistic whiplash. I overcooked the master a little bit. I kind of threw the artwork together. I would definitely make different vocal & lyrical choices now. But I'm still very proud of the songs and the mix overall.
+It's not a perfect album. It drew on a decade or more of song ideas so it has some stylistic whiplash. I overcooked the master a little bit. I kind of threw the artwork together. I would definitely make different vocal and lyrical choices now. But I'm still very proud of these songs!
 
 </div>
 
@@ -39,10 +39,10 @@ It's not a perfect album. It drew on a decade or more of song ideas so it has so
 ## My roles:
 
 - Songwriting
-- Drums, bass, guitars, vocals
-- Editing
-- Mixing
-- Mastering
+- Drums, guitars, vocals, bass performance
+- Mixing engineer
+- Mastering engineer
+- Editor
 - Artwork
 
 </TextBlock>

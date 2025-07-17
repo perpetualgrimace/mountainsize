@@ -36,7 +36,7 @@ I digress. This song feels like a bold step in a new, more modern direction for
 
 ## My roles:
 
-- Stem mastering
+- Stem mastering engineer
 
 </TextBlock>
 
@@ -45,7 +45,7 @@ I digress. This song feels like a bold step in a new, more modern direction for
 ## Additional credits:
 
 - **Counter**: <br />
-  Song writing & performance
+  Songwriting, performance, artwork
 - **Colt Crevar**: <br />
   Pre-production
 - **Ricky Rodriguez @ Bomb House Recording**: <br />

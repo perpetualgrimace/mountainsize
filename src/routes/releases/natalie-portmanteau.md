@@ -37,8 +37,8 @@ This was a fun remote collaboration with Asheville guitarist extraordinaire Tim 
 ## My roles:
 
 - Drum performance
-- Mixing
-- Mastering
+- Mixing engineer
+- Mastering engineer
 
 </TextBlock>
 
@@ -47,7 +47,7 @@ This was a fun remote collaboration with Asheville guitarist extraordinaire Tim 
 ## Additional credits:
 
 - **Tim Duncan**: <br />
-  guitars, bass, FX programming, songwriting, artwork
+  Songwriting, guitars, bass, effects programming, artwork
 
 </TextBlock>
 </MulticolBlock>

@@ -37,11 +37,11 @@ If you've ever wondered how The Welcoming would sound if we had rap verses and t
 
 ## My roles:
 
-- Drums, guitars, bass, vocals
-- Arragement
+- Drums, guitars, vocals, bass performance
+- Arrangement
 - Outro lyrics
-- Mixing
-- Mastering
+- Mixing engineer
+- Mastering engineer
 - Artwork
 
 </TextBlock>
@@ -53,7 +53,7 @@ If you've ever wondered how The Welcoming would sound if we had rap verses and t
 - **Rick Whitehead**: <br />
   Original song, lyrics, vocals, guitars, bass
 - **Acklen Walker**: <br />
-  Rap verses, backing vocals
+  Rap verses, backing vocal performance
 
 </TextBlock>
 </MulticolBlock>

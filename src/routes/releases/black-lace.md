@@ -45,7 +45,7 @@ Sonically, these guys harken back to 80s rock in a big way, but with a bit of a 
 ## Additional credits:
 
 - **Vudu Revival**: <br />
-  Song writing & performance
+  Songwriting, performance, artwork
 
 </TextBlock>
 </MulticolBlock>
