@@ -38,7 +38,7 @@ Mastering an album with multiple genres and multiple indie artists was not an ea
 ## My roles:
 
 - Mastering engineer (all songs)
-- Mixing engineer (An Institution of Sorts, Rendered Useless Remade, From the Bones, and Little Agonies)
+- Mixing engineer (An Institution of Sorts, Rendered Useless Remade, From the Bones, Little Agonies)
 
 </TextBlock>
 
@@ -47,7 +47,7 @@ Mastering an album with multiple genres and multiple indie artists was not an ea
 ## Additional credits:
 
 <span>
-Original music by Rick Whitehead featuring S D Charlton, Betty Nagl, Jamie Armstrong, and As Particles Collide. Remixes by Drew Nold, Steam Slicer, Histheory, The Ocean Beneath, Acklen Walker, Drunk and Lonely, Embracing Discmfort, and Syncopate.
+Original music by Rick Whitehead featuring S.D. Charlton, Betty Nagl, Jamie Armstrong, and As Particles Collide. Remixes by Drew Nold, Steam Slicer, Histheory, The Ocean Beneath, Acklen Walker, Drunk and Lonely, Embracing Discomfort, and Syncopate. Album artwork by Rick Whitehead.
 </span>
 
 </TextBlock>
