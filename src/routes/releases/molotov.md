@@ -21,7 +21,7 @@ spotify: 'https://open.spotify.com/album/630Bpz6XDLen5qjuVTs8be'
 
 <div>
 
-Black Mountain NC songwriter Andy Hughes uses humor and absurdity to excorcise his demons. As a producer, I helped to focus his ideas and energy into tight, fun, and fearless songs. Molotov is the result.
+Black Mountain NC songwriter Andy Hughes uses humor and absurdity to exorcise his demons. As a producer, I helped to focus his ideas and energy into tight, fun, and fearless songs. Molotov is the result.
 
 Making this EP was a collaborative and rewarding experience. We kicked things off with me pulling double duty as a session drummer and tracking engineer, learning and revising parts as we jammed out the songs together. Following that initial session, we met occasionally and added overdubs and tweaked arrangements until each song felt right.
 
