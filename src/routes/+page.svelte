@@ -51,9 +51,9 @@
 			<li><a href="services#mixing">Mixing</a></li>
 			<li><a href="services#mastering">Mastering</a></li>
 			<li><a href="services#session-musician">Session musician</a></li>
-			<li><a href="services#stem-mastering">Stem mastering</a></li>
 			<li><a href="services#song-production">Song production</a></li>
 			<li><a href="services#editing">Editing</a></li>
+			<li><a href="services#drum-lessons">Drum lessons</a></li>
 			<li><a href="services#design">Graphic design</a></li>
 			<li><a href="services#website">Custom website</a></li>
 		</BulletList>

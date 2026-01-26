@@ -19,7 +19,7 @@
 
 <Meta
 	title="Mountainsize Services"
-	description="Recording, mixing, mastering, editing, song production, session musician, editing, stem mastering, design & web development. Affordable, no bullshit pricing."
+	description="Recording, mixing, mastering, editing, song production, session musician, editing, drum lessons, design & web development. Affordable, no bullshit pricing."
 />
 
 <Hero imgSlug="services-hero">
@@ -34,14 +34,14 @@
 	<TextBlock>
 		<h2 id="recording">Studio recording</h2>
 		<p class="u-subhead u-sun-light-color">
-			<strong>$40/hour</strong>
-			<span class="u-cyan-light-color">or <strong>$200/day</strong></span>
+			<strong>$50 per hour</strong>
+			<span class="u-cyan-light-color">or <strong>$250 per day</strong></span>
 		</p>
 		<p class="u-font-lg u-mb-md">
-			For sessions that run shorter than five hours, it’s a $40 hourly charge
-			for the time. For sessions five hours or longer, you’ve unlocked the $200
-			day rate. We typically start around noon and go as long as energy and
-			schedules permit.
+			For sessions that run shorter than five hours, it’s a $50 hourly charge
+			for the time. For sessions five hours or longer, you’ve unlocked the $250
+			day rate. We typically start at the crack of noon and go as long as energy
+			and schedules permit.
 		</p>
 
 		<h3>Take advantage of my space, my gear, and my ear</h3>
@@ -117,20 +117,6 @@
 			</p>
 		</TextBlock>
 		<TextBlock>
-			<h2 id="stem-mastering">Stem mastering</h2>
-			<p class="u-subhead u-sun-light-color">
-				<strong>$60 per song</strong>
-			</p>
-			<p class="u-font-md u-mb-md">
-				Send up to 6 submixed stereo stems to provide me with more control in
-				the mastering stage. If you have a mix that’s pretty close but not quite
-				there, this can be a good option.
-			</p>
-		</TextBlock>
-	</MulticolBlock>
-
-	<MulticolBlock>
-		<TextBlock>
 			<h2 id="song-production">Song production</h2>
 			<p class="u-subhead u-sun-light-color">
 				<strong>$80 per song</strong>
@@ -144,10 +130,13 @@
 				progressions, riffs — whatever the song needs!
 			</p>
 		</TextBlock>
+	</MulticolBlock>
+
+	<MulticolBlock>
 		<TextBlock>
 			<h2 id="editing">Editing</h2>
 			<p class="u-subhead u-sun-light-color">
-				<strong>$40 per song</strong>
+				<strong>$100 per song</strong>
 				<span class="u-cyan-light-color">
 					Or <strong>free with mix</strong>
 				</span>
@@ -155,6 +144,19 @@
 			<p class="u-font-md u-mb-md">
 				From composite takes, to quantization, to tuning — I know not just how
 				to use the tools available, but when and how much to use them.
+			</p>
+		</TextBlock>
+		<TextBlock>
+			<h2 id="drum-lessons">Drum lessons</h2>
+			<p class="u-subhead u-sun-light-color">
+				<strong>$40 per hour session</strong>
+				<span class="u-cyan-light-color">
+					Or <strong>$30 per 45 minute session for kiddos</strong>
+				</span>
+			</p>
+			<p class="u-font-md u-mb-md">
+				We’ll cover the fundamentals and expand your vocabulary as we learn
+				songs together! All skill levels and all ages are welcome.
 			</p>
 		</TextBlock>
 	</MulticolBlock>
