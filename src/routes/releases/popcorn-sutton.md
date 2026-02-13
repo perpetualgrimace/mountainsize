@@ -24,7 +24,7 @@ artistUrl: 'https://www.facebook.com/p/MSG-Michael-Scott-Groove-61576833643511'
 
 Asheville NC band Michael Scott Groove is all over the map in terms of genre, but tasty grooves are a constant! The guys tried something a little different for Popcorn Sutton, with a bluegrass flavored intro featuring banjo, harmonica, stomps, and an epic vibraslap hit.
 
-This was one of two songs recorded across two recording sessions. The band tracked live at the studio, then later overdubbed guitars, vocals, and additional layers.
+This was one of two songs recorded across two recording sessions. The band tracked live at the studio, and then we overdubbed guitars, vocals, and additional layers.
 
 </div>
 

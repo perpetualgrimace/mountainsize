@@ -25,7 +25,7 @@ artistUrl: 'https://drowningleo.com'
 
 Asheville NC band Drowning Leo is a little bit pop punk, a little bit rock and roll. Sonically, this song is more the latter, though I would classify the lyrics as punk in their disdain and sharp sarcasm for people eager to believe anything but the truth.
 
-Conspiracy is the first of two songs recorded across two recording sessions. The band tracked live at the studio, then later overdubbed guitars and vocals.
+Conspiracy is the first of two songs recorded across two recording sessions. The band tracked live at the studio, and then we overdubbed guitars and vocals.
 
 </div>
 

@@ -24,7 +24,7 @@ artistUrl: 'https://www.facebook.com/p/MSG-Michael-Scott-Groove-61576833643511'
 
 Asheville NC band Michael Scott Groove is all over the map in terms of genre. Unlike the southern charm of Popcorn Sutton, Inspired By You is sonically reminiscent of Rush.
 
-This was one of two songs recorded across two recording sessions. The band tracked live at the studio, then later overdubbed guitars, vocals, and additional layers.
+This was one of two songs recorded across two recording sessions. The band tracked live at the studio, and then we overdubbed guitars, vocals, and additional layers.
 
 </div>
 
