@@ -39,7 +39,7 @@ As she arrived at the session she informed me that her drummer was sick and coul
 - Tracking engineer
 - Mixing engineer
 - Editor
-- Drum performance
+- Drum & percussion performance
 
 </TextBlock>
 
