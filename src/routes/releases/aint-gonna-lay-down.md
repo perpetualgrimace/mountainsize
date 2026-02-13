@@ -23,7 +23,7 @@ artistUrl: 'https://www.elizabethmccorveymusic.com/'
 
 <div>
 
-Elizabeth McCorvey is talented artist and multi-instrumentalist with a message, and Ain’t Gonna Lay Down is about fighting the good fight.
+Elizabeth McCorvey is a talented artist and multi-instrumentalist with a message, and Ain’t Gonna Lay Down is about fighting the good fight.
 
 As she arrived at the session she informed me that her drummer was sick and couldn't make it, so the obviously I had to fill in on drums! I had a lot of fun collaborating with Elizabeth and her band mates on this track, and got to record a few instruments that fall outside of my typical rock band domain.
 
