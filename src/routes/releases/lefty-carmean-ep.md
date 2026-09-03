@@ -1,5 +1,5 @@
 ---
-id: 28
+id: 26
 slug: lefty-carmean-ep
 title: Lefty Carmean EP
 artist: Lefty Carmean

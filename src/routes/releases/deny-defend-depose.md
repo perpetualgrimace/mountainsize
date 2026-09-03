@@ -1,5 +1,5 @@
 ---
-id: 18
+id: 17
 slug: deny-defend-depose
 title: Deny Defend Depose
 artist: Cloud Blood

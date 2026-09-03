@@ -1,5 +1,5 @@
 ---
-id: 19
+id: 18
 slug: iron-gaze
 title: Iron Gaze
 artist: Among the Forgotten

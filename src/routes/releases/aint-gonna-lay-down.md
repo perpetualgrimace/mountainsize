@@ -1,5 +1,5 @@
 ---
-id: 26
+id: 24
 slug: aint-gonna-lay-down
 title: Ain’t Gonna Lay Down
 artist: Elizabeth McCorvey
