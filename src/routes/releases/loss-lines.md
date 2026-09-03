@@ -27,7 +27,7 @@ In early 2026, UK artist Never the Bridle had me lay down drums and mix a song. 
 
 Given the nature of two different drummers tracking at different times (and in my case, on different drum kits), we didn't go for the type of sonic consistency you'd typically hear on an album, and instead treated each song as its own entity.
 
-As an aside, I’m pleased to report that I used three of my cowbells on this record.
+As an aside, I’m pleased to report that I used all three of my cowbells on this record.
 
 </div>
 
