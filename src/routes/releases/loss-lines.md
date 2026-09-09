@@ -6,7 +6,7 @@ artist: Never the Bridle
 genre: Rock
 type: album
 released: September 2026
-# spotify: 'https://open.spotify.com/track/7AcxCzx4dGsgEnKy4utPS7?si=c0cc00ab1b664e30'
+spotify: 'https://open.spotify.com/album/6qvAHI1bzrejnH8yEgwr7e'
 bandcamp: 'https://neverthebridle.bandcamp.com/album/loss-lines'
 artistUrl: 'https://linktr.ee/neverthebridle'
 ---
