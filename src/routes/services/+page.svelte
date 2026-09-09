@@ -34,12 +34,12 @@
 	<TextBlock>
 		<h2 id="recording">Studio recording</h2>
 		<p class="u-subhead u-sun-light-color">
-			<strong>$50 per hour</strong>
+			<strong>$40 per hour</strong>
 			<span class="u-cyan-light-color">or <strong>$250 per day</strong></span>
 		</p>
 		<p class="u-font-lg u-mb-md">
-			For sessions that run shorter than five hours, it’s a $50 hourly charge
-			for the time. For sessions five hours or longer, you’ve unlocked the $250
+			For sessions that run shorter than six hours, it’s a $40 hourly charge
+			for the time. For sessions six hours or longer, you’ve unlocked the $250
 			day rate. We typically start at the crack of noon and go as long as energy
 			and schedules permit.
 		</p>
